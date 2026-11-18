@@ -1,0 +1,66 @@
+{
+ "sections": {
+  "scope": {
+   "status": "draft",
+   "text": "Central-bank tone classifier (LLM): label each sentence of FOMC statements, minutes, speeches and press conferences as hawkish, dovish or neutral, and aggregate the labels into a policy-tone index. The tone index is a monthly input to rate-path views and scenario narratives. Risk tier Medium. The validation tests the model against that use.",
+   "drafted_by": "agent (template writer)",
+   "evidence": "a642bf4e8c0eb65d",
+   "approved_by": null,
+   "approved_at": null,
+   "comment": null,
+   "edited_by": null
+  },
+  "contract": {
+   "status": "draft",
+   "text": "1 of 2 tests in this section pass. O2 (medium severity, warn): The prompt asked for one word. 100.0% of answers start with a label, but the median answer is 37 words long (an unrequested explanation); 5.0% name more than one label and 3.6% contain a negated label ('not hawkish'). Because the label always comes first, the usual 'first label word' parser and a strict 'first word' parser agree here, but a lenient parser would misread answers if the model ever put the explanation first. The extra text also multiplies cost and latency. Passed: O1 every answer can be turned into a label.",
+   "drafted_by": "agent (template writer)",
+   "evidence": "a642bf4e8c0eb65d",
+   "approved_by": null,
+   "approved_at": null,
+   "comment": null,
+   "edited_by": null
+  },
+  "performance": {
+   "status": "draft",
+   "text": "2 of 3 tests in this section pass. A1 (high severity, fail): Mean macro-F1 is 0.552 for the model against 0.570 for a TF-IDF logistic regression trained in seconds on the same training data, 0.440 for a keyword lexicon and 0.217 for always answering the majority class. The model is significantly better than TF-IDF on 0 of 3 splits and significantly worse on 0 (paired bootstrap, 95%). The added cost, opacity and vendor dependence of the LLM buy no accuracy. Passed: A2 stability of accuracy across test splits; A3 repeatability: the same sentence asked in separate calls.",
+   "drafted_by": "agent (template writer)",
+   "evidence": "a642bf4e8c0eb65d",
+   "approved_by": null,
+   "approved_at": null,
+   "comment": null,
+   "edited_by": null
+  },
+  "segments": {
+   "status": "draft",
+   "text": "2 of 3 tests in this section pass. C1 (high severity, fail): The model answers 'neutral' for 70% of sentences, against a true share of 48%. It finds only 28% of hawkish sentences (recall), against 48% of dovish ones. Errors are not random: they lean one way, so they will not average out in an index. Passed: C2 wrong-direction errors (hawkish read as dovish, or the reverse); C3 errors by document type, period, sentence structure and length.",
+   "drafted_by": "agent (template writer)",
+   "evidence": "a642bf4e8c0eb65d",
+   "approved_by": null,
+   "approved_at": null,
+   "comment": null,
+   "edited_by": null
+  },
+  "use": {
+   "status": "draft",
+   "text": "0 of 1 tests in this section pass. U1 (high severity, fail): Across 27 years with at least 10 labelled sentences, the model's yearly index correlates -0.10 with the index from the true labels (TF-IDF: 0.50). The slope of model on truth is -0.07, the average offset is -0.158 (negative = too dovish) and the sign is wrong in 14 years. The model's index carries little of the true year-to-year variation. With 10-85 sentences per year the true index is itself noisy, but the benchmark tracks it far better.",
+   "drafted_by": "agent (template writer)",
+   "evidence": "a642bf4e8c0eb65d",
+   "approved_by": null,
+   "approved_at": null,
+   "comment": null,
+   "edited_by": null
+  },
+  "behaviour": {
+   "status": "draft",
+   "text": "[Live model: TF-IDF + logistic regression (benchmark); not the model under review, shown for information.] 69% of 52 unambiguous template sentences are labelled correctly (hawkish 65%, dovish 55%, neutral 100%). [Live model: TF-IDF + logistic regression (benchmark); not the model under review, shown for information.] After swapping only the policy word ('raise' for 'lower', 'firming' for 'easing', 'tighten' for 'ease'), the label flips the right way in 62% of 32 pairs. [Live model: TF-IDF + logistic regression (benchmark); not the model under review, shown for information.] Label changes after meaning-preserving edits: prefix 4%; entity 0%; typo 12%; number 0%. The worst is 'typo'. [Live model: TF-IDF + logistic regression (benchmark); not the model under review, shown for information.] Not applicable: the live model does not take a prompt. [Live model: TF-IDF + logistic regression (benchmark); not the model under review, shown for information.] Repeating 150 identical calls gives the same label 100% of the time.",
+   "drafted_by": "agent (template writer)",
+   "evidence": "a642bf4e8c0eb65d",
+   "approved_by": null,
+   "approved_at": null,
+   "comment": null,
+   "edited_by": null
+  }
+ },
+ "rating": {},
+ "final": null
+}

@@ -1,0 +1,52 @@
+# Model risk assessment of an LLM used to classify central-bank sentences as hawkish, dovish or neutral.
+
+data_root: data/fomc-hawkish-dovish     # python tools/get_data.py
+
+model:
+  name: ChatGPT, zero-shot (answers released with Shah, Paturi & Chava 2023)
+  short: ChatGPT zero-shot
+  recorded:                           # the model's actual answers on the 3 test splits
+    kind: shah_chatgpt                # or: jsonl (e.g. fed-tone-finetune results/<run>_predictions.jsonl)
+    path: llm_prompt_test_labels/chatgpt_lab-manual-combine_{seed}.csv
+
+model_profile:
+  name: Central-bank tone classifier (LLM)
+  owner: Research / market intelligence team
+  purpose: Label each sentence of FOMC statements, minutes, speeches and press conferences as hawkish, dovish or neutral, and aggregate the labels into a policy-tone index
+  use: The tone index is a monthly input to rate-path views and scenario narratives
+  vendor: Third-party LLM via API (version not pinned in the source)
+  risk_tier: Medium
+
+live:                                 # model called live by the behavioural tests (section 6)
+  backend: baseline                   # baseline | ollama | openai | mlx
+  same_model_as_reviewed: false       # true only when the live model IS the model under review
+  # backend: ollama
+  # model: qwen2.5:1.5b
+  # backend: mlx
+  # model: Qwen/Qwen2.5-1.5B-Instruct
+  # adapter: ../fed-tone-finetune/adapters
+  sample: 150                         # test sentences used for invariance, prompt and repeat tests
+
+thresholds:
+  max_unparseable: 0.01
+  min_instruction_compliance: 0.95
+  max_multi_label: 0.05
+  max_split_range: 0.05
+  min_repeat_agreement: 0.95
+  max_class_share_gap: 0.10
+  max_direction_error: 0.10
+  max_segment_drop: 0.10
+  min_sentences_per_year: 10
+  min_index_slope: 0.70
+  max_index_bias: 0.05
+  min_mft_pass: 0.90
+  min_directional_pass: 0.90
+  max_invariance_flip: 0.05
+  max_prompt_flip: 0.05
+  min_determinism: 1.0
+
+agent:
+  backend: auto                       # local Ollama if running, else the template writer
+  ollama_url: http://localhost:11434
+  ollama_model: llama3.1:8b
+  max_retries: 1

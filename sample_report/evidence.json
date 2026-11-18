@@ -1,0 +1,880 @@
+{
+ "model": "ChatGPT, zero-shot (answers released with Shah, Paturi & Chava 2023)",
+ "live_backend": "baseline",
+ "fingerprint": "a642bf4e8c0eb65d",
+ "proposed_rating": {
+  "rating": "Unsatisfactory",
+  "why": "3 high and 1 medium findings; U1 blocks reliance on the results"
+ },
+ "checks": [
+  {
+   "id": "M1",
+   "section": "scope",
+   "title": "Model profile, intended use and risk tier",
+   "status": "info",
+   "finding": "Central-bank tone classifier (LLM): label each sentence of FOMC statements, minutes, speeches and press conferences as hawkish, dovish or neutral, and aggregate the labels into a policy-tone index. The tone index is a monthly input to rate-path views and scenario narratives. Risk tier Medium. The validation tests the model against that use.",
+   "metrics": {
+    "name": "Central-bank tone classifier (LLM)",
+    "owner": "Research / market intelligence team",
+    "purpose": "Label each sentence of FOMC statements, minutes, speeches and press conferences as hawkish, dovish or neutral, and aggregate the labels into a policy-tone index",
+    "use": "The tone index is a monthly input to rate-path views and scenario narratives",
+    "vendor": "Third-party LLM via API (version not pinned in the source)",
+    "risk_tier": "Medium"
+   },
+   "threshold": "",
+   "severity": null,
+   "recommendation": "",
+   "chart": null
+  },
+  {
+   "id": "O1",
+   "section": "contract",
+   "title": "Every answer can be turned into a label",
+   "status": "pass",
+   "finding": "100.0% of 1428 answers contain a label word; 0 do not.",
+   "metrics": {
+    "answers": 1428,
+    "unparseable_share": 0.0
+   },
+   "threshold": "unparseable <= 1%",
+   "severity": null,
+   "recommendation": "",
+   "chart": null
+  },
+  {
+   "id": "O2",
+   "section": "contract",
+   "title": "Answers follow the instruction (one word)",
+   "status": "warn",
+   "finding": "The prompt asked for one word. 100.0% of answers start with a label, but the median answer is 37 words long (an unrequested explanation); 5.0% name more than one label and 3.6% contain a negated label ('not hawkish'). Because the label always comes first, the usual 'first label word' parser and a strict 'first word' parser agree here, but a lenient parser would misread answers if the model ever put the explanation first. The extra text also multiplies cost and latency.",
+   "metrics": {
+    "starts_with_label": 1.0,
+    "median_words": 37.0,
+    "multi_label_share": 0.05042,
+    "negated_share": 0.036415,
+    "parser_disagreement": 0.0
+   },
+   "threshold": "starts with label >= 95%; multi-label <= 5%",
+   "severity": "medium",
+   "recommendation": "Constrain the output (one token, a fixed label set or structured output) and log raw answers.",
+   "chart": null,
+   "table": [
+    {
+     "split": 5768,
+     "label": "dovish",
+     "pred": "neutral",
+     "raw": "NEUTRAL\n\nThe sentence presents a balanced view of the current economic environment, with no clear indication of a hawkish or dovish stance. It acknowledges the expectations of a gradual tightening of policy, a strengthening economy, and low inflation, while also noting the solid demand for houses and equities."
+    },
+    {
+     "split": 5768,
+     "label": "neutral",
+     "pred": "neutral",
+     "raw": "NEUTRAL\n\nThe sentence provides a factual update on the current state of the labor market without indicating a clear bias towards tightening or easing of monetary policy. The mention of a faster pace of payroll employment expansion and a decline in the unemployment rate could be seen as positive indicators, but the qualification that the unemployment rate remains elevated suggests a cautious tone. Overall, the sentence does not provide enough information to suggest a clear hawkish or dovish stance."
+    },
+    {
+     "split": 5768,
+     "label": "neutral",
+     "pred": "neutral",
+     "raw": "NEUTRAL\n\nThe sentence does not express a clear stance on monetary policy, but rather introduces the topic of the interplay between financial markets and monetary policy. The speaker provides three observations, which do not indicate a hawkish or dovish stance."
+    },
+    {
+     "split": 5768,
+     "label": "hawkish",
+     "pred": "hawkish",
+     "raw": "HAWKISH\nThe sentence suggests that the economy is at full employment and inflation is above target, indicating a need to move back to a neutral stance at a fast pace. The recommendation of a 50-basis point hike implies a tightening of the monetary policy, which is a hawkish stance."
+    },
+    {
+     "split": 5768,
+     "label": "neutral",
+     "pred": "neutral",
+     "raw": "NEUTRAL\n\nThe sentence provides a neutral stance as it presents both positive and negative aspects of the economy. It mentions the increasing expenditures for high-tech equipment and software, which could be seen as positive, but also notes that the outcome of the war against Iraq could have an impact on business capital spending, which could be seen as negative. Overall, the sentence does not lean towards either hawkish or dovish stance."
+    },
+    {
+     "split": 5768,
+     "label": "neutral",
+     "pred": "neutral",
+     "raw": "NEUTRAL\n\nThe sentence does not express a clear stance on monetary policy. It simply states that information on price and wage expectations is scarce, without indicating whether this information would support a hawkish or dovish stance."
+    },
+    {
+     "split": 5768,
+     "label": "hawkish",
+     "pred": "neutral",
+     "raw": "NEUTRAL\nThe sentence presents a neutral stance as it simply states the participants' expectation that the economy will continue to grow at a solid rate with gradual increases in the federal funds rate, and that labor market conditions will remain strong. There is no indication of a hawkish or dovish stance towards monetary policy."
+    },
+    {
+     "split": 5768,
+     "label": "hawkish",
+     "pred": "neutral",
+     "raw": "NEUTRAL\n\nThe sentence simply states the policy directive of the Federal Open Market Committee, which aims to maintain stable prices and promote sustainable economic growth. There is no indication of a hawkish or dovish stance towards monetary policy."
+    },
+    {
+     "split": 5768,
+     "label": "neutral",
+     "pred": "neutral",
+     "raw": "NEUTRAL\n\nThe sentence does not express a clear stance on monetary policy. It is a question about the relationship between equity price movements and investment spending, which does not imply a hawkish or dovish stance. Therefore, the sentence is classified as neutral."
+    },
+    {
+     "split": 5768,
+     "label": "neutral",
+     "pred": "neutral",
+     "raw": "NEUTRAL\n\nThe sentence states that the technical measures being taken do not represent a change in the stance of monetary policy, which is being implemented by adjusting the target range for the federal funds rate. This statement does not indicate any hawkish or dovish stance, hence it can be classified as neutral."
+    },
+    {
+     "split": 5768,
+     "label": "hawkish",
+     "pred": "hawkish",
+     "raw": "HAWKISH\nThe sentence suggests that waiting too long to move towards the neutral rate could lead to negative consequences such as inflation or financial instability. This implies that the speaker is in favor of taking action to prevent these risks, which is a hawkish stance."
+    },
+    {
+     "split": 5768,
+     "label": "neutral",
+     "pred": "neutral",
+     "raw": "NEUTRAL - The sentence suggests that the Federal Reserve is going to treat both price stability and maximum employment equally, without any bias towards either. There is no indication of a hawkish or dovish stance towards monetary policy."
+    },
+    {
+     "split": 5768,
+     "label": "neutral",
+     "pred": "neutral",
+     "raw": "NEUTRAL\n\nThe sentence does not express a clear bias towards either tightening or easing of the monetary policy. It discusses a potential strategy that could work well in many circumstances, without indicating a preference for either hawkish or dovish policies."
+    },
+    {
+     "split": 5768,
+     "label": "dovish",
+     "pred": "neutral",
+     "raw": "NEUTRAL - The sentence does not provide any indication of a hawkish or dovish stance. It simply states that the rationale for maximizing employment is obvious, without suggesting any specific policy action."
+    },
+    {
+     "split": 5768,
+     "label": "dovish",
+     "pred": "neutral",
+     "raw": "NEUTRAL\n\nThe sentence provides a balanced view of the expected changes in spending on consumer durables and houses, and overall business investment in equipment and software. It also mentions the positive impact of solid economic growth abroad on the growth of U.S. exports. There is no clear indication of a hawkish or dovish stance on monetary policy."
+    }
+   ]
+  },
+  {
+   "id": "A1",
+   "section": "performance",
+   "title": "Accuracy against simple benchmarks (macro-F1, 3 test splits)",
+   "status": "fail",
+   "finding": "Mean macro-F1 is 0.552 for the model against 0.570 for a TF-IDF logistic regression trained in seconds on the same training data, 0.440 for a keyword lexicon and 0.217 for always answering the majority class. The model is significantly better than TF-IDF on 0 of 3 splits and significantly worse on 0 (paired bootstrap, 95%). The added cost, opacity and vendor dependence of the LLM buy no accuracy.",
+   "metrics": {
+    "model_f1_mean": 0.5521666194589592,
+    "tfidf_f1_mean": 0.5702894322622473,
+    "lexicon_f1_mean": 0.4399559461672146,
+    "majority_f1_mean": 0.21695430073709898,
+    "splits_better": 0,
+    "splits_worse": 0
+   },
+   "threshold": "significantly better than TF-IDF on every split",
+   "severity": "high",
+   "recommendation": "Do not adopt the zero-shot LLM over the benchmark; fine-tune (or use a fine-tuned encoder) and re-assess against the same benchmarks.",
+   "chart": "a1_benchmarks.png",
+   "table": [
+    {
+     "split": 5768,
+     "n": 476,
+     "model_f1": 0.53177,
+     "model_f1_ci": "0.483-0.576",
+     "majority_f1": 0.21398,
+     "lexicon_f1": 0.424722,
+     "tfidf_f1": 0.565647,
+     "diff_vs_tfidf": -0.033877,
+     "diff_lo": -0.095022,
+     "diff_hi": 0.023799,
+     "p_vs_tfidf": 0.266,
+     "model_acc": 0.596639
+    },
+    {
+     "split": 78516,
+     "n": 476,
+     "model_f1": 0.579773,
+     "model_f1_ci": "0.531-0.626",
+     "majority_f1": 0.220974,
+     "lexicon_f1": 0.471392,
+     "tfidf_f1": 0.569126,
+     "diff_vs_tfidf": 0.010647,
+     "diff_lo": -0.049075,
+     "diff_hi": 0.068702,
+     "p_vs_tfidf": 0.72,
+     "model_acc": 0.638655
+    },
+    {
+     "split": 944601,
+     "n": 476,
+     "model_f1": 0.544957,
+     "model_f1_ci": "0.497-0.594",
+     "majority_f1": 0.215909,
+     "lexicon_f1": 0.423753,
+     "tfidf_f1": 0.576095,
+     "diff_vs_tfidf": -0.031138,
+     "diff_lo": -0.0929,
+     "diff_hi": 0.032484,
+     "p_vs_tfidf": 0.354,
+     "model_acc": 0.613445
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "section": "performance",
+   "title": "Stability of accuracy across test splits",
+   "status": "pass",
+   "finding": "Macro-F1 ranges from 0.532 to 0.580 across the three splits.",
+   "metrics": {
+    "f1_min": 0.5317699959980735,
+    "f1_max": 0.579772814331028,
+    "range": 0.0480028183329545
+   },
+   "threshold": "range <= 0.05",
+   "severity": null,
+   "recommendation": "",
+   "chart": null
+  },
+  {
+   "id": "A3",
+   "section": "performance",
+   "title": "Repeatability: the same sentence asked in separate calls",
+   "status": "pass",
+   "finding": "257 sentences appear in more than one test split and were classified in separate calls; the model gave the same label every time for 99.2% of them.",
+   "metrics": {
+    "sentences": 257,
+    "agreement": 0.992218
+   },
+   "threshold": "agreement >= 95%",
+   "severity": null,
+   "recommendation": "",
+   "chart": null
+  },
+  {
+   "id": "C1",
+   "section": "segments",
+   "title": "No systematic bias toward one class",
+   "status": "fail",
+   "finding": "The model answers 'neutral' for 70% of sentences, against a true share of 48%. It finds only 28% of hawkish sentences (recall), against 48% of dovish ones. Errors are not random: they lean one way, so they will not average out in an index.",
+   "metrics": {
+    "max_share_gap": 0.216387,
+    "hawkish_recall": 0.2798913043478261,
+    "dovish_recall": 0.48247978436657685,
+    "neutral_predicted_share": 0.69888,
+    "neutral_true_share": 0.482493
+   },
+   "threshold": "|predicted - true share| <= 10%",
+   "severity": "high",
+   "recommendation": "Recalibrate (class thresholds on label probabilities) or fine-tune; monitor the predicted class mix in production.",
+   "chart": "c1_class_mix.png",
+   "table": [
+    {
+     "class": "dovish",
+     "precision": 0.577419,
+     "recall": 0.48248,
+     "predicted_share": 0.217087,
+     "true_share": 0.259804
+    },
+    {
+     "class": "hawkish",
+     "precision": 0.858333,
+     "recall": 0.279891,
+     "predicted_share": 0.084034,
+     "true_share": 0.257703
+    },
+    {
+     "class": "neutral",
+     "precision": 0.599198,
+     "recall": 0.867925,
+     "predicted_share": 0.69888,
+     "true_share": 0.482493
+    }
+   ]
+  },
+  {
+   "id": "C2",
+   "section": "segments",
+   "title": "Wrong-direction errors (hawkish read as dovish, or the reverse)",
+   "status": "pass",
+   "finding": "7.7% of hawkish or dovish sentences are given the opposite stance (TF-IDF: 16.8%). Most errors are therefore misses (a stance read as neutral) rather than reversals.",
+   "metrics": {
+    "direction_error_rate": 0.077131,
+    "tfidf_direction_error_rate": 0.167794
+   },
+   "threshold": "<= 10%",
+   "severity": null,
+   "recommendation": "",
+   "chart": null,
+   "table": [
+    {
+     "true \\ predicted": "dovish",
+     "dovish": 179,
+     "hawkish": 5,
+     "neutral": 187,
+     "unknown": 0
+    },
+    {
+     "true \\ predicted": "hawkish",
+     "dovish": 52,
+     "hawkish": 103,
+     "neutral": 213,
+     "unknown": 0
+    },
+    {
+     "true \\ predicted": "neutral",
+     "dovish": 79,
+     "hawkish": 12,
+     "neutral": 598,
+     "unknown": 0
+    }
+   ]
+  },
+  {
+   "id": "C3",
+   "section": "segments",
+   "title": "Errors by document type, period, sentence structure and length",
+   "status": "pass",
+   "finding": "Overall macro-F1 is 0.552. No segment with 50 or more sentences is more than 0.10 below it.",
+   "metrics": {
+    "overall_f1": 0.55226,
+    "weak_segments": 0
+   },
+   "threshold": "no segment below overall - 0.1",
+   "severity": null,
+   "recommendation": "",
+   "chart": null,
+   "table": [
+    {
+     "segment": "Document type",
+     "value": "meeting minutes",
+     "n": 627,
+     "model_f1": 0.54763,
+     "tfidf_f1": 0.6051
+    },
+    {
+     "segment": "Document type",
+     "value": "press conference",
+     "n": 209,
+     "model_f1": 0.512455,
+     "tfidf_f1": 0.504823
+    },
+    {
+     "segment": "Document type",
+     "value": "speech",
+     "n": 592,
+     "model_f1": 0.552849,
+     "tfidf_f1": 0.529042
+    },
+    {
+     "segment": "Period",
+     "value": "1996-2007",
+     "n": 681,
+     "model_f1": 0.575394,
+     "tfidf_f1": 0.595268
+    },
+    {
+     "segment": "Period",
+     "value": "2008-2015 (crisis, zero bound)",
+     "n": 265,
+     "model_f1": 0.494574,
+     "tfidf_f1": 0.532328
+    },
+    {
+     "segment": "Period",
+     "value": "2016-2022",
+     "n": 482,
+     "model_f1": 0.54207,
+     "tfidf_f1": 0.546507
+    },
+    {
+     "segment": "Has a contrast word",
+     "value": "False",
+     "n": 1107,
+     "model_f1": 0.54728,
+     "tfidf_f1": 0.57261
+    },
+    {
+     "segment": "Has a contrast word",
+     "value": "True",
+     "n": 321,
+     "model_f1": 0.568753,
+     "tfidf_f1": 0.562551
+    },
+    {
+     "segment": "Sentence length",
+     "value": "shortest 25%",
+     "n": 378,
+     "model_f1": 0.519539,
+     "tfidf_f1": 0.537185
+    },
+    {
+     "segment": "Sentence length",
+     "value": "short",
+     "n": 365,
+     "model_f1": 0.582751,
+     "tfidf_f1": 0.581868
+    },
+    {
+     "segment": "Sentence length",
+     "value": "long",
+     "n": 330,
+     "model_f1": 0.5678,
+     "tfidf_f1": 0.56506
+    },
+    {
+     "segment": "Sentence length",
+     "value": "longest 25%",
+     "n": 355,
+     "model_f1": 0.532967,
+     "tfidf_f1": 0.59502
+    }
+   ]
+  },
+  {
+   "id": "U1",
+   "section": "use",
+   "title": "The tone index built from the model tracks the true index",
+   "status": "fail",
+   "finding": "Across 27 years with at least 10 labelled sentences, the model's yearly index correlates -0.10 with the index from the true labels (TF-IDF: 0.50). The slope of model on truth is -0.07, the average offset is -0.158 (negative = too dovish) and the sign is wrong in 14 years. The model's index carries little of the true year-to-year variation. With 10-85 sentences per year the true index is itself noisy, but the benchmark tracks it far better.",
+   "metrics": {
+    "years": 27,
+    "corr": -0.10398,
+    "tfidf_corr": 0.501756,
+    "slope": -0.068027,
+    "mean_bias": -0.158266,
+    "years_wrong_sign": 14
+   },
+   "threshold": "slope >= 0.7, |bias| <= 0.05",
+   "severity": "high",
+   "recommendation": "Do not feed the index into decisions without rescaling; validate rescaling out of sample, or replace the classifier.",
+   "chart": "u1_tone_index.png",
+   "table": [
+    {
+     "year": 1996,
+     "n": 21,
+     "true": -0.047619,
+     "model": -0.142857,
+     "tfidf": -0.238095
+    },
+    {
+     "year": 1997,
+     "n": 46,
+     "true": 0.108696,
+     "model": -0.152174,
+     "tfidf": -0.021739
+    },
+    {
+     "year": 1998,
+     "n": 40,
+     "true": -0.075,
+     "model": -0.025,
+     "tfidf": -0.05
+    },
+    {
+     "year": 1999,
+     "n": 49,
+     "true": 0.020408,
+     "model": -0.061224,
+     "tfidf": -0.040816
+    },
+    {
+     "year": 2000,
+     "n": 38,
+     "true": 0.078947,
+     "model": -0.236842,
+     "tfidf": 0.078947
+    },
+    {
+     "year": 2001,
+     "n": 46,
+     "true": -0.195652,
+     "model": -0.065217,
+     "tfidf": 0.0
+    },
+    {
+     "year": 2002,
+     "n": 27,
+     "true": 0.037037,
+     "model": -0.074074,
+     "tfidf": 0.074074
+    },
+    {
+     "year": 2003,
+     "n": 53,
+     "true": -0.075472,
+     "model": -0.226415,
+     "tfidf": -0.113208
+    },
+    {
+     "year": 2004,
+     "n": 60,
+     "true": -0.066667,
+     "model": -0.1,
+     "tfidf": 0.116667
+    },
+    {
+     "year": 2005,
+     "n": 62,
+     "true": -0.080645,
+     "model": -0.032258,
+     "tfidf": 0.080645
+    },
+    {
+     "year": 2006,
+     "n": 51,
+     "true": 0.0,
+     "model": -0.156863,
+     "tfidf": 0.039216
+    },
+    {
+     "year": 2007,
+     "n": 49,
+     "true": 0.163265,
+     "model": -0.081633,
+     "tfidf": 0.081633
+    },
+    {
+     "year": 2008,
+     "n": 32,
+     "true": 0.0,
+     "model": -0.3125,
+     "tfidf": -0.0625
+    },
+    {
+     "year": 2009,
+     "n": 13,
+     "true": 0.230769,
+     "model": -0.076923,
+     "tfidf": 0.384615
+    },
+    {
+     "year": 2010,
+     "n": 15,
+     "true": 0.4,
+     "model": -0.2,
+     "tfidf": 0.333333
+    },
+    {
+     "year": 2011,
+     "n": 24,
+     "true": 0.083333,
+     "model": -0.333333,
+     "tfidf": 0.125
+    },
+    {
+     "year": 2012,
+     "n": 30,
+     "true": -0.266667,
+     "model": -0.1,
+     "tfidf": 0.033333
+    },
+    {
+     "year": 2013,
+     "n": 35,
+     "true": -0.028571,
+     "model": -0.228571,
+     "tfidf": 0.028571
+    },
+    {
+     "year": 2014,
+     "n": 30,
+     "true": -0.133333,
+     "model": -0.266667,
+     "tfidf": 0.0
+    },
+    {
+     "year": 2015,
+     "n": 38,
+     "true": -0.131579,
+     "model": -0.289474,
+     "tfidf": 0.0
+    },
+    {
+     "year": 2016,
+     "n": 25,
+     "true": 0.2,
+     "model": -0.2,
+     "tfidf": -0.08
+    },
+    {
+     "year": 2017,
+     "n": 49,
+     "true": -0.081633,
+     "model": -0.122449,
+     "tfidf": 0.122449
+    },
+    {
+     "year": 2018,
+     "n": 26,
+     "true": 0.038462,
+     "model": -0.192308,
+     "tfidf": 0.038462
+    },
+    {
+     "year": 2019,
+     "n": 63,
+     "true": 0.079365,
+     "model": -0.142857,
+     "tfidf": 0.047619
+    },
+    {
+     "year": 2020,
+     "n": 70,
+     "true": 0.028571,
+     "model": -0.042857,
+     "tfidf": -0.071429
+    },
+    {
+     "year": 2021,
+     "n": 85,
+     "true": -0.023529,
+     "model": -0.035294,
+     "tfidf": -0.058824
+    },
+    {
+     "year": 2022,
+     "n": 62,
+     "true": -0.032258,
+     "model": -0.145161,
+     "tfidf": -0.016129
+    }
+   ]
+  },
+  {
+   "id": "B1",
+   "section": "behaviour",
+   "title": "Minimum functionality: unambiguous sentences",
+   "status": "info",
+   "finding": "[Live model: TF-IDF + logistic regression (benchmark); not the model under review, shown for information.] 69% of 52 unambiguous template sentences are labelled correctly (hawkish 65%, dovish 55%, neutral 100%).",
+   "metrics": {
+    "cases": 52,
+    "pass_rate": 0.692308
+   },
+   "threshold": ">= 90%",
+   "severity": null,
+   "recommendation": "",
+   "chart": null,
+   "table": [
+    {
+     "sentence": "The Committee decided to raise the target range for the federal funds rate by 50 basis points.",
+     "expected": "hawkish",
+     "pred": "neutral"
+    },
+    {
+     "sentence": "Policymakers decided to raise the target range for the federal funds rate by 50 basis points.",
+     "expected": "hawkish",
+     "pred": "neutral"
+    },
+    {
+     "sentence": "FOMC members decided to raise the target range for the federal funds rate by 50 basis points.",
+     "expected": "hawkish",
+     "pred": "neutral"
+    },
+    {
+     "sentence": "The Committee expects to tighten monetary policy at coming meetings.",
+     "expected": "hawkish",
+     "pred": "dovish"
+    },
+    {
+     "sentence": "Participants expects to tighten monetary policy at coming meetings.",
+     "expected": "hawkish",
+     "pred": "neutral"
+    },
+    {
+     "sentence": "Policymakers expects to tighten monetary policy at coming meetings.",
+     "expected": "hawkish",
+     "pred": "neutral"
+    },
+    {
+     "sentence": "FOMC members expects to tighten monetary policy at coming meetings.",
+     "expected": "hawkish",
+     "pred": "neutral"
+    },
+    {
+     "sentence": "Participants judged that further policy easing would likely be appropriate.",
+     "expected": "dovish",
+     "pred": "neutral"
+    },
+    {
+     "sentence": "The Committee expects to ease monetary policy at coming meetings.",
+     "expected": "dovish",
+     "pred": "neutral"
+    },
+    {
+     "sentence": "Participants expects to ease monetary policy at coming meetings.",
+     "expected": "dovish",
+     "pred": "neutral"
+    },
+    {
+     "sentence": "Policymakers expects to ease monetary policy at coming meetings.",
+     "expected": "dovish",
+     "pred": "neutral"
+    },
+    {
+     "sentence": "FOMC members expects to ease monetary policy at coming meetings.",
+     "expected": "dovish",
+     "pred": "neutral"
+    },
+    {
+     "sentence": "The Committee agreed that the weakening labor market called for additional monetary accommodation.",
+     "expected": "dovish",
+     "pred": "neutral"
+    },
+    {
+     "sentence": "Participants agreed that the weakening labor market called for additional monetary accommodation.",
+     "expected": "dovish",
+     "pred": "neutral"
+    },
+    {
+     "sentence": "Policymakers agreed that the weakening labor market called for additional monetary accommodation.",
+     "expected": "dovish",
+     "pred": "neutral"
+    },
+    {
+     "sentence": "FOMC members agreed that the weakening labor market called for additional monetary accommodation.",
+     "expected": "dovish",
+     "pred": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "B2",
+   "section": "behaviour",
+   "title": "Directional: swapping 'raise' and 'lower' must flip the stance",
+   "status": "info",
+   "finding": "[Live model: TF-IDF + logistic regression (benchmark); not the model under review, shown for information.] After swapping only the policy word ('raise' for 'lower', 'firming' for 'easing', 'tighten' for 'ease'), the label flips the right way in 62% of 32 pairs.",
+   "metrics": {
+    "pairs": 32,
+    "pass_rate": 0.625
+   },
+   "threshold": ">= 90%",
+   "severity": null,
+   "recommendation": "",
+   "chart": null,
+   "table": [
+    {
+     "flipped": "Participants judged that further policy easing would likely be appropriate.",
+     "expected": "hawkish",
+     "pred_flipped": "neutral"
+    },
+    {
+     "flipped": "The Committee expects to ease monetary policy at coming meetings.",
+     "expected": "hawkish",
+     "pred_flipped": "neutral"
+    },
+    {
+     "flipped": "Participants expects to ease monetary policy at coming meetings.",
+     "expected": "hawkish",
+     "pred_flipped": "neutral"
+    },
+    {
+     "flipped": "Policymakers expects to ease monetary policy at coming meetings.",
+     "expected": "hawkish",
+     "pred_flipped": "neutral"
+    },
+    {
+     "flipped": "FOMC members expects to ease monetary policy at coming meetings.",
+     "expected": "hawkish",
+     "pred_flipped": "neutral"
+    },
+    {
+     "flipped": "The Committee decided to raise the target range for the federal funds rate by 50 basis points.",
+     "expected": "dovish",
+     "pred_flipped": "neutral"
+    },
+    {
+     "flipped": "Policymakers decided to raise the target range for the federal funds rate by 50 basis points.",
+     "expected": "dovish",
+     "pred_flipped": "neutral"
+    },
+    {
+     "flipped": "FOMC members decided to raise the target range for the federal funds rate by 50 basis points.",
+     "expected": "dovish",
+     "pred_flipped": "neutral"
+    },
+    {
+     "flipped": "The Committee expects to tighten monetary policy at coming meetings.",
+     "expected": "dovish",
+     "pred_flipped": "dovish"
+    },
+    {
+     "flipped": "Participants expects to tighten monetary policy at coming meetings.",
+     "expected": "dovish",
+     "pred_flipped": "neutral"
+    },
+    {
+     "flipped": "Policymakers expects to tighten monetary policy at coming meetings.",
+     "expected": "dovish",
+     "pred_flipped": "neutral"
+    },
+    {
+     "flipped": "FOMC members expects to tighten monetary policy at coming meetings.",
+     "expected": "dovish",
+     "pred_flipped": "neutral"
+    }
+   ]
+  },
+  {
+   "id": "B3",
+   "section": "behaviour",
+   "title": "Invariance: edits that must not change the stance",
+   "status": "info",
+   "finding": "[Live model: TF-IDF + logistic regression (benchmark); not the model under review, shown for information.] Label changes after meaning-preserving edits: prefix 4%; entity 0%; typo 12%; number 0%. The worst is 'typo'.",
+   "metrics": {
+    "max_flip_rate": 0.118056,
+    "worst_edit": "typo"
+   },
+   "threshold": "flip rate <= 5%",
+   "severity": null,
+   "recommendation": "",
+   "chart": "b3_invariance.png",
+   "table": [
+    {
+     "edit": "prefix",
+     "sentences_changed": 150,
+     "label_flips": 6,
+     "flip_rate": 0.04
+    },
+    {
+     "edit": "entity",
+     "sentences_changed": 11,
+     "label_flips": 0,
+     "flip_rate": 0.0
+    },
+    {
+     "edit": "typo",
+     "sentences_changed": 144,
+     "label_flips": 17,
+     "flip_rate": 0.118056
+    },
+    {
+     "edit": "number",
+     "sentences_changed": 29,
+     "label_flips": 0,
+     "flip_rate": 0.0
+    }
+   ]
+  },
+  {
+   "id": "B4",
+   "section": "behaviour",
+   "title": "Prompt sensitivity: three wordings of the same instruction",
+   "status": "info",
+   "finding": "[Live model: TF-IDF + logistic regression (benchmark); not the model under review, shown for information.] Not applicable: the live model does not take a prompt.",
+   "metrics": {},
+   "threshold": "",
+   "severity": null,
+   "recommendation": "",
+   "chart": null
+  },
+  {
+   "id": "B5",
+   "section": "behaviour",
+   "title": "Determinism: identical calls give identical answers",
+   "status": "info",
+   "finding": "[Live model: TF-IDF + logistic regression (benchmark); not the model under review, shown for information.] Repeating 150 identical calls gives the same label 100% of the time.",
+   "metrics": {
+    "agreement": 1.0
+   },
+   "threshold": ">= 100%",
+   "severity": null,
+   "recommendation": "",
+   "chart": null
+  }
+ ]
+}

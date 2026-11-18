@@ -1,0 +1,8 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+openpyxl
+pyyaml
+pytest
+# optional live backends: Ollama (no package needed), mlx-lm (Apple Silicon only)

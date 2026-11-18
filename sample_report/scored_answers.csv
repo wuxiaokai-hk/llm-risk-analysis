@@ -1,0 +1,1429 @@
+split,year,label,pred,strict,n_labels,negated,chars,source,contrast,words,era,majority,lexicon,tfidf
+5768,2008,hawkish,neutral,neutral,1,False,194,meeting minutes,False,25,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2021,dovish,neutral,neutral,3,True,311,speech,False,49,2016-2022,neutral,hawkish,hawkish
+5768,2005,hawkish,neutral,neutral,1,False,266,speech,False,10,1996-2007,neutral,neutral,neutral
+5768,2011,hawkish,hawkish,hawkish,1,False,249,meeting minutes,False,44,"2008-2015 (crisis, zero bound)",neutral,hawkish,hawkish
+5768,2016,dovish,dovish,dovish,1,False,245,press conference,False,25,2016-2022,neutral,dovish,neutral
+5768,2010,neutral,dovish,dovish,1,False,309,meeting minutes,True,40,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2022,neutral,neutral,neutral,1,False,287,meeting minutes,False,34,2016-2022,neutral,neutral,neutral
+5768,1999,neutral,neutral,neutral,1,False,180,speech,False,45,1996-2007,neutral,neutral,neutral
+5768,1998,dovish,dovish,dovish,1,False,255,speech,False,18,1996-2007,neutral,neutral,dovish
+5768,2021,neutral,neutral,neutral,1,False,192,press conference,False,26,2016-2022,neutral,neutral,neutral
+5768,2003,neutral,neutral,neutral,1,False,225,meeting minutes,False,34,1996-2007,neutral,hawkish,neutral
+5768,1997,neutral,neutral,neutral,1,False,313,meeting minutes,False,44,1996-2007,neutral,neutral,neutral
+5768,2018,neutral,neutral,neutral,3,False,502,meeting minutes,True,26,2016-2022,neutral,neutral,hawkish
+5768,1999,neutral,neutral,neutral,1,False,211,meeting minutes,False,13,1996-2007,neutral,neutral,neutral
+5768,1999,neutral,neutral,neutral,1,False,390,meeting minutes,False,29,1996-2007,neutral,neutral,neutral
+5768,2005,neutral,neutral,neutral,1,False,239,speech,False,19,1996-2007,neutral,neutral,neutral
+5768,2019,neutral,neutral,neutral,3,True,260,speech,True,136,2016-2022,neutral,neutral,neutral
+5768,2004,neutral,neutral,neutral,1,False,151,speech,False,32,1996-2007,neutral,neutral,neutral
+5768,2006,dovish,dovish,dovish,1,False,211,meeting minutes,True,28,1996-2007,neutral,neutral,dovish
+5768,2001,hawkish,neutral,neutral,1,False,253,meeting minutes,False,24,1996-2007,neutral,neutral,neutral
+5768,2006,neutral,neutral,neutral,1,False,229,speech,False,19,1996-2007,neutral,neutral,hawkish
+5768,2020,neutral,neutral,neutral,1,False,271,meeting minutes,True,28,2016-2022,neutral,neutral,dovish
+5768,2014,dovish,dovish,dovish,1,False,299,press conference,True,33,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+5768,2004,neutral,neutral,neutral,1,False,238,speech,False,35,1996-2007,neutral,neutral,neutral
+5768,2020,neutral,neutral,neutral,1,False,189,press conference,False,11,2016-2022,neutral,neutral,neutral
+5768,1997,dovish,dovish,dovish,1,False,337,meeting minutes,False,58,1996-2007,neutral,dovish,dovish
+5768,1999,neutral,neutral,neutral,1,False,171,speech,True,32,1996-2007,neutral,neutral,dovish
+5768,2020,neutral,neutral,neutral,1,False,281,speech,True,34,2016-2022,neutral,neutral,neutral
+5768,2012,hawkish,neutral,neutral,1,False,226,press conference,False,17,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,1998,neutral,neutral,neutral,1,False,197,speech,True,42,1996-2007,neutral,neutral,neutral
+5768,2022,hawkish,hawkish,hawkish,2,False,282,speech,False,41,2016-2022,neutral,hawkish,neutral
+5768,2022,hawkish,neutral,neutral,1,False,227,speech,False,23,2016-2022,neutral,neutral,neutral
+5768,2013,neutral,neutral,neutral,3,True,441,meeting minutes,True,54,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,1999,neutral,neutral,neutral,1,False,216,meeting minutes,False,27,1996-2007,neutral,neutral,neutral
+5768,2017,neutral,neutral,neutral,1,False,227,meeting minutes,False,50,2016-2022,neutral,neutral,neutral
+5768,2012,hawkish,neutral,neutral,1,False,227,meeting minutes,False,20,"2008-2015 (crisis, zero bound)",neutral,hawkish,dovish
+5768,2003,hawkish,neutral,neutral,1,False,185,speech,False,23,1996-2007,neutral,neutral,hawkish
+5768,2009,hawkish,neutral,neutral,1,False,228,meeting minutes,False,18,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2007,dovish,neutral,neutral,1,False,188,meeting minutes,True,17,1996-2007,neutral,neutral,neutral
+5768,2011,neutral,neutral,neutral,1,False,299,meeting minutes,False,41,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2022,neutral,dovish,dovish,1,False,251,press conference,False,45,2016-2022,neutral,neutral,neutral
+5768,2000,neutral,dovish,dovish,1,False,225,speech,False,33,1996-2007,neutral,neutral,neutral
+5768,2019,hawkish,hawkish,hawkish,1,False,300,meeting minutes,True,29,2016-2022,neutral,neutral,dovish
+5768,2017,hawkish,dovish,dovish,1,False,267,speech,False,33,2016-2022,neutral,neutral,neutral
+5768,2011,dovish,dovish,dovish,1,False,156,press conference,False,32,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2022,dovish,neutral,neutral,1,False,266,meeting minutes,False,30,2016-2022,neutral,neutral,neutral
+5768,1998,dovish,neutral,neutral,1,False,176,meeting minutes,False,30,1996-2007,neutral,dovish,dovish
+5768,2009,hawkish,neutral,neutral,1,False,242,meeting minutes,False,40,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2004,dovish,dovish,dovish,1,False,236,speech,False,25,1996-2007,neutral,neutral,neutral
+5768,2000,hawkish,hawkish,hawkish,1,False,230,speech,True,53,1996-2007,neutral,dovish,hawkish
+5768,2019,hawkish,neutral,neutral,1,False,249,speech,True,32,2016-2022,neutral,dovish,hawkish
+5768,2021,neutral,neutral,neutral,1,False,218,speech,False,17,2016-2022,neutral,neutral,neutral
+5768,2004,neutral,neutral,neutral,1,False,281,meeting minutes,False,21,1996-2007,neutral,neutral,hawkish
+5768,2015,dovish,dovish,dovish,1,False,231,meeting minutes,False,31,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2009,neutral,neutral,neutral,1,False,178,meeting minutes,True,47,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2014,dovish,dovish,dovish,1,False,211,meeting minutes,False,38,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+5768,2004,neutral,neutral,neutral,1,False,253,speech,True,22,1996-2007,neutral,neutral,neutral
+5768,1996,hawkish,dovish,dovish,1,False,234,meeting minutes,True,32,1996-2007,neutral,neutral,neutral
+5768,2019,dovish,dovish,dovish,1,False,183,press conference,False,19,2016-2022,neutral,neutral,dovish
+5768,1999,dovish,neutral,neutral,1,False,298,speech,False,25,1996-2007,neutral,neutral,neutral
+5768,2004,hawkish,neutral,neutral,1,False,182,meeting minutes,False,20,1996-2007,neutral,hawkish,neutral
+5768,2004,dovish,dovish,dovish,1,False,207,meeting minutes,False,25,1996-2007,neutral,neutral,hawkish
+5768,2001,dovish,dovish,dovish,1,False,246,meeting minutes,False,32,1996-2007,neutral,neutral,dovish
+5768,2019,dovish,dovish,dovish,1,False,143,meeting minutes,False,21,2016-2022,neutral,neutral,dovish
+5768,2007,neutral,neutral,neutral,1,False,240,speech,False,42,1996-2007,neutral,neutral,neutral
+5768,2020,dovish,hawkish,hawkish,1,False,392,meeting minutes,False,65,2016-2022,neutral,dovish,hawkish
+5768,2001,hawkish,neutral,neutral,1,False,181,speech,False,35,1996-2007,neutral,neutral,hawkish
+5768,2004,hawkish,hawkish,hawkish,1,False,268,meeting minutes,True,59,1996-2007,neutral,hawkish,hawkish
+5768,2005,hawkish,hawkish,hawkish,1,False,182,speech,False,16,1996-2007,neutral,neutral,hawkish
+5768,2022,hawkish,neutral,neutral,1,False,215,speech,False,18,2016-2022,neutral,neutral,dovish
+5768,2017,dovish,neutral,neutral,1,False,440,speech,True,110,2016-2022,neutral,neutral,dovish
+5768,1997,dovish,neutral,neutral,1,False,213,meeting minutes,False,23,1996-2007,neutral,dovish,dovish
+5768,2013,dovish,neutral,neutral,1,False,213,speech,False,16,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+5768,1998,neutral,neutral,neutral,3,False,235,speech,False,27,1996-2007,neutral,neutral,neutral
+5768,2008,hawkish,neutral,neutral,3,True,332,meeting minutes,False,42,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2001,neutral,neutral,neutral,1,False,261,speech,False,49,1996-2007,neutral,neutral,neutral
+5768,2003,neutral,neutral,neutral,1,False,214,speech,False,34,1996-2007,neutral,neutral,hawkish
+5768,2016,dovish,neutral,neutral,1,False,161,press conference,False,16,2016-2022,neutral,neutral,dovish
+5768,2002,dovish,hawkish,hawkish,1,False,240,meeting minutes,True,22,1996-2007,neutral,dovish,neutral
+5768,1999,dovish,neutral,neutral,1,False,204,speech,False,46,1996-2007,neutral,neutral,neutral
+5768,2020,neutral,neutral,neutral,1,False,207,speech,True,22,2016-2022,neutral,neutral,neutral
+5768,1998,hawkish,neutral,neutral,1,False,241,speech,True,53,1996-2007,neutral,neutral,neutral
+5768,1999,neutral,neutral,neutral,1,False,314,speech,False,49,1996-2007,neutral,neutral,neutral
+5768,2022,dovish,neutral,neutral,1,False,164,meeting minutes,True,49,2016-2022,neutral,dovish,dovish
+5768,2016,hawkish,neutral,neutral,1,False,187,meeting minutes,False,21,2016-2022,neutral,dovish,neutral
+5768,2008,neutral,neutral,neutral,1,False,189,speech,False,33,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2018,hawkish,neutral,neutral,1,False,308,meeting minutes,True,37,2016-2022,neutral,hawkish,neutral
+5768,1998,neutral,dovish,dovish,1,False,274,speech,False,31,1996-2007,neutral,neutral,hawkish
+5768,2008,dovish,neutral,neutral,1,False,414,meeting minutes,False,46,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2001,dovish,neutral,neutral,1,False,149,speech,False,20,1996-2007,neutral,neutral,hawkish
+5768,1997,dovish,dovish,dovish,1,False,287,meeting minutes,False,37,1996-2007,neutral,hawkish,neutral
+5768,2007,neutral,hawkish,hawkish,1,False,231,speech,False,18,1996-2007,neutral,neutral,hawkish
+5768,2002,neutral,neutral,neutral,1,False,181,meeting minutes,False,18,1996-2007,neutral,neutral,neutral
+5768,2001,neutral,neutral,neutral,1,False,242,speech,False,39,1996-2007,neutral,neutral,neutral
+5768,2006,hawkish,neutral,neutral,1,False,218,speech,False,23,1996-2007,neutral,neutral,hawkish
+5768,2020,neutral,dovish,dovish,1,False,272,press conference,False,53,2016-2022,neutral,neutral,neutral
+5768,2019,dovish,dovish,dovish,1,False,265,meeting minutes,True,29,2016-2022,neutral,neutral,dovish
+5768,2002,neutral,neutral,neutral,1,False,227,meeting minutes,False,32,1996-2007,neutral,neutral,dovish
+5768,2004,neutral,neutral,neutral,1,False,298,meeting minutes,True,39,1996-2007,neutral,dovish,neutral
+5768,2002,hawkish,neutral,neutral,1,False,256,speech,False,15,1996-2007,neutral,neutral,dovish
+5768,2015,hawkish,dovish,dovish,1,False,294,press conference,False,28,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2017,hawkish,hawkish,hawkish,1,False,209,speech,False,49,2016-2022,neutral,neutral,hawkish
+5768,1999,hawkish,neutral,neutral,3,True,250,meeting minutes,False,61,1996-2007,neutral,neutral,hawkish
+5768,2006,neutral,neutral,neutral,3,True,268,speech,False,18,1996-2007,neutral,neutral,neutral
+5768,2005,dovish,neutral,neutral,1,False,286,meeting minutes,True,41,1996-2007,neutral,dovish,dovish
+5768,2021,neutral,neutral,neutral,3,True,315,speech,False,32,2016-2022,neutral,neutral,neutral
+5768,2021,neutral,neutral,neutral,1,False,234,speech,True,15,2016-2022,neutral,neutral,neutral
+5768,2020,hawkish,hawkish,hawkish,1,False,312,meeting minutes,False,47,2016-2022,neutral,hawkish,neutral
+5768,2018,neutral,neutral,neutral,1,False,263,meeting minutes,False,22,2016-2022,neutral,neutral,neutral
+5768,2021,neutral,neutral,neutral,1,False,196,meeting minutes,False,19,2016-2022,neutral,neutral,neutral
+5768,1997,hawkish,hawkish,hawkish,1,False,382,speech,True,32,1996-2007,neutral,dovish,dovish
+5768,2009,hawkish,neutral,neutral,1,False,304,meeting minutes,False,61,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2011,dovish,dovish,dovish,1,False,344,meeting minutes,False,33,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+5768,2020,neutral,neutral,neutral,1,False,210,speech,False,22,2016-2022,neutral,neutral,neutral
+5768,2007,neutral,dovish,dovish,1,False,199,speech,False,36,1996-2007,neutral,neutral,neutral
+5768,2018,neutral,neutral,neutral,1,False,257,meeting minutes,False,30,2016-2022,neutral,neutral,dovish
+5768,2017,hawkish,dovish,dovish,1,False,245,speech,False,33,2016-2022,neutral,neutral,hawkish
+5768,2005,dovish,neutral,neutral,1,False,199,meeting minutes,True,23,1996-2007,neutral,neutral,dovish
+5768,2005,hawkish,hawkish,hawkish,1,False,234,meeting minutes,False,26,1996-2007,neutral,hawkish,hawkish
+5768,1998,dovish,hawkish,hawkish,1,False,325,speech,False,40,1996-2007,neutral,neutral,hawkish
+5768,2013,neutral,neutral,neutral,1,False,182,press conference,False,17,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+5768,2007,neutral,neutral,neutral,1,False,213,speech,False,30,1996-2007,neutral,neutral,hawkish
+5768,2012,hawkish,neutral,neutral,1,False,159,meeting minutes,True,37,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2002,neutral,neutral,neutral,1,False,216,speech,False,25,1996-2007,neutral,neutral,neutral
+5768,2005,neutral,neutral,neutral,1,False,184,speech,False,40,1996-2007,neutral,neutral,neutral
+5768,2007,dovish,neutral,neutral,1,False,176,meeting minutes,True,26,1996-2007,neutral,neutral,dovish
+5768,2022,neutral,neutral,neutral,1,False,200,speech,False,10,2016-2022,neutral,neutral,neutral
+5768,2004,hawkish,neutral,neutral,1,False,225,speech,False,23,1996-2007,neutral,neutral,hawkish
+5768,2007,hawkish,neutral,neutral,1,False,196,speech,False,24,1996-2007,neutral,neutral,neutral
+5768,2021,neutral,neutral,neutral,1,False,187,press conference,False,8,2016-2022,neutral,neutral,dovish
+5768,2001,neutral,neutral,neutral,1,False,454,speech,True,79,1996-2007,neutral,neutral,neutral
+5768,2000,hawkish,neutral,neutral,1,False,302,meeting minutes,True,34,1996-2007,neutral,neutral,hawkish
+5768,2017,dovish,neutral,neutral,1,False,241,press conference,False,29,2016-2022,neutral,neutral,neutral
+5768,1999,hawkish,dovish,dovish,1,False,196,speech,True,12,1996-2007,neutral,neutral,neutral
+5768,2018,neutral,neutral,neutral,1,False,270,press conference,True,43,2016-2022,neutral,neutral,neutral
+5768,2019,dovish,neutral,neutral,1,False,277,speech,False,59,2016-2022,neutral,neutral,dovish
+5768,2019,hawkish,hawkish,hawkish,2,False,274,speech,False,25,2016-2022,neutral,neutral,hawkish
+5768,2007,hawkish,hawkish,hawkish,1,False,237,speech,False,27,1996-2007,neutral,neutral,hawkish
+5768,2022,neutral,neutral,neutral,1,False,158,press conference,True,19,2016-2022,neutral,neutral,hawkish
+5768,2013,hawkish,neutral,neutral,1,False,169,speech,False,48,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2012,neutral,neutral,neutral,1,False,186,press conference,False,5,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+5768,2015,dovish,neutral,neutral,1,False,188,press conference,False,36,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+5768,2006,neutral,neutral,neutral,1,False,146,meeting minutes,False,16,1996-2007,neutral,neutral,hawkish
+5768,2018,neutral,neutral,neutral,1,False,327,press conference,True,46,2016-2022,neutral,neutral,neutral
+5768,2011,neutral,neutral,neutral,3,True,238,press conference,True,40,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2022,hawkish,hawkish,hawkish,1,False,314,speech,False,44,2016-2022,neutral,neutral,neutral
+5768,2007,hawkish,neutral,neutral,1,False,203,speech,False,20,1996-2007,neutral,neutral,hawkish
+5768,2019,neutral,neutral,neutral,1,False,252,meeting minutes,False,25,2016-2022,neutral,neutral,neutral
+5768,2004,neutral,neutral,neutral,1,False,328,speech,False,42,1996-2007,neutral,neutral,neutral
+5768,1997,dovish,dovish,dovish,1,False,219,speech,False,54,1996-2007,neutral,neutral,neutral
+5768,2017,neutral,neutral,neutral,1,False,259,meeting minutes,False,33,2016-2022,neutral,neutral,hawkish
+5768,1999,dovish,neutral,neutral,1,False,228,speech,True,27,1996-2007,neutral,neutral,neutral
+5768,2021,neutral,neutral,neutral,1,False,196,meeting minutes,False,17,2016-2022,neutral,neutral,neutral
+5768,2000,hawkish,hawkish,hawkish,1,False,145,speech,False,20,1996-2007,neutral,neutral,hawkish
+5768,2012,neutral,neutral,neutral,1,False,314,meeting minutes,False,79,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2000,neutral,dovish,dovish,1,False,133,meeting minutes,True,26,1996-2007,neutral,dovish,neutral
+5768,1998,hawkish,dovish,dovish,1,False,268,speech,True,39,1996-2007,neutral,neutral,neutral
+5768,2008,dovish,dovish,dovish,1,False,207,meeting minutes,False,17,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2006,neutral,neutral,neutral,1,False,183,speech,False,28,1996-2007,neutral,neutral,neutral
+5768,1999,neutral,neutral,neutral,1,False,172,speech,False,29,1996-2007,neutral,neutral,neutral
+5768,2011,dovish,dovish,dovish,1,False,152,press conference,True,17,"2008-2015 (crisis, zero bound)",neutral,hawkish,neutral
+5768,2015,dovish,dovish,dovish,1,False,264,meeting minutes,False,32,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2011,hawkish,neutral,neutral,1,False,238,meeting minutes,False,40,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2013,dovish,neutral,neutral,1,False,144,speech,False,20,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2021,neutral,dovish,dovish,1,False,195,meeting minutes,False,43,2016-2022,neutral,neutral,hawkish
+5768,2021,dovish,neutral,neutral,1,False,231,speech,False,26,2016-2022,neutral,neutral,neutral
+5768,2013,dovish,dovish,dovish,1,False,257,meeting minutes,False,25,"2008-2015 (crisis, zero bound)",neutral,dovish,hawkish
+5768,2011,dovish,dovish,dovish,1,False,249,meeting minutes,False,55,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+5768,2020,neutral,neutral,neutral,1,False,208,speech,False,27,2016-2022,neutral,neutral,neutral
+5768,1997,neutral,neutral,neutral,1,False,224,speech,True,19,1996-2007,neutral,hawkish,neutral
+5768,2017,hawkish,neutral,neutral,1,False,186,speech,False,29,2016-2022,neutral,neutral,neutral
+5768,2006,hawkish,neutral,neutral,1,False,258,speech,True,24,1996-2007,neutral,dovish,hawkish
+5768,2013,hawkish,neutral,neutral,1,False,139,press conference,False,14,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+5768,2005,neutral,neutral,neutral,3,False,260,speech,False,36,1996-2007,neutral,neutral,neutral
+5768,1999,neutral,neutral,neutral,1,False,286,meeting minutes,False,21,1996-2007,neutral,neutral,hawkish
+5768,2017,dovish,dovish,dovish,1,False,259,press conference,False,46,2016-2022,neutral,neutral,hawkish
+5768,2002,dovish,neutral,neutral,1,False,236,meeting minutes,False,20,1996-2007,neutral,neutral,dovish
+5768,2005,dovish,neutral,neutral,3,True,206,speech,False,15,1996-2007,neutral,neutral,hawkish
+5768,2019,dovish,dovish,dovish,1,False,346,press conference,False,34,2016-2022,neutral,dovish,dovish
+5768,2021,hawkish,neutral,neutral,1,False,178,meeting minutes,True,9,2016-2022,neutral,neutral,hawkish
+5768,2007,neutral,neutral,neutral,1,False,131,speech,False,12,1996-2007,neutral,neutral,neutral
+5768,2013,neutral,neutral,neutral,1,False,189,speech,False,23,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2005,neutral,neutral,neutral,1,False,288,speech,True,28,1996-2007,neutral,neutral,hawkish
+5768,2011,neutral,dovish,dovish,1,False,332,meeting minutes,True,36,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+5768,2003,neutral,dovish,dovish,1,False,342,meeting minutes,False,36,1996-2007,neutral,hawkish,neutral
+5768,2006,dovish,neutral,neutral,1,False,201,speech,False,21,1996-2007,neutral,neutral,neutral
+5768,2012,dovish,neutral,neutral,1,False,303,meeting minutes,False,39,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+5768,2021,dovish,neutral,neutral,1,False,146,press conference,False,26,2016-2022,neutral,neutral,dovish
+5768,2007,hawkish,neutral,neutral,1,False,164,speech,False,25,1996-2007,neutral,neutral,hawkish
+5768,2015,dovish,neutral,neutral,3,True,353,meeting minutes,True,63,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+5768,2021,neutral,neutral,neutral,1,False,198,speech,True,62,2016-2022,neutral,neutral,neutral
+5768,2013,neutral,neutral,neutral,1,False,210,speech,False,16,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2021,neutral,neutral,neutral,1,False,173,press conference,False,8,2016-2022,neutral,neutral,dovish
+5768,2014,hawkish,neutral,neutral,1,False,223,press conference,True,55,"2008-2015 (crisis, zero bound)",neutral,dovish,neutral
+5768,2014,hawkish,hawkish,hawkish,1,False,172,meeting minutes,False,24,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2005,neutral,neutral,neutral,1,False,253,speech,False,23,1996-2007,neutral,neutral,neutral
+5768,2006,hawkish,neutral,neutral,1,False,396,speech,False,74,1996-2007,neutral,dovish,dovish
+5768,2018,neutral,neutral,neutral,1,False,169,press conference,True,26,2016-2022,neutral,neutral,neutral
+5768,2011,hawkish,hawkish,hawkish,1,False,195,meeting minutes,True,37,"2008-2015 (crisis, zero bound)",neutral,hawkish,hawkish
+5768,2004,hawkish,neutral,neutral,1,False,322,speech,True,21,1996-2007,neutral,neutral,dovish
+5768,2004,dovish,dovish,dovish,1,False,253,meeting minutes,False,38,1996-2007,neutral,neutral,neutral
+5768,2019,dovish,neutral,neutral,1,False,209,press conference,False,17,2016-2022,neutral,neutral,neutral
+5768,2019,neutral,neutral,neutral,1,False,195,speech,True,44,2016-2022,neutral,neutral,neutral
+5768,2014,hawkish,neutral,neutral,1,False,179,press conference,True,19,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2018,neutral,neutral,neutral,1,False,280,meeting minutes,False,28,2016-2022,neutral,neutral,neutral
+5768,2007,neutral,neutral,neutral,1,False,270,speech,False,55,1996-2007,neutral,neutral,neutral
+5768,2021,dovish,neutral,neutral,1,False,182,press conference,False,22,2016-2022,neutral,neutral,neutral
+5768,2013,hawkish,neutral,neutral,1,False,428,press conference,True,30,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2021,hawkish,hawkish,hawkish,1,False,254,press conference,True,31,2016-2022,neutral,hawkish,hawkish
+5768,2007,neutral,dovish,dovish,1,False,127,meeting minutes,False,28,1996-2007,neutral,neutral,neutral
+5768,2019,hawkish,dovish,dovish,1,False,178,meeting minutes,False,38,2016-2022,neutral,neutral,neutral
+5768,2020,neutral,neutral,neutral,1,False,153,speech,True,16,2016-2022,neutral,neutral,neutral
+5768,2010,hawkish,neutral,neutral,1,False,264,meeting minutes,False,35,"2008-2015 (crisis, zero bound)",neutral,hawkish,hawkish
+5768,2021,dovish,neutral,neutral,1,False,279,press conference,False,17,2016-2022,neutral,neutral,hawkish
+5768,2006,neutral,neutral,neutral,1,False,307,speech,True,41,1996-2007,neutral,neutral,neutral
+5768,2019,neutral,hawkish,hawkish,1,False,230,speech,True,37,2016-2022,neutral,neutral,neutral
+5768,1996,neutral,neutral,neutral,1,False,290,speech,False,19,1996-2007,neutral,neutral,dovish
+5768,2006,neutral,neutral,neutral,1,False,255,speech,False,42,1996-2007,neutral,neutral,neutral
+5768,2017,hawkish,neutral,neutral,1,False,174,meeting minutes,False,23,2016-2022,neutral,hawkish,hawkish
+5768,2016,dovish,dovish,dovish,1,False,326,meeting minutes,False,30,2016-2022,neutral,dovish,dovish
+5768,2004,dovish,neutral,neutral,1,False,234,speech,True,26,1996-2007,neutral,neutral,hawkish
+5768,2006,neutral,neutral,neutral,1,False,210,speech,True,26,1996-2007,neutral,neutral,neutral
+5768,2004,dovish,neutral,neutral,1,False,201,speech,False,59,1996-2007,neutral,hawkish,neutral
+5768,2010,hawkish,dovish,dovish,1,False,257,meeting minutes,False,30,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2000,neutral,neutral,neutral,1,False,196,speech,False,20,1996-2007,neutral,neutral,neutral
+5768,2003,dovish,dovish,dovish,1,False,272,meeting minutes,False,32,1996-2007,neutral,neutral,neutral
+5768,2017,neutral,neutral,neutral,1,False,225,meeting minutes,False,42,2016-2022,neutral,neutral,neutral
+5768,2019,dovish,dovish,dovish,1,False,264,meeting minutes,True,27,2016-2022,neutral,neutral,hawkish
+5768,2016,dovish,neutral,neutral,3,True,436,meeting minutes,False,62,2016-2022,neutral,neutral,dovish
+5768,2008,hawkish,neutral,neutral,1,False,181,meeting minutes,False,16,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,1998,hawkish,hawkish,hawkish,1,False,298,meeting minutes,False,36,1996-2007,neutral,neutral,hawkish
+5768,2020,hawkish,neutral,neutral,1,False,141,press conference,False,5,2016-2022,neutral,neutral,dovish
+5768,2022,dovish,neutral,neutral,1,False,198,press conference,True,18,2016-2022,neutral,neutral,neutral
+5768,2019,dovish,neutral,neutral,1,False,166,press conference,False,24,2016-2022,neutral,neutral,dovish
+5768,1997,neutral,neutral,neutral,1,False,224,speech,False,27,1996-2007,neutral,dovish,neutral
+5768,2021,hawkish,neutral,neutral,1,False,242,meeting minutes,False,47,2016-2022,neutral,dovish,hawkish
+5768,2021,dovish,neutral,neutral,1,False,407,speech,False,49,2016-2022,neutral,neutral,dovish
+5768,2020,hawkish,hawkish,hawkish,1,False,290,meeting minutes,False,36,2016-2022,neutral,neutral,hawkish
+5768,2017,dovish,dovish,dovish,1,False,307,press conference,True,45,2016-2022,neutral,hawkish,neutral
+5768,2017,neutral,neutral,neutral,1,False,404,meeting minutes,False,39,2016-2022,neutral,neutral,neutral
+5768,2011,hawkish,dovish,dovish,1,False,295,press conference,True,89,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2011,hawkish,hawkish,hawkish,1,False,195,meeting minutes,False,28,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,1999,hawkish,dovish,dovish,1,False,197,speech,False,27,1996-2007,neutral,neutral,neutral
+5768,2005,neutral,neutral,neutral,1,False,156,speech,False,19,1996-2007,neutral,neutral,dovish
+5768,2004,neutral,neutral,neutral,1,False,232,speech,False,39,1996-2007,neutral,neutral,neutral
+5768,2016,hawkish,neutral,neutral,1,False,264,press conference,True,35,2016-2022,neutral,hawkish,neutral
+5768,2015,neutral,neutral,neutral,3,True,333,meeting minutes,True,42,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,1998,dovish,dovish,dovish,1,False,324,meeting minutes,False,39,1996-2007,neutral,dovish,dovish
+5768,2008,neutral,neutral,neutral,1,False,282,speech,False,30,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2022,hawkish,neutral,neutral,1,False,218,speech,False,20,2016-2022,neutral,neutral,neutral
+5768,2020,neutral,neutral,neutral,1,False,260,speech,False,39,2016-2022,neutral,neutral,neutral
+5768,2012,dovish,dovish,dovish,1,False,195,meeting minutes,False,34,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2005,dovish,dovish,dovish,1,False,252,speech,False,27,1996-2007,neutral,neutral,dovish
+5768,2016,neutral,neutral,neutral,1,False,225,meeting minutes,False,23,2016-2022,neutral,neutral,dovish
+5768,1997,neutral,dovish,dovish,1,False,286,meeting minutes,False,48,1996-2007,neutral,dovish,neutral
+5768,2012,neutral,neutral,neutral,1,False,433,meeting minutes,False,69,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2018,dovish,neutral,neutral,1,False,367,meeting minutes,False,39,2016-2022,neutral,neutral,neutral
+5768,1997,hawkish,neutral,neutral,1,False,241,meeting minutes,False,47,1996-2007,neutral,neutral,neutral
+5768,2021,neutral,neutral,neutral,1,False,245,meeting minutes,False,44,2016-2022,neutral,neutral,neutral
+5768,2012,dovish,neutral,neutral,1,False,311,meeting minutes,False,37,"2008-2015 (crisis, zero bound)",neutral,dovish,neutral
+5768,2013,neutral,neutral,neutral,1,False,292,meeting minutes,False,20,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2003,dovish,neutral,neutral,1,False,196,meeting minutes,True,29,1996-2007,neutral,neutral,dovish
+5768,2002,neutral,dovish,dovish,1,False,232,meeting minutes,False,12,1996-2007,neutral,dovish,neutral
+5768,2001,neutral,neutral,neutral,1,False,144,speech,False,19,1996-2007,neutral,neutral,neutral
+5768,2019,dovish,dovish,dovish,1,False,452,meeting minutes,False,52,2016-2022,neutral,neutral,dovish
+5768,2017,neutral,neutral,neutral,1,False,187,speech,True,17,2016-2022,neutral,neutral,dovish
+5768,2021,neutral,neutral,neutral,3,True,158,speech,True,22,2016-2022,neutral,neutral,neutral
+5768,2021,neutral,neutral,neutral,1,False,197,meeting minutes,False,29,2016-2022,neutral,neutral,neutral
+5768,2014,neutral,dovish,dovish,1,False,266,meeting minutes,True,43,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,1998,neutral,neutral,neutral,1,False,151,meeting minutes,False,31,1996-2007,neutral,neutral,hawkish
+5768,1996,dovish,neutral,neutral,1,False,200,meeting minutes,True,25,1996-2007,neutral,neutral,hawkish
+5768,2008,neutral,neutral,neutral,1,False,321,meeting minutes,False,24,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2001,hawkish,neutral,neutral,1,False,374,meeting minutes,False,34,1996-2007,neutral,neutral,hawkish
+5768,2001,dovish,neutral,neutral,1,False,312,meeting minutes,False,23,1996-2007,neutral,dovish,dovish
+5768,2020,dovish,neutral,neutral,1,False,216,speech,True,30,2016-2022,neutral,neutral,neutral
+5768,2015,dovish,dovish,dovish,1,False,233,press conference,False,13,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+5768,2007,neutral,neutral,neutral,3,False,236,speech,True,30,1996-2007,neutral,neutral,neutral
+5768,2020,hawkish,neutral,neutral,1,False,271,press conference,False,32,2016-2022,neutral,neutral,hawkish
+5768,2005,dovish,neutral,neutral,1,False,173,speech,False,20,1996-2007,neutral,neutral,neutral
+5768,1999,neutral,neutral,neutral,1,False,406,meeting minutes,False,47,1996-2007,neutral,hawkish,dovish
+5768,2003,hawkish,dovish,dovish,1,False,307,meeting minutes,False,27,1996-2007,neutral,hawkish,neutral
+5768,2004,hawkish,neutral,neutral,1,False,224,speech,False,24,1996-2007,neutral,hawkish,hawkish
+5768,2017,neutral,neutral,neutral,1,False,305,meeting minutes,True,42,2016-2022,neutral,neutral,hawkish
+5768,2015,dovish,dovish,dovish,1,False,263,meeting minutes,False,50,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2021,dovish,neutral,neutral,1,False,341,press conference,False,42,2016-2022,neutral,neutral,dovish
+5768,2006,neutral,neutral,neutral,1,False,475,speech,True,65,1996-2007,neutral,neutral,neutral
+5768,2010,neutral,neutral,neutral,1,False,217,meeting minutes,False,20,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,1997,neutral,dovish,dovish,1,False,246,speech,False,22,1996-2007,neutral,neutral,hawkish
+5768,2011,neutral,neutral,neutral,1,False,261,meeting minutes,False,21,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2000,dovish,neutral,neutral,1,False,196,speech,False,32,1996-2007,neutral,hawkish,hawkish
+5768,2016,neutral,dovish,dovish,1,False,320,press conference,False,54,2016-2022,neutral,neutral,dovish
+5768,2019,neutral,neutral,neutral,1,False,150,press conference,False,21,2016-2022,neutral,neutral,neutral
+5768,2021,neutral,neutral,neutral,1,False,220,press conference,True,29,2016-2022,neutral,neutral,neutral
+5768,2018,dovish,neutral,neutral,1,False,246,meeting minutes,True,15,2016-2022,neutral,neutral,neutral
+5768,1996,neutral,neutral,neutral,1,False,299,meeting minutes,False,70,1996-2007,neutral,dovish,neutral
+5768,2014,hawkish,neutral,neutral,1,False,507,meeting minutes,False,47,"2008-2015 (crisis, zero bound)",neutral,hawkish,hawkish
+5768,2015,neutral,neutral,neutral,1,False,330,meeting minutes,True,61,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,1997,neutral,neutral,neutral,1,False,267,meeting minutes,False,35,1996-2007,neutral,neutral,hawkish
+5768,2006,neutral,neutral,neutral,1,False,269,speech,False,48,1996-2007,neutral,neutral,neutral
+5768,2020,neutral,neutral,neutral,1,False,219,press conference,False,25,2016-2022,neutral,neutral,neutral
+5768,1998,neutral,dovish,dovish,1,False,307,meeting minutes,True,34,1996-2007,neutral,dovish,dovish
+5768,2001,hawkish,hawkish,hawkish,1,False,249,speech,False,25,1996-2007,neutral,neutral,hawkish
+5768,2004,neutral,neutral,neutral,1,False,237,speech,False,26,1996-2007,neutral,neutral,neutral
+5768,2004,neutral,neutral,neutral,1,False,270,speech,False,55,1996-2007,neutral,neutral,neutral
+5768,1998,hawkish,neutral,neutral,1,False,201,speech,False,18,1996-2007,neutral,neutral,hawkish
+5768,2015,neutral,dovish,dovish,1,False,346,press conference,False,55,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+5768,2020,dovish,dovish,dovish,1,False,348,press conference,False,40,2016-2022,neutral,dovish,dovish
+5768,1998,hawkish,neutral,neutral,1,False,197,meeting minutes,False,14,1996-2007,neutral,neutral,hawkish
+5768,2014,dovish,dovish,dovish,1,False,304,meeting minutes,True,42,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+5768,1997,dovish,neutral,neutral,1,False,235,meeting minutes,False,42,1996-2007,neutral,dovish,dovish
+5768,2019,hawkish,neutral,neutral,1,False,203,press conference,False,25,2016-2022,neutral,neutral,neutral
+5768,2003,neutral,neutral,neutral,1,False,178,speech,True,25,1996-2007,neutral,dovish,dovish
+5768,2012,hawkish,hawkish,hawkish,1,False,261,meeting minutes,False,42,"2008-2015 (crisis, zero bound)",neutral,hawkish,hawkish
+5768,2021,hawkish,neutral,neutral,1,False,201,speech,False,20,2016-2022,neutral,neutral,neutral
+5768,1999,dovish,neutral,neutral,1,False,271,speech,True,25,1996-2007,neutral,neutral,neutral
+5768,1996,neutral,neutral,neutral,3,True,355,meeting minutes,False,35,1996-2007,neutral,neutral,neutral
+5768,2012,neutral,neutral,neutral,1,False,170,press conference,False,19,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2021,dovish,neutral,neutral,1,False,173,press conference,False,20,2016-2022,neutral,neutral,neutral
+5768,1997,neutral,neutral,neutral,1,False,366,speech,True,39,1996-2007,neutral,neutral,dovish
+5768,2019,dovish,dovish,dovish,1,False,218,speech,False,33,2016-2022,neutral,dovish,dovish
+5768,2015,dovish,neutral,neutral,1,False,253,press conference,False,26,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+5768,2002,neutral,dovish,dovish,1,False,210,meeting minutes,True,26,1996-2007,neutral,neutral,dovish
+5768,1999,neutral,neutral,neutral,1,False,382,meeting minutes,False,49,1996-2007,neutral,dovish,dovish
+5768,2017,neutral,neutral,neutral,1,False,185,speech,False,23,2016-2022,neutral,neutral,neutral
+5768,2000,neutral,dovish,dovish,1,False,310,speech,False,20,1996-2007,neutral,neutral,neutral
+5768,2021,dovish,neutral,neutral,1,False,245,meeting minutes,False,31,2016-2022,neutral,neutral,neutral
+5768,2004,neutral,neutral,neutral,1,False,230,speech,True,56,1996-2007,neutral,neutral,hawkish
+5768,2013,dovish,neutral,neutral,1,False,309,meeting minutes,False,28,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2011,dovish,dovish,dovish,1,False,252,press conference,False,23,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+5768,2012,dovish,dovish,dovish,1,False,193,meeting minutes,False,48,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2021,neutral,neutral,neutral,1,False,183,speech,False,22,2016-2022,neutral,neutral,dovish
+5768,2007,neutral,neutral,neutral,1,False,299,speech,False,42,1996-2007,neutral,neutral,neutral
+5768,2022,dovish,neutral,neutral,1,False,158,speech,False,21,2016-2022,neutral,neutral,neutral
+5768,2015,neutral,neutral,neutral,1,False,195,meeting minutes,False,32,"2008-2015 (crisis, zero bound)",neutral,hawkish,neutral
+5768,2016,dovish,neutral,neutral,1,False,214,meeting minutes,False,31,2016-2022,neutral,neutral,dovish
+5768,2006,neutral,neutral,neutral,1,False,187,speech,False,20,1996-2007,neutral,neutral,hawkish
+5768,2020,neutral,neutral,neutral,3,True,298,meeting minutes,True,26,2016-2022,neutral,neutral,dovish
+5768,2021,neutral,neutral,neutral,1,False,307,meeting minutes,False,34,2016-2022,neutral,dovish,hawkish
+5768,2008,neutral,dovish,dovish,1,False,205,meeting minutes,False,29,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2005,neutral,neutral,neutral,1,False,166,speech,False,23,1996-2007,neutral,neutral,hawkish
+5768,2008,dovish,dovish,dovish,1,False,323,meeting minutes,True,40,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+5768,1997,neutral,dovish,dovish,1,False,460,speech,False,32,1996-2007,neutral,neutral,neutral
+5768,2000,hawkish,neutral,neutral,1,False,170,meeting minutes,True,34,1996-2007,neutral,neutral,dovish
+5768,2014,dovish,dovish,dovish,1,False,222,press conference,True,29,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2002,hawkish,neutral,neutral,1,False,223,meeting minutes,True,47,1996-2007,neutral,dovish,hawkish
+5768,1998,hawkish,hawkish,hawkish,1,False,235,meeting minutes,False,24,1996-2007,neutral,neutral,neutral
+5768,2016,hawkish,dovish,dovish,1,False,207,press conference,False,31,2016-2022,neutral,dovish,neutral
+5768,2003,hawkish,neutral,neutral,1,False,253,meeting minutes,False,43,1996-2007,neutral,dovish,hawkish
+5768,1998,neutral,neutral,neutral,1,False,267,meeting minutes,False,40,1996-2007,neutral,hawkish,neutral
+5768,2011,neutral,dovish,dovish,1,False,185,meeting minutes,False,9,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2019,neutral,neutral,neutral,3,True,265,speech,False,7,2016-2022,neutral,neutral,hawkish
+5768,2000,hawkish,hawkish,hawkish,1,False,279,speech,False,23,1996-2007,neutral,neutral,neutral
+5768,2004,neutral,neutral,neutral,1,False,332,speech,False,74,1996-2007,neutral,neutral,hawkish
+5768,2006,neutral,neutral,neutral,1,False,257,meeting minutes,False,40,1996-2007,neutral,neutral,neutral
+5768,2020,neutral,neutral,neutral,1,False,210,speech,False,26,2016-2022,neutral,neutral,neutral
+5768,2003,hawkish,dovish,dovish,1,False,252,meeting minutes,False,19,1996-2007,neutral,neutral,dovish
+5768,2003,neutral,neutral,neutral,1,False,163,speech,False,17,1996-2007,neutral,neutral,neutral
+5768,2021,neutral,neutral,neutral,1,False,266,press conference,False,21,2016-2022,neutral,neutral,neutral
+5768,2020,neutral,dovish,dovish,1,False,326,meeting minutes,False,34,2016-2022,neutral,dovish,dovish
+5768,2001,dovish,neutral,neutral,1,False,234,speech,False,15,1996-2007,neutral,neutral,dovish
+5768,1999,hawkish,hawkish,hawkish,1,False,300,speech,False,44,1996-2007,neutral,neutral,dovish
+5768,1999,neutral,neutral,neutral,3,False,312,speech,False,24,1996-2007,neutral,neutral,neutral
+5768,2017,neutral,neutral,neutral,1,False,211,meeting minutes,True,49,2016-2022,neutral,neutral,hawkish
+5768,2016,hawkish,neutral,neutral,1,False,363,meeting minutes,True,41,2016-2022,neutral,neutral,hawkish
+5768,1997,neutral,neutral,neutral,1,False,260,meeting minutes,False,28,1996-2007,neutral,neutral,neutral
+5768,2006,neutral,neutral,neutral,1,False,213,meeting minutes,False,8,1996-2007,neutral,neutral,neutral
+5768,2002,neutral,neutral,neutral,1,False,271,meeting minutes,False,22,1996-2007,neutral,neutral,neutral
+5768,2010,neutral,neutral,neutral,1,False,186,meeting minutes,False,23,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2019,hawkish,dovish,dovish,1,False,383,speech,False,19,2016-2022,neutral,neutral,hawkish
+5768,2001,neutral,neutral,neutral,1,False,256,speech,False,18,1996-2007,neutral,neutral,neutral
+5768,2014,neutral,neutral,neutral,1,False,209,meeting minutes,False,10,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2004,hawkish,neutral,neutral,1,False,283,speech,False,33,1996-2007,neutral,neutral,neutral
+5768,2017,neutral,neutral,neutral,1,False,203,speech,False,21,2016-2022,neutral,neutral,neutral
+5768,2021,neutral,neutral,neutral,1,False,272,speech,False,30,2016-2022,neutral,neutral,neutral
+5768,1999,neutral,neutral,neutral,1,False,231,speech,False,38,1996-2007,neutral,neutral,neutral
+5768,2005,dovish,dovish,dovish,1,False,166,meeting minutes,False,16,1996-2007,neutral,dovish,dovish
+5768,2022,dovish,neutral,neutral,1,False,199,press conference,False,25,2016-2022,neutral,neutral,hawkish
+5768,1997,neutral,neutral,neutral,1,False,286,speech,False,31,1996-2007,neutral,neutral,neutral
+5768,2010,neutral,neutral,neutral,1,False,287,meeting minutes,True,34,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2003,neutral,dovish,dovish,1,False,318,speech,False,40,1996-2007,neutral,dovish,dovish
+5768,2021,neutral,neutral,neutral,1,False,196,speech,False,15,2016-2022,neutral,neutral,dovish
+5768,2012,hawkish,hawkish,hawkish,1,False,190,press conference,False,19,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2012,hawkish,dovish,dovish,1,False,318,press conference,False,40,"2008-2015 (crisis, zero bound)",neutral,dovish,hawkish
+5768,2008,dovish,dovish,dovish,1,False,297,meeting minutes,True,48,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+5768,2007,neutral,neutral,neutral,1,False,201,meeting minutes,False,17,1996-2007,neutral,neutral,neutral
+5768,2014,dovish,neutral,neutral,1,False,281,meeting minutes,False,41,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2022,neutral,neutral,neutral,1,False,258,speech,False,20,2016-2022,neutral,neutral,neutral
+5768,2022,hawkish,neutral,neutral,1,False,230,meeting minutes,False,31,2016-2022,neutral,neutral,neutral
+5768,2005,dovish,neutral,neutral,1,False,249,speech,True,45,1996-2007,neutral,neutral,neutral
+5768,2001,neutral,neutral,neutral,3,True,238,meeting minutes,True,60,1996-2007,neutral,dovish,dovish
+5768,2000,hawkish,dovish,dovish,1,False,219,meeting minutes,True,26,1996-2007,neutral,neutral,dovish
+5768,2019,neutral,neutral,neutral,1,False,250,meeting minutes,False,40,2016-2022,neutral,dovish,hawkish
+5768,2002,neutral,neutral,neutral,1,False,165,speech,False,17,1996-2007,neutral,neutral,neutral
+5768,2003,dovish,neutral,neutral,1,False,266,meeting minutes,False,32,1996-2007,neutral,neutral,neutral
+5768,2022,neutral,neutral,neutral,1,False,296,press conference,False,42,2016-2022,neutral,neutral,dovish
+5768,2001,neutral,neutral,neutral,1,False,160,speech,False,8,1996-2007,neutral,neutral,neutral
+5768,2008,neutral,neutral,neutral,1,False,207,speech,False,13,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2012,dovish,neutral,neutral,1,False,203,meeting minutes,False,10,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+5768,2015,neutral,dovish,dovish,1,False,191,press conference,False,44,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+5768,2015,dovish,dovish,dovish,1,False,261,meeting minutes,False,44,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+5768,2022,hawkish,neutral,neutral,1,False,237,press conference,False,35,2016-2022,neutral,neutral,hawkish
+5768,2000,hawkish,hawkish,hawkish,1,False,230,speech,True,53,1996-2007,neutral,dovish,hawkish
+5768,2021,dovish,neutral,neutral,1,False,268,meeting minutes,False,63,2016-2022,neutral,dovish,dovish
+5768,2017,dovish,neutral,neutral,1,False,322,speech,False,31,2016-2022,neutral,neutral,neutral
+5768,1998,dovish,neutral,neutral,1,False,269,meeting minutes,False,35,1996-2007,neutral,neutral,neutral
+5768,1998,neutral,neutral,neutral,3,True,317,meeting minutes,False,31,1996-2007,neutral,neutral,neutral
+5768,2004,neutral,neutral,neutral,1,False,182,speech,False,17,1996-2007,neutral,neutral,neutral
+5768,2001,hawkish,neutral,neutral,1,False,318,meeting minutes,True,22,1996-2007,neutral,neutral,hawkish
+5768,2019,hawkish,hawkish,hawkish,1,False,140,meeting minutes,False,20,2016-2022,neutral,hawkish,hawkish
+5768,2020,neutral,hawkish,hawkish,1,False,261,speech,False,33,2016-2022,neutral,hawkish,hawkish
+5768,2013,dovish,neutral,neutral,1,False,275,meeting minutes,False,45,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2021,neutral,neutral,neutral,1,False,258,speech,False,71,2016-2022,neutral,neutral,neutral
+5768,2007,hawkish,neutral,neutral,1,False,192,speech,False,56,1996-2007,neutral,neutral,neutral
+5768,2022,neutral,neutral,neutral,1,False,211,press conference,False,24,2016-2022,neutral,neutral,dovish
+5768,2018,dovish,dovish,dovish,1,False,344,press conference,True,53,2016-2022,neutral,neutral,neutral
+5768,2004,neutral,neutral,neutral,1,False,233,speech,True,58,1996-2007,neutral,neutral,neutral
+5768,2007,neutral,neutral,neutral,1,False,137,speech,False,12,1996-2007,neutral,neutral,neutral
+5768,2021,hawkish,neutral,neutral,1,False,165,press conference,False,19,2016-2022,neutral,neutral,hawkish
+5768,2011,hawkish,neutral,neutral,1,False,279,meeting minutes,False,45,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2021,neutral,neutral,neutral,1,False,162,press conference,False,26,2016-2022,neutral,neutral,neutral
+5768,2018,neutral,dovish,dovish,1,False,288,meeting minutes,True,57,2016-2022,neutral,hawkish,hawkish
+5768,2017,dovish,neutral,neutral,1,False,169,press conference,False,15,2016-2022,neutral,neutral,hawkish
+5768,1999,hawkish,hawkish,hawkish,1,False,342,speech,False,41,1996-2007,neutral,hawkish,dovish
+5768,1997,neutral,neutral,neutral,1,False,204,speech,True,46,1996-2007,neutral,neutral,neutral
+5768,2015,hawkish,hawkish,hawkish,1,False,271,meeting minutes,False,40,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+5768,2006,hawkish,neutral,neutral,1,False,247,meeting minutes,False,20,1996-2007,neutral,neutral,dovish
+5768,2002,neutral,neutral,neutral,1,False,180,speech,False,12,1996-2007,neutral,neutral,neutral
+5768,2012,dovish,neutral,neutral,1,False,290,meeting minutes,False,22,"2008-2015 (crisis, zero bound)",neutral,dovish,neutral
+5768,2019,neutral,neutral,neutral,1,False,201,press conference,False,18,2016-2022,neutral,neutral,neutral
+5768,2002,hawkish,neutral,neutral,1,False,182,meeting minutes,False,30,1996-2007,neutral,neutral,hawkish
+5768,2018,neutral,neutral,neutral,1,False,227,meeting minutes,True,53,2016-2022,neutral,neutral,neutral
+5768,2004,hawkish,neutral,neutral,1,False,263,meeting minutes,False,37,1996-2007,neutral,dovish,dovish
+5768,1998,neutral,neutral,neutral,1,False,247,speech,True,35,1996-2007,neutral,neutral,hawkish
+5768,2003,hawkish,neutral,neutral,1,False,296,speech,False,44,1996-2007,neutral,neutral,neutral
+5768,1997,neutral,neutral,neutral,1,False,179,speech,False,12,1996-2007,neutral,neutral,neutral
+5768,2008,neutral,neutral,neutral,1,False,262,meeting minutes,True,17,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+5768,2010,neutral,neutral,neutral,1,False,170,meeting minutes,False,10,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,1998,dovish,neutral,neutral,1,False,287,meeting minutes,True,36,1996-2007,neutral,hawkish,dovish
+5768,1999,neutral,neutral,neutral,1,False,206,speech,False,13,1996-2007,neutral,neutral,neutral
+5768,2013,dovish,dovish,dovish,1,False,300,speech,False,40,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+5768,2019,neutral,neutral,neutral,1,False,236,press conference,False,52,2016-2022,neutral,neutral,neutral
+5768,2003,dovish,dovish,dovish,1,False,274,meeting minutes,False,27,1996-2007,neutral,neutral,dovish
+5768,2018,dovish,dovish,dovish,1,False,360,meeting minutes,True,46,2016-2022,neutral,neutral,dovish
+5768,2019,neutral,neutral,neutral,1,False,205,speech,False,31,2016-2022,neutral,neutral,neutral
+5768,2009,dovish,neutral,neutral,1,False,271,meeting minutes,False,33,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+5768,2005,neutral,neutral,neutral,3,True,253,meeting minutes,True,28,1996-2007,neutral,neutral,neutral
+5768,2006,neutral,neutral,neutral,1,False,255,meeting minutes,False,9,1996-2007,neutral,neutral,neutral
+5768,1996,neutral,neutral,neutral,3,True,208,meeting minutes,True,29,1996-2007,neutral,neutral,dovish
+5768,2006,neutral,neutral,neutral,1,False,306,speech,False,30,1996-2007,neutral,neutral,hawkish
+5768,2000,hawkish,neutral,neutral,1,False,173,speech,False,25,1996-2007,neutral,neutral,hawkish
+5768,2005,hawkish,hawkish,hawkish,1,False,503,speech,True,98,1996-2007,neutral,dovish,hawkish
+5768,2008,dovish,dovish,dovish,1,False,260,meeting minutes,False,33,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+5768,2015,hawkish,neutral,neutral,1,False,180,press conference,False,28,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2010,hawkish,neutral,neutral,1,False,194,meeting minutes,False,27,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2015,hawkish,neutral,neutral,1,False,170,meeting minutes,False,17,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,1997,neutral,neutral,neutral,1,False,184,speech,False,16,1996-2007,neutral,neutral,dovish
+5768,2003,dovish,dovish,dovish,1,False,368,meeting minutes,False,48,1996-2007,neutral,neutral,dovish
+5768,2018,neutral,neutral,neutral,1,False,196,meeting minutes,False,19,2016-2022,neutral,neutral,neutral
+5768,2015,neutral,neutral,neutral,1,False,184,meeting minutes,False,26,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+5768,2002,dovish,dovish,dovish,1,False,207,speech,False,24,1996-2007,neutral,dovish,hawkish
+5768,2021,neutral,neutral,neutral,1,False,190,speech,False,18,2016-2022,neutral,neutral,hawkish
+5768,2020,neutral,neutral,neutral,1,False,293,speech,False,54,2016-2022,neutral,neutral,neutral
+5768,2021,neutral,neutral,neutral,1,False,224,speech,False,32,2016-2022,neutral,neutral,neutral
+5768,2021,dovish,dovish,dovish,1,False,248,meeting minutes,True,21,2016-2022,neutral,dovish,dovish
+5768,2019,hawkish,hawkish,hawkish,1,False,216,speech,False,35,2016-2022,neutral,dovish,hawkish
+5768,1997,neutral,neutral,neutral,1,False,207,meeting minutes,False,30,1996-2007,neutral,neutral,hawkish
+5768,2020,neutral,neutral,neutral,1,False,272,speech,False,27,2016-2022,neutral,neutral,neutral
+5768,2004,hawkish,hawkish,hawkish,1,False,181,speech,False,14,1996-2007,neutral,neutral,dovish
+5768,2006,neutral,neutral,neutral,1,False,249,meeting minutes,False,24,1996-2007,neutral,neutral,neutral
+5768,1996,dovish,dovish,dovish,1,False,298,meeting minutes,True,40,1996-2007,neutral,dovish,dovish
+5768,2006,hawkish,dovish,dovish,1,False,449,speech,True,30,1996-2007,neutral,neutral,hawkish
+5768,2001,hawkish,hawkish,hawkish,1,False,227,meeting minutes,False,20,1996-2007,neutral,hawkish,hawkish
+5768,2019,neutral,neutral,neutral,1,False,246,press conference,False,25,2016-2022,neutral,neutral,dovish
+5768,2008,neutral,neutral,neutral,1,False,250,meeting minutes,True,38,"2008-2015 (crisis, zero bound)",neutral,hawkish,hawkish
+5768,2011,neutral,neutral,neutral,1,False,218,press conference,False,28,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+5768,2001,dovish,dovish,dovish,1,False,294,speech,False,31,1996-2007,neutral,neutral,dovish
+78516,2014,neutral,dovish,dovish,1,False,325,meeting minutes,True,43,"2008-2015 (crisis, zero bound)",neutral,dovish,hawkish
+78516,2011,neutral,dovish,dovish,1,False,163,meeting minutes,False,12,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2000,dovish,neutral,neutral,1,False,197,speech,False,32,1996-2007,neutral,hawkish,hawkish
+78516,2013,neutral,neutral,neutral,1,False,192,speech,False,20,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+78516,2020,dovish,dovish,dovish,1,False,339,meeting minutes,False,34,2016-2022,neutral,neutral,hawkish
+78516,1997,hawkish,dovish,dovish,1,False,229,meeting minutes,False,17,1996-2007,neutral,neutral,dovish
+78516,2019,hawkish,hawkish,hawkish,1,False,216,speech,False,35,2016-2022,neutral,dovish,hawkish
+78516,2003,neutral,neutral,neutral,1,False,225,speech,False,37,1996-2007,neutral,neutral,neutral
+78516,2020,neutral,neutral,neutral,1,False,196,press conference,False,33,2016-2022,neutral,neutral,neutral
+78516,2016,neutral,dovish,dovish,1,False,258,press conference,True,35,2016-2022,neutral,neutral,hawkish
+78516,2004,hawkish,dovish,dovish,1,False,261,speech,False,13,1996-2007,neutral,neutral,hawkish
+78516,2007,dovish,neutral,neutral,1,False,188,meeting minutes,True,17,1996-2007,neutral,neutral,neutral
+78516,2005,neutral,dovish,dovish,1,False,160,speech,False,13,1996-2007,neutral,hawkish,neutral
+78516,1996,neutral,neutral,neutral,1,False,194,speech,False,24,1996-2007,neutral,neutral,neutral
+78516,1999,neutral,neutral,neutral,3,True,440,meeting minutes,False,56,1996-2007,neutral,neutral,hawkish
+78516,2003,neutral,dovish,dovish,1,False,200,meeting minutes,False,24,1996-2007,neutral,neutral,dovish
+78516,2006,neutral,neutral,neutral,1,False,306,meeting minutes,True,34,1996-2007,neutral,neutral,neutral
+78516,2001,neutral,neutral,neutral,1,False,237,speech,False,36,1996-2007,neutral,neutral,dovish
+78516,2000,hawkish,hawkish,hawkish,1,False,199,speech,True,53,1996-2007,neutral,dovish,hawkish
+78516,2021,neutral,neutral,neutral,1,False,162,press conference,False,26,2016-2022,neutral,neutral,neutral
+78516,2022,neutral,neutral,neutral,1,False,194,speech,False,45,2016-2022,neutral,neutral,neutral
+78516,2021,hawkish,hawkish,hawkish,1,False,268,speech,False,27,2016-2022,neutral,hawkish,hawkish
+78516,2006,dovish,neutral,neutral,1,False,201,speech,False,21,1996-2007,neutral,neutral,neutral
+78516,2004,neutral,neutral,neutral,1,False,247,meeting minutes,True,27,1996-2007,neutral,neutral,hawkish
+78516,2013,dovish,neutral,neutral,1,False,277,meeting minutes,False,18,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+78516,2007,neutral,dovish,dovish,1,False,338,meeting minutes,True,35,1996-2007,neutral,neutral,neutral
+78516,2016,neutral,neutral,neutral,1,False,225,meeting minutes,False,23,2016-2022,neutral,neutral,dovish
+78516,2021,dovish,neutral,neutral,1,False,341,press conference,False,42,2016-2022,neutral,neutral,dovish
+78516,2005,hawkish,neutral,neutral,1,False,266,speech,False,10,1996-2007,neutral,neutral,neutral
+78516,2013,dovish,neutral,neutral,1,False,309,meeting minutes,False,28,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,1999,neutral,neutral,neutral,1,False,278,meeting minutes,False,63,1996-2007,neutral,neutral,neutral
+78516,2011,neutral,dovish,dovish,1,False,250,meeting minutes,False,15,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2004,neutral,neutral,neutral,1,False,206,speech,False,21,1996-2007,neutral,neutral,neutral
+78516,2020,hawkish,dovish,dovish,1,False,267,press conference,False,13,2016-2022,neutral,neutral,dovish
+78516,2019,hawkish,dovish,dovish,1,False,267,meeting minutes,True,54,2016-2022,neutral,neutral,hawkish
+78516,2019,neutral,hawkish,hawkish,1,False,301,meeting minutes,False,48,2016-2022,neutral,dovish,neutral
+78516,2003,neutral,neutral,neutral,1,False,283,meeting minutes,False,32,1996-2007,neutral,neutral,dovish
+78516,2022,neutral,neutral,neutral,1,False,152,speech,False,10,2016-2022,neutral,neutral,neutral
+78516,2019,hawkish,neutral,neutral,1,False,155,press conference,False,23,2016-2022,neutral,neutral,hawkish
+78516,2007,dovish,neutral,neutral,1,False,234,speech,False,17,1996-2007,neutral,neutral,dovish
+78516,2014,hawkish,neutral,neutral,1,False,292,meeting minutes,False,26,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2010,neutral,neutral,neutral,1,False,170,meeting minutes,False,10,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2020,dovish,neutral,neutral,1,False,289,speech,False,32,2016-2022,neutral,dovish,neutral
+78516,2000,neutral,dovish,dovish,1,False,133,meeting minutes,True,26,1996-2007,neutral,dovish,hawkish
+78516,2013,hawkish,hawkish,hawkish,1,False,190,meeting minutes,False,23,"2008-2015 (crisis, zero bound)",neutral,hawkish,hawkish
+78516,2019,hawkish,neutral,neutral,1,False,342,meeting minutes,False,32,2016-2022,neutral,neutral,neutral
+78516,2015,neutral,dovish,dovish,1,False,290,meeting minutes,False,37,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+78516,2017,neutral,neutral,neutral,1,False,193,speech,True,17,2016-2022,neutral,neutral,hawkish
+78516,2003,hawkish,neutral,neutral,1,False,202,meeting minutes,False,24,1996-2007,neutral,neutral,hawkish
+78516,2007,neutral,neutral,neutral,1,False,156,speech,False,21,1996-2007,neutral,neutral,neutral
+78516,2005,dovish,dovish,dovish,1,False,320,speech,False,38,1996-2007,neutral,hawkish,neutral
+78516,2004,dovish,neutral,neutral,1,False,234,speech,True,26,1996-2007,neutral,neutral,hawkish
+78516,2004,neutral,neutral,neutral,1,False,209,meeting minutes,True,29,1996-2007,neutral,neutral,neutral
+78516,2002,neutral,neutral,neutral,1,False,189,meeting minutes,False,25,1996-2007,neutral,neutral,neutral
+78516,2013,neutral,neutral,neutral,1,False,202,speech,False,23,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2003,neutral,neutral,neutral,1,False,169,speech,False,30,1996-2007,neutral,neutral,neutral
+78516,2000,dovish,dovish,dovish,1,False,225,speech,False,4,1996-2007,neutral,neutral,dovish
+78516,2004,hawkish,hawkish,hawkish,1,False,181,speech,False,14,1996-2007,neutral,neutral,dovish
+78516,2018,hawkish,dovish,dovish,1,False,278,meeting minutes,False,37,2016-2022,neutral,neutral,neutral
+78516,2017,neutral,neutral,neutral,1,False,247,meeting minutes,False,42,2016-2022,neutral,neutral,neutral
+78516,2005,dovish,dovish,dovish,1,False,270,meeting minutes,False,27,1996-2007,neutral,dovish,dovish
+78516,2006,hawkish,neutral,neutral,1,False,240,speech,True,29,1996-2007,neutral,neutral,neutral
+78516,2010,hawkish,neutral,neutral,1,False,205,meeting minutes,False,8,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2002,hawkish,hawkish,hawkish,1,False,334,speech,False,20,1996-2007,neutral,hawkish,hawkish
+78516,2020,neutral,neutral,neutral,1,False,376,meeting minutes,False,32,2016-2022,neutral,dovish,neutral
+78516,2021,hawkish,neutral,neutral,1,False,227,speech,False,15,2016-2022,neutral,neutral,neutral
+78516,2001,hawkish,hawkish,hawkish,1,False,275,meeting minutes,False,39,1996-2007,neutral,hawkish,hawkish
+78516,2022,neutral,neutral,neutral,1,False,229,speech,False,35,2016-2022,neutral,neutral,neutral
+78516,2022,neutral,neutral,neutral,1,False,317,speech,False,31,2016-2022,neutral,neutral,neutral
+78516,1998,dovish,dovish,dovish,1,False,324,meeting minutes,False,39,1996-2007,neutral,dovish,dovish
+78516,2019,neutral,neutral,neutral,1,False,162,speech,True,44,2016-2022,neutral,neutral,neutral
+78516,2005,neutral,neutral,neutral,1,False,221,meeting minutes,True,31,1996-2007,neutral,neutral,neutral
+78516,2004,neutral,neutral,neutral,1,False,126,speech,True,8,1996-2007,neutral,neutral,neutral
+78516,2022,neutral,neutral,neutral,1,False,259,meeting minutes,False,53,2016-2022,neutral,dovish,neutral
+78516,2015,hawkish,neutral,neutral,1,False,183,meeting minutes,False,15,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2005,neutral,neutral,neutral,1,False,215,speech,False,22,1996-2007,neutral,neutral,neutral
+78516,1996,neutral,neutral,neutral,1,False,299,meeting minutes,False,70,1996-2007,neutral,dovish,neutral
+78516,2019,hawkish,neutral,neutral,1,False,186,meeting minutes,False,22,2016-2022,neutral,neutral,hawkish
+78516,2005,neutral,neutral,neutral,3,True,253,meeting minutes,True,28,1996-2007,neutral,neutral,neutral
+78516,2008,dovish,dovish,dovish,1,False,439,meeting minutes,True,48,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+78516,2016,neutral,neutral,neutral,1,False,202,press conference,False,16,2016-2022,neutral,neutral,neutral
+78516,2018,hawkish,neutral,neutral,1,False,308,meeting minutes,True,37,2016-2022,neutral,hawkish,neutral
+78516,2005,dovish,dovish,dovish,1,False,295,speech,False,27,1996-2007,neutral,neutral,dovish
+78516,2005,neutral,neutral,neutral,1,False,263,speech,False,28,1996-2007,neutral,neutral,neutral
+78516,1996,neutral,dovish,dovish,1,False,321,meeting minutes,False,30,1996-2007,neutral,dovish,neutral
+78516,2022,dovish,dovish,dovish,1,False,128,press conference,False,21,2016-2022,neutral,dovish,dovish
+78516,2005,dovish,dovish,dovish,1,False,277,speech,True,27,1996-2007,neutral,neutral,hawkish
+78516,2001,dovish,dovish,dovish,1,False,285,meeting minutes,False,32,1996-2007,neutral,neutral,dovish
+78516,2000,dovish,neutral,neutral,1,False,188,speech,False,39,1996-2007,neutral,neutral,dovish
+78516,2015,hawkish,neutral,neutral,1,False,361,meeting minutes,True,38,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2019,neutral,neutral,neutral,1,False,262,meeting minutes,False,21,2016-2022,neutral,neutral,neutral
+78516,2017,neutral,neutral,neutral,1,False,242,speech,False,25,2016-2022,neutral,neutral,dovish
+78516,2015,neutral,neutral,neutral,1,False,213,meeting minutes,False,18,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2004,dovish,neutral,neutral,1,False,170,speech,False,29,1996-2007,neutral,neutral,hawkish
+78516,2012,dovish,neutral,neutral,1,False,145,meeting minutes,False,31,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2008,dovish,neutral,neutral,1,False,298,meeting minutes,False,47,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+78516,2020,dovish,dovish,dovish,1,False,184,speech,True,66,2016-2022,neutral,neutral,dovish
+78516,2005,neutral,neutral,neutral,1,False,176,speech,False,16,1996-2007,neutral,neutral,neutral
+78516,2009,neutral,neutral,neutral,1,False,243,meeting minutes,False,39,"2008-2015 (crisis, zero bound)",neutral,dovish,hawkish
+78516,2014,neutral,neutral,neutral,1,False,134,press conference,False,13,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2022,neutral,neutral,neutral,1,False,192,meeting minutes,False,26,2016-2022,neutral,neutral,dovish
+78516,1997,dovish,neutral,neutral,1,False,252,meeting minutes,False,23,1996-2007,neutral,dovish,neutral
+78516,2009,hawkish,neutral,neutral,1,False,304,meeting minutes,False,61,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,1999,neutral,neutral,neutral,1,False,172,meeting minutes,False,14,1996-2007,neutral,neutral,hawkish
+78516,2014,dovish,neutral,neutral,1,False,256,press conference,False,33,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2003,neutral,neutral,neutral,1,False,157,speech,False,20,1996-2007,neutral,neutral,neutral
+78516,2001,neutral,neutral,neutral,1,False,284,meeting minutes,False,35,1996-2007,neutral,neutral,neutral
+78516,2009,hawkish,neutral,neutral,1,False,304,meeting minutes,False,61,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2022,hawkish,neutral,neutral,1,False,149,press conference,False,22,2016-2022,neutral,neutral,hawkish
+78516,2022,dovish,dovish,dovish,1,False,200,speech,False,16,2016-2022,neutral,neutral,dovish
+78516,2015,neutral,neutral,neutral,1,False,144,press conference,False,14,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+78516,2022,neutral,dovish,dovish,1,False,222,meeting minutes,False,52,2016-2022,neutral,neutral,neutral
+78516,2001,neutral,neutral,neutral,3,False,283,speech,False,22,1996-2007,neutral,neutral,neutral
+78516,2019,dovish,dovish,dovish,1,False,218,speech,False,33,2016-2022,neutral,dovish,dovish
+78516,2018,neutral,dovish,dovish,1,False,155,meeting minutes,False,22,2016-2022,neutral,neutral,neutral
+78516,2017,hawkish,hawkish,hawkish,1,False,208,meeting minutes,False,44,2016-2022,neutral,neutral,hawkish
+78516,1997,neutral,dovish,dovish,1,False,460,speech,False,32,1996-2007,neutral,neutral,neutral
+78516,2010,hawkish,dovish,dovish,1,False,410,meeting minutes,False,31,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2000,hawkish,hawkish,hawkish,1,False,199,speech,True,53,1996-2007,neutral,dovish,hawkish
+78516,2022,hawkish,hawkish,hawkish,1,False,304,speech,False,44,2016-2022,neutral,neutral,neutral
+78516,2020,hawkish,hawkish,hawkish,1,False,272,meeting minutes,False,29,2016-2022,neutral,hawkish,dovish
+78516,2020,neutral,neutral,neutral,1,False,236,speech,False,17,2016-2022,neutral,neutral,neutral
+78516,2006,neutral,neutral,neutral,1,False,161,speech,False,26,1996-2007,neutral,neutral,neutral
+78516,2005,dovish,neutral,neutral,1,False,167,speech,False,13,1996-2007,neutral,neutral,neutral
+78516,2004,neutral,neutral,neutral,1,False,213,speech,False,15,1996-2007,neutral,neutral,neutral
+78516,2000,neutral,neutral,neutral,1,False,148,speech,False,13,1996-2007,neutral,neutral,neutral
+78516,1996,neutral,neutral,neutral,1,False,243,speech,True,26,1996-2007,neutral,neutral,neutral
+78516,1998,neutral,neutral,neutral,1,False,383,speech,False,157,1996-2007,neutral,neutral,dovish
+78516,2000,hawkish,hawkish,hawkish,1,False,181,meeting minutes,True,22,1996-2007,neutral,hawkish,hawkish
+78516,2012,dovish,dovish,dovish,1,False,363,press conference,True,37,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+78516,2016,neutral,neutral,neutral,1,False,329,press conference,True,29,2016-2022,neutral,neutral,neutral
+78516,2003,neutral,neutral,neutral,1,False,263,speech,True,80,1996-2007,neutral,neutral,neutral
+78516,2022,hawkish,neutral,neutral,1,False,163,speech,False,26,2016-2022,neutral,neutral,hawkish
+78516,2022,dovish,dovish,dovish,1,False,376,meeting minutes,True,49,2016-2022,neutral,dovish,dovish
+78516,2004,hawkish,neutral,neutral,1,False,295,speech,True,34,1996-2007,neutral,hawkish,neutral
+78516,2021,dovish,neutral,neutral,1,False,216,speech,False,19,2016-2022,neutral,neutral,dovish
+78516,2019,neutral,neutral,neutral,1,False,183,speech,False,18,2016-2022,neutral,neutral,hawkish
+78516,2002,neutral,neutral,neutral,1,False,165,speech,False,17,1996-2007,neutral,neutral,neutral
+78516,2009,hawkish,neutral,neutral,1,False,269,meeting minutes,False,24,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2000,dovish,dovish,dovish,1,False,223,meeting minutes,False,34,1996-2007,neutral,dovish,hawkish
+78516,2019,neutral,neutral,neutral,1,False,174,meeting minutes,False,31,2016-2022,neutral,neutral,hawkish
+78516,2008,hawkish,neutral,neutral,1,False,216,meeting minutes,False,16,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2014,hawkish,neutral,neutral,3,True,394,meeting minutes,False,42,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+78516,2021,hawkish,neutral,neutral,1,False,348,press conference,False,48,2016-2022,neutral,neutral,dovish
+78516,1997,neutral,neutral,neutral,1,False,170,meeting minutes,False,53,1996-2007,neutral,neutral,neutral
+78516,2020,neutral,neutral,neutral,3,True,181,speech,False,19,2016-2022,neutral,neutral,neutral
+78516,1996,dovish,dovish,dovish,1,False,369,meeting minutes,True,45,1996-2007,neutral,dovish,dovish
+78516,2018,neutral,neutral,neutral,1,False,226,press conference,False,17,2016-2022,neutral,neutral,neutral
+78516,2004,neutral,neutral,neutral,1,False,183,speech,False,25,1996-2007,neutral,neutral,neutral
+78516,2012,hawkish,dovish,dovish,1,False,318,press conference,False,40,"2008-2015 (crisis, zero bound)",neutral,dovish,hawkish
+78516,2004,dovish,neutral,neutral,1,False,217,speech,False,12,1996-2007,neutral,neutral,dovish
+78516,2000,dovish,dovish,dovish,1,False,325,meeting minutes,False,58,1996-2007,neutral,neutral,dovish
+78516,2020,neutral,neutral,neutral,1,False,212,speech,False,41,2016-2022,neutral,neutral,neutral
+78516,2003,neutral,neutral,neutral,1,False,327,meeting minutes,False,35,1996-2007,neutral,neutral,dovish
+78516,2022,dovish,dovish,dovish,1,False,181,press conference,True,26,2016-2022,neutral,dovish,dovish
+78516,2009,neutral,hawkish,hawkish,1,False,306,meeting minutes,False,32,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2005,hawkish,hawkish,hawkish,1,False,260,speech,False,37,1996-2007,neutral,neutral,hawkish
+78516,2015,dovish,dovish,dovish,1,False,203,meeting minutes,False,42,"2008-2015 (crisis, zero bound)",neutral,dovish,hawkish
+78516,2014,dovish,dovish,dovish,1,False,224,press conference,False,25,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2010,hawkish,neutral,neutral,1,False,194,meeting minutes,False,27,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,1999,dovish,dovish,dovish,1,False,380,meeting minutes,False,48,1996-2007,neutral,hawkish,dovish
+78516,2013,dovish,dovish,dovish,1,False,232,speech,True,38,"2008-2015 (crisis, zero bound)",neutral,hawkish,hawkish
+78516,2017,dovish,dovish,dovish,1,False,213,meeting minutes,True,26,2016-2022,neutral,dovish,neutral
+78516,2014,neutral,dovish,dovish,1,False,302,meeting minutes,True,44,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2013,neutral,dovish,dovish,1,False,333,meeting minutes,False,12,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2019,hawkish,neutral,neutral,1,False,299,meeting minutes,True,27,2016-2022,neutral,neutral,hawkish
+78516,2001,neutral,neutral,neutral,1,False,189,meeting minutes,False,16,1996-2007,neutral,neutral,neutral
+78516,2008,hawkish,neutral,neutral,1,False,252,speech,False,41,"2008-2015 (crisis, zero bound)",neutral,hawkish,hawkish
+78516,1998,neutral,neutral,neutral,1,False,194,meeting minutes,False,17,1996-2007,neutral,neutral,dovish
+78516,2022,hawkish,neutral,neutral,1,False,180,speech,True,28,2016-2022,neutral,neutral,hawkish
+78516,2017,dovish,dovish,dovish,1,False,222,press conference,False,19,2016-2022,neutral,neutral,hawkish
+78516,1999,dovish,dovish,dovish,1,False,300,speech,False,43,1996-2007,neutral,dovish,dovish
+78516,2001,hawkish,neutral,neutral,1,False,322,meeting minutes,True,22,1996-2007,neutral,neutral,hawkish
+78516,2002,neutral,neutral,neutral,1,False,201,meeting minutes,False,24,1996-2007,neutral,neutral,hawkish
+78516,2006,neutral,neutral,neutral,1,False,204,speech,False,30,1996-2007,neutral,neutral,hawkish
+78516,2013,neutral,neutral,neutral,1,False,213,speech,False,17,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2015,neutral,neutral,neutral,1,False,147,meeting minutes,False,20,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,1999,neutral,neutral,neutral,1,False,204,speech,False,13,1996-2007,neutral,neutral,neutral
+78516,2011,hawkish,neutral,neutral,1,False,282,meeting minutes,False,46,"2008-2015 (crisis, zero bound)",neutral,hawkish,hawkish
+78516,2003,dovish,neutral,neutral,1,False,190,speech,False,42,1996-2007,neutral,neutral,neutral
+78516,2003,dovish,dovish,dovish,1,False,366,meeting minutes,False,26,1996-2007,neutral,neutral,dovish
+78516,2022,neutral,dovish,dovish,1,False,280,meeting minutes,False,44,2016-2022,neutral,dovish,dovish
+78516,2011,hawkish,neutral,neutral,1,False,224,meeting minutes,False,38,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+78516,2021,neutral,neutral,neutral,1,False,193,speech,False,33,2016-2022,neutral,neutral,neutral
+78516,2006,dovish,neutral,neutral,1,False,405,meeting minutes,True,43,1996-2007,neutral,neutral,neutral
+78516,2001,dovish,neutral,neutral,1,False,155,speech,False,23,1996-2007,neutral,neutral,neutral
+78516,2007,hawkish,neutral,neutral,1,False,300,meeting minutes,False,32,1996-2007,neutral,neutral,neutral
+78516,2007,neutral,neutral,neutral,1,False,203,speech,False,30,1996-2007,neutral,neutral,hawkish
+78516,2017,neutral,neutral,neutral,1,False,214,meeting minutes,True,23,2016-2022,neutral,neutral,neutral
+78516,2021,neutral,neutral,neutral,1,False,195,press conference,False,8,2016-2022,neutral,neutral,dovish
+78516,2001,dovish,neutral,neutral,1,False,197,speech,False,14,1996-2007,neutral,neutral,neutral
+78516,2008,hawkish,dovish,dovish,1,False,290,meeting minutes,True,39,"2008-2015 (crisis, zero bound)",neutral,hawkish,hawkish
+78516,2012,hawkish,hawkish,hawkish,1,False,190,meeting minutes,False,63,"2008-2015 (crisis, zero bound)",neutral,hawkish,hawkish
+78516,2005,hawkish,neutral,neutral,1,False,170,meeting minutes,False,15,1996-2007,neutral,neutral,hawkish
+78516,2022,hawkish,hawkish,hawkish,1,False,151,press conference,False,16,2016-2022,neutral,hawkish,hawkish
+78516,2007,neutral,neutral,neutral,1,False,292,meeting minutes,False,36,1996-2007,neutral,neutral,neutral
+78516,2021,hawkish,hawkish,hawkish,1,False,166,meeting minutes,False,48,2016-2022,neutral,neutral,hawkish
+78516,2018,hawkish,hawkish,hawkish,1,False,188,press conference,False,16,2016-2022,neutral,neutral,hawkish
+78516,2017,hawkish,neutral,neutral,1,False,174,meeting minutes,False,23,2016-2022,neutral,hawkish,hawkish
+78516,2003,dovish,dovish,dovish,1,False,368,meeting minutes,False,48,1996-2007,neutral,neutral,dovish
+78516,1996,dovish,neutral,neutral,1,False,250,speech,False,48,1996-2007,neutral,neutral,neutral
+78516,2003,hawkish,dovish,dovish,1,False,231,speech,False,19,1996-2007,neutral,dovish,neutral
+78516,2000,neutral,neutral,neutral,1,False,227,speech,False,23,1996-2007,neutral,neutral,hawkish
+78516,2006,neutral,neutral,neutral,1,False,229,speech,False,19,1996-2007,neutral,neutral,dovish
+78516,2005,hawkish,hawkish,hawkish,1,False,217,meeting minutes,False,26,1996-2007,neutral,neutral,hawkish
+78516,2000,neutral,neutral,neutral,1,False,227,speech,False,24,1996-2007,neutral,neutral,hawkish
+78516,1999,neutral,neutral,neutral,1,False,262,meeting minutes,False,29,1996-2007,neutral,neutral,hawkish
+78516,1996,neutral,neutral,neutral,1,False,233,speech,False,29,1996-2007,neutral,neutral,neutral
+78516,2022,neutral,neutral,neutral,1,False,146,speech,False,21,2016-2022,neutral,neutral,neutral
+78516,2002,neutral,neutral,neutral,1,False,215,speech,False,18,1996-2007,neutral,neutral,neutral
+78516,2001,dovish,neutral,neutral,1,False,386,meeting minutes,False,51,1996-2007,neutral,neutral,neutral
+78516,2021,neutral,neutral,neutral,1,False,172,speech,False,16,2016-2022,neutral,neutral,neutral
+78516,2018,neutral,neutral,neutral,1,False,182,press conference,True,26,2016-2022,neutral,neutral,dovish
+78516,1997,neutral,neutral,neutral,1,False,185,speech,False,23,1996-2007,neutral,dovish,neutral
+78516,2004,neutral,neutral,neutral,1,False,280,speech,False,38,1996-2007,neutral,neutral,neutral
+78516,2022,neutral,dovish,dovish,1,False,251,press conference,False,45,2016-2022,neutral,neutral,neutral
+78516,2022,hawkish,neutral,neutral,1,False,218,speech,False,20,2016-2022,neutral,neutral,neutral
+78516,2021,neutral,neutral,neutral,1,False,197,speech,True,33,2016-2022,neutral,neutral,neutral
+78516,2020,hawkish,neutral,neutral,1,False,271,press conference,False,32,2016-2022,neutral,neutral,hawkish
+78516,2017,neutral,neutral,neutral,1,False,238,meeting minutes,False,36,2016-2022,neutral,neutral,dovish
+78516,2020,neutral,neutral,neutral,1,False,323,speech,False,54,2016-2022,neutral,neutral,neutral
+78516,2003,hawkish,dovish,dovish,1,False,252,meeting minutes,False,19,1996-2007,neutral,neutral,dovish
+78516,2007,hawkish,neutral,neutral,1,False,127,meeting minutes,False,17,1996-2007,neutral,neutral,hawkish
+78516,2019,neutral,neutral,neutral,1,False,207,speech,False,22,2016-2022,neutral,neutral,neutral
+78516,2022,dovish,neutral,neutral,1,False,392,speech,True,33,2016-2022,neutral,neutral,dovish
+78516,2005,neutral,neutral,neutral,1,False,204,speech,False,33,1996-2007,neutral,neutral,neutral
+78516,2015,neutral,dovish,dovish,1,False,212,press conference,False,44,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+78516,2020,hawkish,neutral,neutral,1,False,270,press conference,False,23,2016-2022,neutral,neutral,dovish
+78516,2004,hawkish,dovish,dovish,1,False,242,speech,False,43,1996-2007,neutral,dovish,dovish
+78516,2020,neutral,hawkish,hawkish,1,False,323,speech,True,49,2016-2022,neutral,neutral,hawkish
+78516,1999,hawkish,hawkish,hawkish,1,False,185,meeting minutes,False,21,1996-2007,neutral,hawkish,hawkish
+78516,2020,neutral,hawkish,hawkish,1,False,201,press conference,False,21,2016-2022,neutral,dovish,neutral
+78516,1999,hawkish,neutral,neutral,1,False,304,meeting minutes,False,61,1996-2007,neutral,neutral,hawkish
+78516,2011,neutral,neutral,neutral,1,False,252,meeting minutes,False,31,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2008,neutral,neutral,neutral,1,False,352,meeting minutes,True,26,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2022,dovish,dovish,dovish,1,False,260,speech,False,46,2016-2022,neutral,neutral,hawkish
+78516,2019,neutral,dovish,dovish,1,False,198,speech,True,36,2016-2022,neutral,neutral,hawkish
+78516,2009,hawkish,neutral,neutral,1,False,304,meeting minutes,False,61,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2021,hawkish,neutral,neutral,1,False,245,meeting minutes,False,41,2016-2022,neutral,hawkish,neutral
+78516,2006,neutral,neutral,neutral,1,False,223,speech,True,60,1996-2007,neutral,hawkish,neutral
+78516,2015,neutral,neutral,neutral,1,False,330,meeting minutes,True,61,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2006,neutral,neutral,neutral,1,False,149,meeting minutes,True,14,1996-2007,neutral,neutral,neutral
+78516,2020,neutral,neutral,neutral,1,False,167,press conference,False,19,2016-2022,neutral,neutral,neutral
+78516,2004,neutral,neutral,neutral,1,False,158,speech,False,24,1996-2007,neutral,neutral,neutral
+78516,2021,neutral,neutral,neutral,1,False,209,speech,False,38,2016-2022,neutral,dovish,dovish
+78516,2021,neutral,neutral,neutral,1,False,187,speech,False,31,2016-2022,neutral,neutral,neutral
+78516,2020,dovish,dovish,dovish,1,False,290,speech,True,21,2016-2022,neutral,neutral,hawkish
+78516,2008,neutral,neutral,neutral,1,False,306,meeting minutes,True,23,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2016,dovish,neutral,neutral,3,True,436,meeting minutes,False,62,2016-2022,neutral,neutral,dovish
+78516,2021,neutral,neutral,neutral,1,False,182,speech,True,37,2016-2022,neutral,neutral,neutral
+78516,2002,neutral,neutral,neutral,1,False,297,speech,False,41,1996-2007,neutral,neutral,neutral
+78516,2020,neutral,dovish,dovish,1,False,422,meeting minutes,False,57,2016-2022,neutral,dovish,dovish
+78516,2015,dovish,dovish,dovish,1,False,308,meeting minutes,False,55,"2008-2015 (crisis, zero bound)",neutral,dovish,hawkish
+78516,2015,dovish,dovish,dovish,1,False,356,meeting minutes,False,47,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+78516,2001,dovish,neutral,neutral,1,False,415,meeting minutes,True,46,1996-2007,neutral,dovish,dovish
+78516,2017,dovish,dovish,dovish,1,False,171,press conference,False,9,2016-2022,neutral,neutral,hawkish
+78516,2003,dovish,dovish,dovish,1,False,261,meeting minutes,False,45,1996-2007,neutral,dovish,hawkish
+78516,2020,neutral,neutral,neutral,1,False,196,speech,False,24,2016-2022,neutral,neutral,dovish
+78516,2005,neutral,neutral,neutral,1,False,179,speech,False,49,1996-2007,neutral,dovish,hawkish
+78516,2009,dovish,neutral,neutral,1,False,271,meeting minutes,False,33,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+78516,2005,neutral,neutral,neutral,1,False,284,speech,True,28,1996-2007,neutral,neutral,dovish
+78516,2000,dovish,dovish,dovish,1,False,350,speech,False,22,1996-2007,neutral,neutral,dovish
+78516,2005,dovish,neutral,neutral,1,False,273,speech,False,132,1996-2007,neutral,neutral,dovish
+78516,2002,neutral,neutral,neutral,1,False,249,speech,False,16,1996-2007,neutral,dovish,hawkish
+78516,2001,dovish,neutral,neutral,1,False,257,speech,False,44,1996-2007,neutral,hawkish,neutral
+78516,2020,neutral,neutral,neutral,1,False,271,speech,True,66,2016-2022,neutral,neutral,neutral
+78516,2007,hawkish,dovish,dovish,1,False,436,speech,True,31,1996-2007,neutral,dovish,dovish
+78516,2020,neutral,neutral,neutral,3,True,298,meeting minutes,True,26,2016-2022,neutral,neutral,dovish
+78516,1999,dovish,neutral,neutral,1,False,277,speech,False,19,1996-2007,neutral,neutral,neutral
+78516,2016,hawkish,neutral,neutral,1,False,263,press conference,True,35,2016-2022,neutral,hawkish,hawkish
+78516,2000,dovish,dovish,dovish,2,False,342,meeting minutes,True,37,1996-2007,neutral,neutral,dovish
+78516,2008,dovish,dovish,dovish,1,False,273,meeting minutes,False,38,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+78516,2017,dovish,dovish,dovish,1,False,259,press conference,False,46,2016-2022,neutral,neutral,hawkish
+78516,2007,hawkish,neutral,neutral,1,False,247,meeting minutes,False,43,1996-2007,neutral,neutral,neutral
+78516,2005,neutral,dovish,dovish,1,False,317,meeting minutes,False,62,1996-2007,neutral,neutral,hawkish
+78516,1998,neutral,neutral,neutral,1,False,231,meeting minutes,False,26,1996-2007,neutral,neutral,neutral
+78516,2014,neutral,neutral,neutral,1,False,124,press conference,True,8,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2000,dovish,dovish,dovish,1,False,299,speech,True,43,1996-2007,neutral,neutral,hawkish
+78516,2004,neutral,neutral,neutral,1,False,377,speech,False,74,1996-2007,neutral,neutral,neutral
+78516,2014,hawkish,neutral,neutral,1,False,507,meeting minutes,False,47,"2008-2015 (crisis, zero bound)",neutral,hawkish,hawkish
+78516,2005,neutral,neutral,neutral,1,False,121,speech,False,19,1996-2007,neutral,neutral,neutral
+78516,2014,dovish,dovish,dovish,1,False,401,meeting minutes,True,40,"2008-2015 (crisis, zero bound)",neutral,dovish,neutral
+78516,2002,hawkish,neutral,neutral,1,False,204,meeting minutes,False,30,1996-2007,neutral,neutral,hawkish
+78516,2019,neutral,hawkish,hawkish,1,False,243,speech,True,37,2016-2022,neutral,neutral,hawkish
+78516,2021,neutral,neutral,neutral,1,False,194,speech,True,62,2016-2022,neutral,neutral,neutral
+78516,2000,neutral,dovish,dovish,1,False,288,speech,False,27,1996-2007,neutral,neutral,neutral
+78516,1998,neutral,neutral,neutral,1,False,284,speech,False,33,1996-2007,neutral,neutral,neutral
+78516,1999,neutral,neutral,neutral,1,False,243,speech,True,39,1996-2007,neutral,neutral,dovish
+78516,2006,dovish,dovish,dovish,1,False,254,speech,True,20,1996-2007,neutral,neutral,hawkish
+78516,2013,neutral,neutral,neutral,1,False,169,meeting minutes,False,21,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,1997,dovish,dovish,dovish,1,False,331,meeting minutes,False,39,1996-2007,neutral,neutral,neutral
+78516,2017,hawkish,hawkish,hawkish,1,False,141,meeting minutes,False,22,2016-2022,neutral,hawkish,hawkish
+78516,1999,neutral,dovish,dovish,1,False,314,meeting minutes,False,40,1996-2007,neutral,neutral,dovish
+78516,2021,neutral,neutral,neutral,1,False,238,speech,True,33,2016-2022,neutral,neutral,neutral
+78516,2004,dovish,dovish,dovish,1,False,304,meeting minutes,False,31,1996-2007,neutral,dovish,dovish
+78516,1998,neutral,neutral,neutral,1,False,266,speech,False,55,1996-2007,neutral,neutral,neutral
+78516,2005,hawkish,neutral,neutral,1,False,250,speech,False,22,1996-2007,neutral,hawkish,hawkish
+78516,2007,dovish,neutral,neutral,1,False,235,speech,True,16,1996-2007,neutral,dovish,dovish
+78516,2018,neutral,neutral,neutral,1,False,248,press conference,False,5,2016-2022,neutral,neutral,neutral
+78516,2020,neutral,neutral,neutral,1,False,210,speech,False,26,2016-2022,neutral,neutral,neutral
+78516,1999,neutral,neutral,neutral,1,False,221,speech,True,23,1996-2007,neutral,neutral,neutral
+78516,2004,neutral,neutral,neutral,1,False,292,speech,False,55,1996-2007,neutral,neutral,neutral
+78516,2015,dovish,dovish,dovish,1,False,272,meeting minutes,False,27,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2007,neutral,neutral,neutral,1,False,225,speech,True,26,1996-2007,neutral,neutral,neutral
+78516,2021,neutral,neutral,neutral,1,False,308,meeting minutes,False,34,2016-2022,neutral,dovish,hawkish
+78516,2016,hawkish,dovish,dovish,1,False,287,press conference,False,31,2016-2022,neutral,dovish,neutral
+78516,2006,neutral,neutral,neutral,1,False,237,speech,False,31,1996-2007,neutral,neutral,neutral
+78516,2004,neutral,neutral,neutral,1,False,210,meeting minutes,False,31,1996-2007,neutral,hawkish,neutral
+78516,1997,neutral,neutral,neutral,1,False,238,meeting minutes,True,25,1996-2007,neutral,neutral,neutral
+78516,2002,dovish,neutral,neutral,1,False,236,meeting minutes,False,20,1996-2007,neutral,neutral,neutral
+78516,1998,neutral,neutral,neutral,1,False,267,speech,True,14,1996-2007,neutral,neutral,neutral
+78516,2021,neutral,neutral,neutral,1,False,173,press conference,False,8,2016-2022,neutral,neutral,dovish
+78516,1998,hawkish,neutral,neutral,1,False,287,speech,False,29,1996-2007,neutral,neutral,neutral
+78516,2018,neutral,neutral,neutral,1,False,327,press conference,True,46,2016-2022,neutral,neutral,neutral
+78516,2010,neutral,neutral,neutral,3,True,472,meeting minutes,True,49,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2014,neutral,neutral,neutral,1,False,146,meeting minutes,False,29,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2019,dovish,neutral,neutral,1,False,295,press conference,False,36,2016-2022,neutral,neutral,hawkish
+78516,2016,hawkish,hawkish,hawkish,1,False,165,press conference,False,14,2016-2022,neutral,neutral,hawkish
+78516,2008,dovish,neutral,neutral,1,False,180,speech,False,31,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,1999,neutral,neutral,neutral,1,False,231,meeting minutes,False,22,1996-2007,neutral,neutral,neutral
+78516,2019,neutral,neutral,neutral,1,False,185,press conference,False,38,2016-2022,neutral,hawkish,neutral
+78516,2006,dovish,dovish,dovish,1,False,285,meeting minutes,False,36,1996-2007,neutral,dovish,dovish
+78516,2011,hawkish,hawkish,hawkish,1,False,195,meeting minutes,True,37,"2008-2015 (crisis, zero bound)",neutral,hawkish,dovish
+78516,2005,neutral,neutral,neutral,1,False,181,speech,False,28,1996-2007,neutral,neutral,neutral
+78516,2005,hawkish,hawkish,hawkish,1,False,273,speech,False,35,1996-2007,neutral,neutral,dovish
+78516,1997,hawkish,hawkish,hawkish,1,False,287,speech,True,35,1996-2007,neutral,neutral,hawkish
+78516,2006,neutral,neutral,neutral,1,False,183,speech,True,49,1996-2007,neutral,neutral,hawkish
+78516,2012,dovish,neutral,neutral,1,False,194,meeting minutes,True,36,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,1999,neutral,neutral,neutral,1,False,339,meeting minutes,False,41,1996-2007,neutral,neutral,neutral
+78516,2011,neutral,neutral,neutral,3,False,295,press conference,True,38,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,1998,neutral,neutral,neutral,1,False,260,speech,False,29,1996-2007,neutral,neutral,neutral
+78516,2008,dovish,dovish,dovish,1,False,330,meeting minutes,True,45,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2018,hawkish,neutral,neutral,1,False,221,press conference,False,17,2016-2022,neutral,neutral,hawkish
+78516,2004,dovish,dovish,dovish,1,False,218,speech,False,25,1996-2007,neutral,neutral,neutral
+78516,2017,hawkish,hawkish,hawkish,1,False,370,press conference,False,31,2016-2022,neutral,neutral,neutral
+78516,2016,neutral,neutral,neutral,1,False,196,press conference,False,6,2016-2022,neutral,neutral,neutral
+78516,2010,neutral,neutral,neutral,1,False,159,meeting minutes,False,20,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+78516,2004,neutral,neutral,neutral,1,False,233,speech,True,58,1996-2007,neutral,neutral,neutral
+78516,2017,hawkish,neutral,neutral,1,False,199,meeting minutes,True,32,2016-2022,neutral,neutral,neutral
+78516,2013,hawkish,neutral,neutral,1,False,459,meeting minutes,False,45,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2022,dovish,neutral,neutral,1,False,269,speech,True,36,2016-2022,neutral,neutral,neutral
+78516,1999,hawkish,neutral,neutral,1,False,243,speech,False,61,1996-2007,neutral,neutral,dovish
+78516,1997,dovish,dovish,dovish,1,False,330,meeting minutes,False,73,1996-2007,neutral,dovish,dovish
+78516,2005,neutral,neutral,neutral,1,False,140,speech,False,2,1996-2007,neutral,neutral,neutral
+78516,2009,dovish,dovish,dovish,1,False,189,meeting minutes,False,19,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+78516,2004,hawkish,neutral,neutral,1,False,193,speech,False,33,1996-2007,neutral,neutral,neutral
+78516,2005,neutral,neutral,neutral,1,False,178,speech,False,21,1996-2007,neutral,neutral,neutral
+78516,2019,neutral,neutral,neutral,3,True,178,press conference,False,11,2016-2022,neutral,neutral,neutral
+78516,1996,hawkish,hawkish,hawkish,1,False,269,meeting minutes,False,24,1996-2007,neutral,dovish,dovish
+78516,2012,dovish,neutral,neutral,1,False,199,meeting minutes,False,25,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2000,dovish,dovish,dovish,1,False,253,meeting minutes,False,30,1996-2007,neutral,dovish,dovish
+78516,1998,neutral,neutral,neutral,1,False,188,speech,False,18,1996-2007,neutral,neutral,neutral
+78516,2016,hawkish,neutral,neutral,1,False,180,meeting minutes,True,40,2016-2022,neutral,neutral,hawkish
+78516,2021,hawkish,hawkish,hawkish,1,False,235,speech,False,18,2016-2022,neutral,neutral,neutral
+78516,2021,dovish,dovish,dovish,1,False,245,press conference,False,23,2016-2022,neutral,neutral,hawkish
+78516,1997,hawkish,neutral,neutral,1,False,257,speech,False,62,1996-2007,neutral,neutral,neutral
+78516,2001,neutral,neutral,neutral,1,False,171,speech,False,26,1996-2007,neutral,neutral,neutral
+78516,2015,neutral,neutral,neutral,1,False,164,press conference,False,20,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,1998,dovish,neutral,neutral,1,False,155,speech,False,33,1996-2007,neutral,neutral,neutral
+78516,2007,hawkish,neutral,neutral,1,False,181,speech,False,17,1996-2007,neutral,neutral,neutral
+78516,2003,dovish,neutral,neutral,1,False,317,speech,False,30,1996-2007,neutral,neutral,hawkish
+78516,2017,neutral,neutral,neutral,1,False,234,speech,False,21,2016-2022,neutral,neutral,neutral
+78516,2001,dovish,dovish,dovish,1,False,403,meeting minutes,True,20,1996-2007,neutral,dovish,hawkish
+78516,2000,neutral,neutral,neutral,1,False,217,speech,False,45,1996-2007,neutral,neutral,neutral
+78516,2020,hawkish,hawkish,hawkish,1,False,215,press conference,False,6,2016-2022,neutral,neutral,neutral
+78516,2013,dovish,neutral,neutral,1,False,262,meeting minutes,False,45,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2013,hawkish,neutral,neutral,1,False,235,meeting minutes,False,36,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2022,dovish,dovish,dovish,1,False,219,meeting minutes,False,18,2016-2022,neutral,neutral,dovish
+78516,2022,dovish,neutral,neutral,1,False,219,press conference,True,27,2016-2022,neutral,neutral,neutral
+78516,2006,dovish,dovish,dovish,1,False,278,speech,False,24,1996-2007,neutral,neutral,neutral
+78516,2007,neutral,neutral,neutral,1,False,345,speech,False,41,1996-2007,neutral,neutral,neutral
+78516,2007,hawkish,neutral,neutral,1,False,262,meeting minutes,False,29,1996-2007,neutral,neutral,hawkish
+78516,2004,neutral,neutral,neutral,1,False,151,speech,False,32,1996-2007,neutral,neutral,neutral
+78516,2006,neutral,neutral,neutral,1,False,201,meeting minutes,False,27,1996-2007,neutral,neutral,dovish
+78516,2019,neutral,neutral,neutral,1,False,224,press conference,True,23,2016-2022,neutral,neutral,hawkish
+78516,2010,hawkish,neutral,neutral,1,False,210,meeting minutes,False,16,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+78516,2015,neutral,neutral,neutral,1,False,173,press conference,False,7,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2015,neutral,dovish,dovish,1,False,346,press conference,False,55,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+78516,2022,neutral,neutral,neutral,1,False,213,press conference,False,22,2016-2022,neutral,neutral,dovish
+78516,2004,dovish,dovish,dovish,1,False,268,meeting minutes,True,47,1996-2007,neutral,neutral,neutral
+78516,2006,dovish,neutral,neutral,1,False,229,speech,False,25,1996-2007,neutral,neutral,neutral
+78516,2005,neutral,hawkish,hawkish,1,False,187,speech,True,20,1996-2007,neutral,neutral,hawkish
+78516,2015,hawkish,neutral,neutral,1,False,363,meeting minutes,False,62,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2005,neutral,neutral,neutral,1,False,345,meeting minutes,False,28,1996-2007,neutral,neutral,dovish
+78516,1999,neutral,neutral,neutral,3,False,312,speech,False,24,1996-2007,neutral,neutral,neutral
+78516,2003,hawkish,hawkish,hawkish,1,False,185,meeting minutes,False,26,1996-2007,neutral,hawkish,hawkish
+78516,2016,dovish,neutral,neutral,1,False,168,press conference,False,16,2016-2022,neutral,neutral,dovish
+78516,2018,hawkish,neutral,neutral,1,False,200,press conference,False,20,2016-2022,neutral,neutral,dovish
+78516,2003,neutral,neutral,neutral,3,True,254,speech,True,37,1996-2007,neutral,neutral,neutral
+78516,2015,neutral,neutral,neutral,1,False,314,meeting minutes,False,40,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2001,neutral,neutral,neutral,1,False,212,speech,False,49,1996-2007,neutral,neutral,neutral
+78516,2014,dovish,dovish,dovish,1,False,211,meeting minutes,False,38,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+78516,1998,dovish,neutral,neutral,1,False,219,meeting minutes,True,26,1996-2007,neutral,neutral,dovish
+78516,2021,neutral,neutral,neutral,1,False,209,meeting minutes,False,19,2016-2022,neutral,neutral,neutral
+78516,2006,neutral,neutral,neutral,1,False,439,meeting minutes,False,37,1996-2007,neutral,neutral,neutral
+78516,2008,hawkish,neutral,neutral,1,False,191,speech,False,36,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2000,hawkish,neutral,neutral,1,False,360,meeting minutes,True,26,1996-2007,neutral,neutral,neutral
+78516,2019,dovish,dovish,dovish,2,False,314,meeting minutes,False,24,2016-2022,neutral,dovish,dovish
+78516,2017,neutral,neutral,neutral,1,False,305,meeting minutes,True,42,2016-2022,neutral,neutral,hawkish
+78516,2021,neutral,neutral,neutral,1,False,225,speech,False,28,2016-2022,neutral,neutral,neutral
+78516,2013,hawkish,hawkish,hawkish,1,False,171,meeting minutes,False,10,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,1998,dovish,neutral,neutral,1,False,383,meeting minutes,False,57,1996-2007,neutral,dovish,dovish
+78516,2021,neutral,neutral,neutral,1,False,176,speech,False,32,2016-2022,neutral,hawkish,neutral
+78516,1997,hawkish,hawkish,hawkish,1,False,226,meeting minutes,False,23,1996-2007,neutral,hawkish,hawkish
+78516,2006,neutral,neutral,neutral,1,False,306,speech,False,18,1996-2007,neutral,neutral,neutral
+78516,2015,dovish,neutral,neutral,1,False,151,press conference,False,12,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+78516,2018,neutral,neutral,neutral,1,False,194,meeting minutes,False,12,2016-2022,neutral,neutral,neutral
+78516,1998,dovish,dovish,dovish,1,False,238,speech,False,18,1996-2007,neutral,neutral,dovish
+78516,2006,neutral,neutral,neutral,1,False,234,speech,True,12,1996-2007,neutral,neutral,neutral
+78516,2003,dovish,dovish,dovish,1,False,341,speech,False,82,1996-2007,neutral,dovish,dovish
+78516,2022,neutral,neutral,neutral,3,True,254,speech,True,34,2016-2022,neutral,neutral,neutral
+78516,1999,neutral,neutral,neutral,1,False,271,meeting minutes,False,31,1996-2007,neutral,neutral,neutral
+78516,2006,neutral,neutral,neutral,1,False,181,speech,False,23,1996-2007,neutral,neutral,neutral
+78516,2003,dovish,neutral,neutral,1,False,240,meeting minutes,False,38,1996-2007,neutral,dovish,dovish
+78516,1999,dovish,dovish,dovish,1,False,315,meeting minutes,False,45,1996-2007,neutral,dovish,dovish
+78516,2000,hawkish,dovish,dovish,1,False,219,meeting minutes,False,39,1996-2007,neutral,neutral,hawkish
+78516,2018,dovish,dovish,dovish,1,False,344,press conference,True,53,2016-2022,neutral,neutral,neutral
+78516,2005,neutral,neutral,neutral,1,False,198,speech,False,27,1996-2007,neutral,neutral,neutral
+78516,2004,neutral,hawkish,hawkish,1,False,255,speech,False,39,1996-2007,neutral,neutral,hawkish
+78516,1998,hawkish,hawkish,hawkish,1,False,298,meeting minutes,False,36,1996-2007,neutral,neutral,hawkish
+78516,1996,hawkish,neutral,neutral,1,False,207,meeting minutes,False,25,1996-2007,neutral,neutral,hawkish
+78516,2013,hawkish,neutral,neutral,1,False,239,speech,False,30,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2020,neutral,neutral,neutral,1,False,466,meeting minutes,True,46,2016-2022,neutral,neutral,dovish
+78516,2015,neutral,neutral,neutral,1,False,184,meeting minutes,False,26,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+78516,2017,dovish,neutral,neutral,1,False,163,press conference,False,31,2016-2022,neutral,neutral,neutral
+78516,2020,neutral,neutral,neutral,1,False,188,speech,False,22,2016-2022,neutral,neutral,neutral
+78516,1999,hawkish,dovish,dovish,1,False,197,speech,False,27,1996-2007,neutral,neutral,neutral
+78516,2013,neutral,neutral,neutral,1,False,207,meeting minutes,False,37,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+78516,2003,neutral,neutral,neutral,1,False,174,meeting minutes,False,14,1996-2007,neutral,neutral,neutral
+78516,2021,neutral,neutral,neutral,1,False,221,speech,False,46,2016-2022,neutral,neutral,dovish
+78516,1998,dovish,neutral,neutral,3,True,305,meeting minutes,True,15,1996-2007,neutral,dovish,neutral
+78516,2020,hawkish,hawkish,hawkish,1,False,303,speech,False,20,2016-2022,neutral,neutral,hawkish
+78516,2001,neutral,neutral,neutral,1,False,200,meeting minutes,False,51,1996-2007,neutral,neutral,hawkish
+78516,2016,neutral,neutral,neutral,1,False,252,meeting minutes,False,22,2016-2022,neutral,neutral,neutral
+78516,2004,hawkish,hawkish,hawkish,1,False,255,speech,False,39,1996-2007,neutral,neutral,hawkish
+78516,2014,dovish,neutral,neutral,1,False,281,meeting minutes,False,41,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+78516,2000,hawkish,dovish,dovish,1,False,219,meeting minutes,True,26,1996-2007,neutral,neutral,hawkish
+78516,2020,neutral,neutral,neutral,1,False,153,meeting minutes,False,16,2016-2022,neutral,neutral,neutral
+78516,2004,neutral,neutral,neutral,1,False,236,meeting minutes,False,21,1996-2007,neutral,neutral,neutral
+78516,2018,neutral,neutral,neutral,1,False,249,meeting minutes,False,30,2016-2022,neutral,neutral,hawkish
+78516,1998,neutral,neutral,neutral,1,False,284,meeting minutes,True,43,1996-2007,neutral,neutral,neutral
+78516,2019,hawkish,neutral,neutral,1,False,325,speech,False,37,2016-2022,neutral,dovish,dovish
+78516,2013,neutral,neutral,neutral,1,False,200,press conference,False,23,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2006,hawkish,hawkish,hawkish,1,False,211,speech,False,35,1996-2007,neutral,neutral,hawkish
+78516,2015,hawkish,neutral,neutral,1,False,198,meeting minutes,False,17,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2006,neutral,neutral,neutral,1,False,307,speech,True,41,1996-2007,neutral,neutral,neutral
+78516,1999,hawkish,neutral,neutral,1,False,188,meeting minutes,False,22,1996-2007,neutral,neutral,hawkish
+78516,1999,dovish,dovish,dovish,1,False,265,speech,False,29,1996-2007,neutral,dovish,dovish
+78516,2017,neutral,neutral,neutral,1,False,220,meeting minutes,False,50,2016-2022,neutral,neutral,neutral
+78516,1997,neutral,neutral,neutral,1,False,179,meeting minutes,True,52,1996-2007,neutral,hawkish,neutral
+78516,1997,neutral,neutral,neutral,1,False,366,speech,True,39,1996-2007,neutral,neutral,hawkish
+78516,2020,neutral,neutral,neutral,1,False,299,speech,True,56,2016-2022,neutral,neutral,neutral
+78516,1999,hawkish,hawkish,hawkish,1,False,184,speech,False,28,1996-2007,neutral,dovish,hawkish
+78516,2022,hawkish,hawkish,hawkish,1,False,387,meeting minutes,False,37,2016-2022,neutral,hawkish,hawkish
+78516,2004,neutral,neutral,neutral,1,False,185,speech,False,23,1996-2007,neutral,neutral,neutral
+78516,2014,neutral,neutral,neutral,1,False,201,meeting minutes,False,10,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2022,neutral,neutral,neutral,1,False,230,speech,False,26,2016-2022,neutral,neutral,neutral
+78516,2016,hawkish,neutral,neutral,1,False,234,press conference,False,10,2016-2022,neutral,neutral,neutral
+78516,2022,neutral,neutral,neutral,1,False,251,speech,False,23,2016-2022,neutral,neutral,neutral
+78516,2012,neutral,neutral,neutral,1,False,207,meeting minutes,True,27,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2021,dovish,neutral,neutral,1,False,210,speech,False,23,2016-2022,neutral,neutral,neutral
+78516,1997,neutral,neutral,neutral,1,False,251,speech,False,16,1996-2007,neutral,neutral,dovish
+78516,2019,neutral,neutral,neutral,1,False,206,press conference,False,25,2016-2022,neutral,neutral,dovish
+78516,2008,hawkish,neutral,neutral,1,False,174,speech,False,24,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2017,neutral,neutral,neutral,1,False,186,press conference,False,25,2016-2022,neutral,neutral,neutral
+78516,2014,dovish,neutral,neutral,1,False,296,meeting minutes,False,17,"2008-2015 (crisis, zero bound)",neutral,hawkish,dovish
+78516,2022,dovish,neutral,neutral,1,False,171,speech,False,21,2016-2022,neutral,neutral,neutral
+78516,2021,hawkish,neutral,neutral,1,False,242,meeting minutes,False,47,2016-2022,neutral,dovish,hawkish
+78516,2003,neutral,neutral,neutral,1,False,251,speech,False,31,1996-2007,neutral,neutral,hawkish
+78516,1999,hawkish,neutral,neutral,1,False,251,meeting minutes,False,24,1996-2007,neutral,hawkish,hawkish
+78516,2009,neutral,neutral,neutral,1,False,294,meeting minutes,False,46,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,2021,neutral,neutral,neutral,1,False,164,speech,True,20,2016-2022,neutral,neutral,neutral
+78516,2014,hawkish,hawkish,hawkish,1,False,247,meeting minutes,False,31,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+78516,1998,hawkish,neutral,neutral,1,False,241,speech,True,53,1996-2007,neutral,neutral,neutral
+78516,2003,neutral,dovish,dovish,1,False,320,meeting minutes,False,36,1996-2007,neutral,hawkish,neutral
+78516,2004,hawkish,neutral,neutral,1,False,245,speech,False,24,1996-2007,neutral,hawkish,hawkish
+944601,2010,hawkish,neutral,neutral,1,False,210,meeting minutes,False,16,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,2009,hawkish,neutral,neutral,1,False,313,meeting minutes,False,30,"2008-2015 (crisis, zero bound)",neutral,dovish,hawkish
+944601,2017,neutral,neutral,neutral,1,False,230,meeting minutes,False,18,2016-2022,neutral,neutral,neutral
+944601,1998,dovish,neutral,neutral,3,True,305,meeting minutes,True,15,1996-2007,neutral,dovish,dovish
+944601,2002,hawkish,hawkish,hawkish,1,False,334,speech,False,20,1996-2007,neutral,hawkish,hawkish
+944601,2018,neutral,neutral,neutral,1,False,327,press conference,True,46,2016-2022,neutral,neutral,neutral
+944601,2011,dovish,dovish,dovish,1,False,252,press conference,False,23,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,2000,neutral,neutral,neutral,3,False,169,speech,False,13,1996-2007,neutral,neutral,neutral
+944601,2002,neutral,neutral,neutral,1,False,180,speech,False,12,1996-2007,neutral,neutral,neutral
+944601,1997,hawkish,dovish,dovish,1,False,314,meeting minutes,False,40,1996-2007,neutral,hawkish,hawkish
+944601,1997,neutral,neutral,neutral,1,False,258,speech,False,9,1996-2007,neutral,neutral,neutral
+944601,2013,neutral,neutral,neutral,3,False,246,press conference,False,13,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,2005,neutral,neutral,neutral,1,False,140,speech,False,2,1996-2007,neutral,neutral,neutral
+944601,2017,neutral,neutral,neutral,1,False,212,meeting minutes,True,49,2016-2022,neutral,neutral,dovish
+944601,2020,neutral,dovish,dovish,1,False,384,meeting minutes,True,57,2016-2022,neutral,dovish,neutral
+944601,2005,hawkish,hawkish,hawkish,1,False,260,speech,False,37,1996-2007,neutral,neutral,hawkish
+944601,2019,dovish,neutral,neutral,1,False,277,speech,False,59,2016-2022,neutral,neutral,dovish
+944601,2017,hawkish,neutral,neutral,1,False,186,speech,False,29,2016-2022,neutral,neutral,hawkish
+944601,2007,neutral,neutral,neutral,1,False,214,meeting minutes,False,11,1996-2007,neutral,neutral,neutral
+944601,2021,neutral,dovish,dovish,1,False,195,meeting minutes,False,43,2016-2022,neutral,neutral,hawkish
+944601,2020,neutral,neutral,neutral,1,False,213,speech,False,15,2016-2022,neutral,neutral,neutral
+944601,2001,dovish,dovish,dovish,1,False,644,meeting minutes,False,73,1996-2007,neutral,neutral,dovish
+944601,2020,neutral,neutral,neutral,3,True,298,meeting minutes,True,26,2016-2022,neutral,neutral,dovish
+944601,2004,neutral,neutral,neutral,1,False,163,speech,False,27,1996-2007,neutral,neutral,neutral
+944601,2021,dovish,neutral,neutral,1,False,215,speech,False,18,2016-2022,neutral,neutral,dovish
+944601,2016,hawkish,neutral,neutral,1,False,178,meeting minutes,True,40,2016-2022,neutral,neutral,hawkish
+944601,1999,dovish,dovish,dovish,1,False,313,meeting minutes,False,48,1996-2007,neutral,hawkish,dovish
+944601,2005,dovish,dovish,dovish,1,False,320,speech,False,38,1996-2007,neutral,hawkish,neutral
+944601,2016,hawkish,neutral,neutral,1,False,171,press conference,False,10,2016-2022,neutral,neutral,hawkish
+944601,2012,hawkish,neutral,neutral,1,False,293,meeting minutes,False,23,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,2004,dovish,neutral,neutral,1,False,184,speech,False,12,1996-2007,neutral,neutral,dovish
+944601,2013,hawkish,dovish,dovish,1,False,283,press conference,False,37,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+944601,2007,neutral,dovish,dovish,1,False,265,meeting minutes,True,35,1996-2007,neutral,neutral,neutral
+944601,2021,dovish,neutral,neutral,1,False,237,meeting minutes,False,18,2016-2022,neutral,neutral,neutral
+944601,2001,neutral,neutral,neutral,1,False,256,speech,False,68,1996-2007,neutral,neutral,neutral
+944601,2019,dovish,dovish,dovish,1,False,300,speech,False,28,2016-2022,neutral,neutral,dovish
+944601,2002,neutral,neutral,neutral,1,False,267,meeting minutes,False,38,1996-2007,neutral,neutral,neutral
+944601,2021,neutral,neutral,neutral,1,False,162,press conference,False,26,2016-2022,neutral,neutral,dovish
+944601,2021,neutral,neutral,neutral,1,False,187,press conference,False,8,2016-2022,neutral,neutral,dovish
+944601,2016,neutral,neutral,neutral,1,False,187,meeting minutes,False,25,2016-2022,neutral,neutral,neutral
+944601,2013,neutral,dovish,dovish,1,False,274,press conference,False,40,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,1999,neutral,neutral,neutral,1,False,145,speech,False,18,1996-2007,neutral,neutral,neutral
+944601,2011,dovish,dovish,dovish,1,False,245,press conference,False,32,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+944601,2005,neutral,neutral,neutral,1,False,214,speech,False,32,1996-2007,neutral,neutral,neutral
+944601,2012,neutral,neutral,neutral,1,False,334,meeting minutes,True,18,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+944601,2022,hawkish,neutral,neutral,1,False,196,speech,False,29,2016-2022,neutral,neutral,neutral
+944601,2020,dovish,neutral,neutral,1,False,190,press conference,False,19,2016-2022,neutral,hawkish,dovish
+944601,2002,neutral,neutral,neutral,1,False,299,meeting minutes,False,38,1996-2007,neutral,neutral,neutral
+944601,2008,hawkish,neutral,neutral,1,False,181,meeting minutes,False,16,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+944601,2006,neutral,neutral,neutral,1,False,242,meeting minutes,False,24,1996-2007,neutral,neutral,neutral
+944601,2006,hawkish,neutral,neutral,1,False,198,speech,False,23,1996-2007,neutral,neutral,dovish
+944601,2000,dovish,neutral,neutral,1,False,256,speech,False,25,1996-2007,neutral,neutral,dovish
+944601,2018,hawkish,neutral,neutral,1,False,287,meeting minutes,True,24,2016-2022,neutral,dovish,hawkish
+944601,2007,neutral,neutral,neutral,1,False,261,meeting minutes,True,34,1996-2007,neutral,hawkish,hawkish
+944601,2019,hawkish,hawkish,hawkish,1,False,300,meeting minutes,True,29,2016-2022,neutral,neutral,dovish
+944601,1999,hawkish,neutral,neutral,3,True,257,meeting minutes,False,61,1996-2007,neutral,neutral,hawkish
+944601,2016,neutral,neutral,neutral,1,False,329,press conference,True,29,2016-2022,neutral,neutral,neutral
+944601,1997,neutral,neutral,neutral,1,False,314,meeting minutes,False,30,1996-2007,neutral,neutral,neutral
+944601,2006,neutral,neutral,neutral,1,False,201,meeting minutes,False,27,1996-2007,neutral,neutral,dovish
+944601,2022,dovish,dovish,dovish,1,False,270,speech,False,32,2016-2022,neutral,neutral,hawkish
+944601,2009,neutral,neutral,neutral,1,False,283,meeting minutes,False,49,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+944601,2020,neutral,dovish,dovish,1,False,537,meeting minutes,False,34,2016-2022,neutral,dovish,dovish
+944601,2022,dovish,dovish,dovish,1,False,280,meeting minutes,False,52,2016-2022,neutral,dovish,dovish
+944601,2003,hawkish,hawkish,hawkish,1,False,382,meeting minutes,False,49,1996-2007,neutral,hawkish,dovish
+944601,1996,neutral,neutral,neutral,1,False,290,speech,False,19,1996-2007,neutral,neutral,dovish
+944601,2008,neutral,neutral,neutral,1,False,282,speech,False,30,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,2002,neutral,neutral,neutral,1,False,281,meeting minutes,False,21,1996-2007,neutral,neutral,neutral
+944601,2001,neutral,neutral,neutral,1,False,160,speech,False,8,1996-2007,neutral,neutral,neutral
+944601,2021,hawkish,neutral,neutral,3,True,610,meeting minutes,True,56,2016-2022,neutral,neutral,hawkish
+944601,2004,neutral,neutral,neutral,1,False,226,meeting minutes,False,25,1996-2007,neutral,neutral,neutral
+944601,2005,dovish,dovish,dovish,1,False,170,meeting minutes,True,34,1996-2007,neutral,neutral,dovish
+944601,2021,neutral,neutral,neutral,1,False,177,press conference,False,20,2016-2022,neutral,neutral,neutral
+944601,2006,hawkish,dovish,dovish,2,False,529,meeting minutes,False,67,1996-2007,neutral,hawkish,neutral
+944601,2019,hawkish,neutral,neutral,1,False,197,speech,False,14,2016-2022,neutral,neutral,neutral
+944601,2021,neutral,neutral,neutral,1,False,170,press conference,True,26,2016-2022,neutral,neutral,neutral
+944601,2007,hawkish,hawkish,hawkish,1,False,199,meeting minutes,False,27,1996-2007,neutral,hawkish,hawkish
+944601,2021,neutral,neutral,neutral,1,False,173,speech,False,27,2016-2022,neutral,neutral,dovish
+944601,2019,neutral,dovish,dovish,1,False,268,speech,False,19,2016-2022,neutral,hawkish,hawkish
+944601,2019,neutral,neutral,neutral,3,False,253,press conference,False,10,2016-2022,neutral,neutral,dovish
+944601,2013,dovish,dovish,dovish,1,False,331,meeting minutes,False,26,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,2001,neutral,neutral,neutral,1,False,237,speech,False,38,1996-2007,neutral,neutral,neutral
+944601,2016,hawkish,neutral,neutral,1,False,187,meeting minutes,False,21,2016-2022,neutral,dovish,neutral
+944601,2010,hawkish,hawkish,hawkish,1,False,357,meeting minutes,False,42,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+944601,2007,hawkish,hawkish,hawkish,1,False,282,speech,False,27,1996-2007,neutral,neutral,neutral
+944601,2007,neutral,dovish,dovish,1,False,335,speech,False,33,1996-2007,neutral,neutral,hawkish
+944601,2021,dovish,dovish,dovish,1,False,166,meeting minutes,False,20,2016-2022,neutral,neutral,hawkish
+944601,2020,neutral,neutral,neutral,1,False,376,meeting minutes,False,32,2016-2022,neutral,dovish,neutral
+944601,2005,neutral,neutral,neutral,1,False,176,speech,False,16,1996-2007,neutral,neutral,neutral
+944601,2005,neutral,neutral,neutral,1,False,322,speech,False,52,1996-2007,neutral,neutral,neutral
+944601,1997,hawkish,neutral,neutral,1,False,165,speech,False,19,1996-2007,neutral,neutral,hawkish
+944601,2020,neutral,neutral,neutral,1,False,191,press conference,False,11,2016-2022,neutral,neutral,neutral
+944601,2020,neutral,neutral,neutral,1,False,165,speech,False,16,2016-2022,neutral,neutral,dovish
+944601,2021,dovish,dovish,dovish,1,False,241,press conference,False,13,2016-2022,neutral,neutral,neutral
+944601,2022,neutral,neutral,neutral,1,False,230,speech,False,26,2016-2022,neutral,neutral,neutral
+944601,2003,hawkish,hawkish,hawkish,1,False,277,speech,False,42,1996-2007,neutral,hawkish,hawkish
+944601,2006,dovish,neutral,neutral,1,False,229,speech,False,25,1996-2007,neutral,neutral,neutral
+944601,2012,hawkish,neutral,neutral,1,False,226,press conference,False,17,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+944601,2015,neutral,dovish,dovish,1,False,346,press conference,False,55,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,2005,dovish,hawkish,hawkish,1,False,218,meeting minutes,False,13,1996-2007,neutral,neutral,hawkish
+944601,2020,hawkish,neutral,neutral,1,False,282,meeting minutes,False,45,2016-2022,neutral,neutral,hawkish
+944601,1997,neutral,neutral,neutral,1,False,273,speech,False,39,1996-2007,neutral,neutral,neutral
+944601,2020,hawkish,dovish,dovish,1,False,159,press conference,False,16,2016-2022,neutral,neutral,hawkish
+944601,2004,neutral,neutral,neutral,1,False,205,speech,False,49,1996-2007,neutral,neutral,neutral
+944601,1997,dovish,neutral,neutral,1,False,235,meeting minutes,False,42,1996-2007,neutral,dovish,neutral
+944601,1997,neutral,neutral,neutral,1,False,328,speech,False,27,1996-2007,neutral,neutral,neutral
+944601,2007,neutral,neutral,neutral,1,False,181,speech,False,12,1996-2007,neutral,neutral,neutral
+944601,2016,hawkish,neutral,neutral,1,False,233,meeting minutes,False,15,2016-2022,neutral,neutral,dovish
+944601,2021,neutral,neutral,neutral,1,False,205,press conference,False,64,2016-2022,neutral,neutral,hawkish
+944601,2004,neutral,neutral,neutral,1,False,499,meeting minutes,False,66,1996-2007,neutral,neutral,neutral
+944601,2001,neutral,neutral,neutral,1,False,257,meeting minutes,False,27,1996-2007,neutral,neutral,hawkish
+944601,2021,neutral,neutral,neutral,1,False,201,press conference,False,24,2016-2022,neutral,neutral,dovish
+944601,2020,hawkish,neutral,neutral,1,False,199,meeting minutes,False,27,2016-2022,neutral,dovish,hawkish
+944601,2022,dovish,dovish,dovish,1,False,212,speech,False,38,2016-2022,neutral,neutral,neutral
+944601,2005,neutral,neutral,neutral,3,True,267,meeting minutes,True,27,1996-2007,neutral,dovish,neutral
+944601,2017,neutral,dovish,dovish,1,False,204,meeting minutes,False,23,2016-2022,neutral,dovish,dovish
+944601,2003,dovish,dovish,dovish,1,False,368,meeting minutes,False,48,1996-2007,neutral,neutral,dovish
+944601,1999,neutral,neutral,neutral,1,False,260,meeting minutes,False,31,1996-2007,neutral,neutral,neutral
+944601,2013,neutral,neutral,neutral,1,False,292,meeting minutes,False,20,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+944601,2003,hawkish,dovish,dovish,1,False,259,meeting minutes,False,40,1996-2007,neutral,neutral,hawkish
+944601,2022,neutral,neutral,neutral,1,False,277,speech,False,21,2016-2022,neutral,neutral,neutral
+944601,2016,hawkish,neutral,neutral,1,False,221,meeting minutes,False,26,2016-2022,neutral,neutral,hawkish
+944601,2008,hawkish,dovish,dovish,1,False,285,speech,False,48,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+944601,2005,hawkish,hawkish,hawkish,1,False,182,speech,False,16,1996-2007,neutral,neutral,hawkish
+944601,2003,dovish,neutral,neutral,1,False,324,meeting minutes,False,46,1996-2007,neutral,neutral,dovish
+944601,2011,dovish,dovish,dovish,1,False,208,meeting minutes,False,18,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+944601,2013,neutral,dovish,dovish,1,False,195,press conference,False,14,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+944601,2003,neutral,dovish,dovish,1,False,325,meeting minutes,False,36,1996-2007,neutral,hawkish,hawkish
+944601,2005,dovish,dovish,dovish,1,False,236,speech,True,38,1996-2007,neutral,neutral,dovish
+944601,2000,hawkish,neutral,neutral,1,False,243,speech,False,18,1996-2007,neutral,neutral,dovish
+944601,1997,hawkish,neutral,neutral,1,False,252,meeting minutes,False,36,1996-2007,neutral,neutral,neutral
+944601,2014,hawkish,hawkish,hawkish,1,False,158,press conference,False,32,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+944601,2001,dovish,neutral,neutral,1,False,269,speech,False,28,1996-2007,neutral,dovish,hawkish
+944601,2013,neutral,neutral,neutral,1,False,207,meeting minutes,False,37,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,2001,neutral,neutral,neutral,1,False,242,speech,False,39,1996-2007,neutral,neutral,neutral
+944601,2022,neutral,dovish,dovish,1,False,280,meeting minutes,False,44,2016-2022,neutral,dovish,neutral
+944601,2001,neutral,neutral,neutral,1,False,247,speech,False,29,1996-2007,neutral,neutral,neutral
+944601,2019,neutral,neutral,neutral,1,False,278,press conference,True,45,2016-2022,neutral,hawkish,neutral
+944601,2000,neutral,neutral,neutral,1,False,171,speech,False,33,1996-2007,neutral,neutral,neutral
+944601,2022,hawkish,neutral,neutral,1,False,230,meeting minutes,False,31,2016-2022,neutral,neutral,neutral
+944601,1996,hawkish,hawkish,hawkish,1,False,274,meeting minutes,False,27,1996-2007,neutral,neutral,dovish
+944601,2017,hawkish,neutral,neutral,1,False,371,meeting minutes,False,43,2016-2022,neutral,neutral,hawkish
+944601,2003,neutral,neutral,neutral,1,False,250,meeting minutes,False,33,1996-2007,neutral,neutral,dovish
+944601,2016,dovish,neutral,neutral,3,True,436,meeting minutes,False,62,2016-2022,neutral,neutral,dovish
+944601,2000,hawkish,hawkish,hawkish,1,False,220,speech,True,29,1996-2007,neutral,neutral,neutral
+944601,2003,neutral,neutral,neutral,1,False,205,speech,False,15,1996-2007,neutral,neutral,neutral
+944601,2005,dovish,neutral,neutral,1,False,249,speech,True,45,1996-2007,neutral,neutral,neutral
+944601,2007,neutral,dovish,dovish,1,False,226,speech,False,11,1996-2007,neutral,hawkish,hawkish
+944601,2007,dovish,dovish,dovish,1,False,273,meeting minutes,False,35,1996-2007,neutral,dovish,dovish
+944601,2000,dovish,dovish,dovish,1,False,233,speech,False,6,1996-2007,neutral,neutral,dovish
+944601,2006,neutral,neutral,neutral,1,False,296,speech,False,88,1996-2007,neutral,neutral,neutral
+944601,2003,dovish,neutral,neutral,1,False,234,meeting minutes,False,38,1996-2007,neutral,dovish,dovish
+944601,2004,neutral,neutral,neutral,1,False,183,speech,False,10,1996-2007,neutral,neutral,neutral
+944601,1997,neutral,neutral,neutral,1,False,310,meeting minutes,False,44,1996-2007,neutral,neutral,dovish
+944601,2003,dovish,neutral,neutral,1,False,271,meeting minutes,False,45,1996-2007,neutral,neutral,neutral
+944601,1996,neutral,neutral,neutral,1,False,481,meeting minutes,True,58,1996-2007,neutral,neutral,neutral
+944601,2022,dovish,dovish,dovish,1,False,366,speech,False,28,2016-2022,neutral,neutral,neutral
+944601,1998,neutral,neutral,neutral,1,False,254,meeting minutes,False,30,1996-2007,neutral,neutral,neutral
+944601,2003,neutral,neutral,neutral,1,False,220,meeting minutes,False,26,1996-2007,neutral,neutral,neutral
+944601,2021,neutral,neutral,neutral,1,False,184,press conference,False,23,2016-2022,neutral,dovish,dovish
+944601,2007,neutral,neutral,neutral,1,False,186,speech,False,29,1996-2007,neutral,neutral,dovish
+944601,2002,dovish,dovish,dovish,1,False,207,speech,False,24,1996-2007,neutral,dovish,hawkish
+944601,1998,neutral,neutral,neutral,1,False,214,meeting minutes,True,40,1996-2007,neutral,neutral,neutral
+944601,2017,neutral,neutral,neutral,1,False,305,meeting minutes,True,42,2016-2022,neutral,neutral,hawkish
+944601,2003,neutral,neutral,neutral,1,False,212,speech,False,37,1996-2007,neutral,neutral,neutral
+944601,2010,hawkish,dovish,dovish,1,False,373,meeting minutes,False,31,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+944601,2014,dovish,dovish,dovish,1,False,224,press conference,False,25,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,2005,neutral,neutral,neutral,1,False,304,speech,True,39,1996-2007,neutral,neutral,neutral
+944601,2020,dovish,dovish,dovish,1,False,284,speech,True,21,2016-2022,neutral,neutral,hawkish
+944601,1998,dovish,neutral,neutral,1,False,275,meeting minutes,False,35,1996-2007,neutral,neutral,neutral
+944601,2021,hawkish,neutral,neutral,1,False,164,press conference,False,19,2016-2022,neutral,neutral,hawkish
+944601,1999,neutral,neutral,neutral,1,False,172,meeting minutes,False,14,1996-2007,neutral,neutral,hawkish
+944601,2002,dovish,hawkish,hawkish,1,False,240,meeting minutes,True,22,1996-2007,neutral,dovish,neutral
+944601,2022,neutral,neutral,neutral,1,False,329,speech,False,22,2016-2022,neutral,neutral,neutral
+944601,2022,neutral,neutral,neutral,1,False,278,speech,False,33,2016-2022,neutral,neutral,neutral
+944601,1996,dovish,dovish,dovish,1,False,277,meeting minutes,False,32,1996-2007,neutral,dovish,neutral
+944601,2018,neutral,dovish,dovish,1,False,388,meeting minutes,True,57,2016-2022,neutral,hawkish,neutral
+944601,2001,dovish,dovish,dovish,1,False,236,meeting minutes,False,22,1996-2007,neutral,dovish,dovish
+944601,2005,hawkish,neutral,neutral,1,False,291,speech,True,77,1996-2007,neutral,neutral,dovish
+944601,1998,neutral,neutral,neutral,1,False,231,meeting minutes,False,26,1996-2007,neutral,neutral,neutral
+944601,2020,neutral,neutral,neutral,1,False,157,press conference,False,18,2016-2022,neutral,neutral,neutral
+944601,2019,neutral,neutral,neutral,3,False,193,press conference,False,17,2016-2022,neutral,neutral,hawkish
+944601,2003,hawkish,dovish,dovish,1,False,320,speech,False,44,1996-2007,neutral,neutral,dovish
+944601,2016,hawkish,neutral,neutral,1,False,238,press conference,False,10,2016-2022,neutral,neutral,neutral
+944601,1999,neutral,neutral,neutral,1,False,231,speech,False,38,1996-2007,neutral,neutral,neutral
+944601,2022,neutral,dovish,dovish,1,False,270,press conference,False,45,2016-2022,neutral,neutral,neutral
+944601,2008,hawkish,hawkish,hawkish,1,False,193,meeting minutes,False,20,"2008-2015 (crisis, zero bound)",neutral,hawkish,dovish
+944601,2019,hawkish,dovish,dovish,1,False,383,speech,False,19,2016-2022,neutral,neutral,hawkish
+944601,2001,neutral,neutral,neutral,1,False,203,speech,False,18,1996-2007,neutral,neutral,neutral
+944601,2001,dovish,neutral,neutral,1,False,431,meeting minutes,True,61,1996-2007,neutral,hawkish,dovish
+944601,2012,dovish,neutral,neutral,1,False,182,press conference,False,11,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+944601,1997,hawkish,neutral,neutral,1,False,217,speech,False,12,1996-2007,neutral,neutral,hawkish
+944601,2020,hawkish,neutral,neutral,1,False,271,press conference,False,32,2016-2022,neutral,neutral,hawkish
+944601,2021,hawkish,neutral,neutral,1,False,245,meeting minutes,False,41,2016-2022,neutral,hawkish,neutral
+944601,2001,neutral,neutral,neutral,1,False,308,meeting minutes,False,40,1996-2007,neutral,neutral,neutral
+944601,2005,neutral,neutral,neutral,1,False,213,speech,False,35,1996-2007,neutral,dovish,neutral
+944601,1999,neutral,neutral,neutral,1,False,172,speech,False,29,1996-2007,neutral,neutral,neutral
+944601,1997,hawkish,neutral,neutral,1,False,281,speech,False,16,1996-2007,neutral,dovish,neutral
+944601,2001,dovish,dovish,dovish,1,False,214,speech,False,9,1996-2007,neutral,dovish,dovish
+944601,2001,neutral,neutral,neutral,1,False,289,meeting minutes,False,31,1996-2007,neutral,neutral,neutral
+944601,2009,hawkish,neutral,neutral,1,False,269,meeting minutes,False,24,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+944601,2018,neutral,neutral,neutral,1,False,170,meeting minutes,True,12,2016-2022,neutral,hawkish,hawkish
+944601,2017,hawkish,dovish,dovish,1,False,267,speech,False,33,2016-2022,neutral,neutral,neutral
+944601,1999,hawkish,neutral,neutral,1,False,304,meeting minutes,False,61,1996-2007,neutral,neutral,hawkish
+944601,2006,neutral,neutral,neutral,1,False,209,speech,False,26,1996-2007,neutral,dovish,neutral
+944601,2001,neutral,neutral,neutral,1,False,327,speech,False,46,1996-2007,neutral,neutral,neutral
+944601,2004,neutral,neutral,neutral,1,False,233,speech,True,58,1996-2007,neutral,neutral,neutral
+944601,2002,hawkish,neutral,neutral,1,False,223,meeting minutes,True,47,1996-2007,neutral,dovish,hawkish
+944601,2020,dovish,neutral,neutral,1,False,252,meeting minutes,False,17,2016-2022,neutral,neutral,dovish
+944601,2007,neutral,neutral,neutral,1,False,201,meeting minutes,False,17,1996-2007,neutral,neutral,neutral
+944601,2014,dovish,neutral,neutral,1,False,270,meeting minutes,False,17,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+944601,1997,neutral,neutral,neutral,1,False,229,meeting minutes,False,47,1996-2007,neutral,neutral,neutral
+944601,2021,neutral,neutral,neutral,1,False,258,speech,False,71,2016-2022,neutral,neutral,neutral
+944601,1999,neutral,neutral,neutral,1,False,240,speech,False,25,1996-2007,neutral,neutral,neutral
+944601,2003,neutral,neutral,neutral,1,False,308,speech,False,25,1996-2007,neutral,neutral,neutral
+944601,2014,neutral,dovish,dovish,1,False,255,meeting minutes,True,43,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+944601,2005,dovish,neutral,neutral,1,False,159,speech,False,2,1996-2007,neutral,neutral,neutral
+944601,2003,neutral,dovish,dovish,1,False,200,meeting minutes,False,24,1996-2007,neutral,neutral,dovish
+944601,2022,dovish,dovish,dovish,1,False,273,speech,False,41,2016-2022,neutral,neutral,neutral
+944601,2021,neutral,neutral,neutral,1,False,182,speech,True,37,2016-2022,neutral,neutral,neutral
+944601,2020,neutral,neutral,neutral,1,False,237,speech,False,24,2016-2022,neutral,neutral,neutral
+944601,2006,neutral,neutral,neutral,3,False,305,speech,False,35,1996-2007,neutral,neutral,neutral
+944601,1999,dovish,neutral,neutral,1,False,298,speech,False,25,1996-2007,neutral,neutral,dovish
+944601,2007,neutral,neutral,neutral,1,False,240,speech,False,27,1996-2007,neutral,neutral,neutral
+944601,2019,hawkish,dovish,dovish,1,False,183,press conference,False,12,2016-2022,neutral,neutral,hawkish
+944601,2011,hawkish,neutral,neutral,1,False,267,meeting minutes,False,46,"2008-2015 (crisis, zero bound)",neutral,hawkish,hawkish
+944601,2002,dovish,dovish,dovish,1,False,286,meeting minutes,False,37,1996-2007,neutral,neutral,dovish
+944601,1999,neutral,neutral,neutral,1,False,546,speech,True,74,1996-2007,neutral,neutral,dovish
+944601,1999,hawkish,neutral,neutral,1,False,190,speech,False,17,1996-2007,neutral,neutral,neutral
+944601,2020,hawkish,neutral,neutral,1,False,251,speech,False,21,2016-2022,neutral,neutral,hawkish
+944601,2007,neutral,neutral,neutral,1,False,199,speech,False,30,1996-2007,neutral,neutral,dovish
+944601,2021,dovish,neutral,neutral,1,False,173,press conference,False,20,2016-2022,neutral,neutral,hawkish
+944601,2020,neutral,neutral,neutral,1,False,176,press conference,True,19,2016-2022,neutral,neutral,neutral
+944601,1998,dovish,neutral,neutral,1,False,219,meeting minutes,True,26,1996-2007,neutral,neutral,dovish
+944601,1999,dovish,neutral,neutral,1,False,133,speech,False,14,1996-2007,neutral,neutral,hawkish
+944601,2004,dovish,dovish,dovish,1,False,230,speech,True,23,1996-2007,neutral,dovish,dovish
+944601,1997,neutral,neutral,neutral,1,False,179,speech,False,29,1996-2007,neutral,neutral,neutral
+944601,2004,neutral,neutral,neutral,1,False,210,meeting minutes,False,31,1996-2007,neutral,hawkish,neutral
+944601,2004,dovish,dovish,dovish,1,False,236,speech,False,25,1996-2007,neutral,neutral,neutral
+944601,2004,neutral,neutral,neutral,1,False,300,speech,False,23,1996-2007,neutral,neutral,neutral
+944601,2012,dovish,dovish,dovish,1,False,282,press conference,False,15,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+944601,2005,hawkish,dovish,dovish,1,False,247,speech,False,28,1996-2007,neutral,neutral,hawkish
+944601,2001,neutral,neutral,neutral,3,True,238,meeting minutes,True,60,1996-2007,neutral,dovish,dovish
+944601,2014,dovish,neutral,neutral,1,False,283,press conference,False,33,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+944601,2020,hawkish,neutral,neutral,1,False,235,meeting minutes,False,41,2016-2022,neutral,neutral,neutral
+944601,2012,neutral,neutral,neutral,1,False,207,meeting minutes,True,27,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+944601,1996,hawkish,hawkish,hawkish,1,False,266,meeting minutes,True,50,1996-2007,neutral,neutral,neutral
+944601,2022,hawkish,neutral,neutral,1,False,162,speech,False,26,2016-2022,neutral,neutral,hawkish
+944601,2012,dovish,neutral,neutral,1,False,315,meeting minutes,False,19,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,2017,neutral,neutral,neutral,3,True,187,press conference,False,9,2016-2022,neutral,neutral,dovish
+944601,2021,neutral,neutral,neutral,1,False,231,press conference,False,88,2016-2022,neutral,hawkish,neutral
+944601,1999,dovish,neutral,neutral,1,False,292,speech,False,19,1996-2007,neutral,neutral,neutral
+944601,1997,neutral,neutral,neutral,1,False,212,speech,False,28,1996-2007,neutral,neutral,neutral
+944601,2021,neutral,neutral,neutral,1,False,220,speech,False,27,2016-2022,neutral,neutral,hawkish
+944601,2013,neutral,dovish,dovish,1,False,208,meeting minutes,False,15,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,2008,hawkish,neutral,neutral,1,False,159,meeting minutes,False,14,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,2009,hawkish,neutral,neutral,1,False,313,meeting minutes,False,30,"2008-2015 (crisis, zero bound)",neutral,dovish,hawkish
+944601,1997,neutral,neutral,neutral,1,False,277,meeting minutes,False,55,1996-2007,neutral,neutral,neutral
+944601,2005,neutral,neutral,neutral,3,False,260,speech,False,36,1996-2007,neutral,neutral,dovish
+944601,1998,neutral,neutral,neutral,3,True,317,meeting minutes,False,31,1996-2007,neutral,neutral,neutral
+944601,2019,dovish,dovish,dovish,1,False,151,press conference,False,6,2016-2022,neutral,dovish,dovish
+944601,2000,hawkish,dovish,dovish,1,False,219,meeting minutes,True,26,1996-2007,neutral,neutral,hawkish
+944601,2008,dovish,neutral,neutral,1,False,414,meeting minutes,False,46,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+944601,2001,dovish,dovish,dovish,1,False,250,meeting minutes,False,32,1996-2007,neutral,neutral,dovish
+944601,2008,hawkish,neutral,neutral,1,False,272,meeting minutes,False,22,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+944601,2020,hawkish,hawkish,hawkish,1,False,290,meeting minutes,False,36,2016-2022,neutral,neutral,hawkish
+944601,2021,neutral,dovish,dovish,1,False,243,press conference,False,28,2016-2022,neutral,neutral,neutral
+944601,1997,dovish,neutral,neutral,1,False,262,meeting minutes,False,23,1996-2007,neutral,dovish,dovish
+944601,2022,hawkish,dovish,dovish,1,False,206,speech,False,17,2016-2022,neutral,neutral,hawkish
+944601,2006,dovish,dovish,dovish,1,False,211,meeting minutes,True,28,1996-2007,neutral,neutral,dovish
+944601,2005,hawkish,neutral,neutral,1,False,342,speech,False,42,1996-2007,neutral,neutral,hawkish
+944601,2002,neutral,dovish,dovish,1,False,197,meeting minutes,False,23,1996-2007,neutral,dovish,dovish
+944601,2002,neutral,neutral,neutral,1,False,189,meeting minutes,False,25,1996-2007,neutral,neutral,neutral
+944601,2017,dovish,neutral,neutral,1,False,187,press conference,False,15,2016-2022,neutral,neutral,dovish
+944601,2005,neutral,neutral,neutral,1,False,284,speech,True,28,1996-2007,neutral,neutral,neutral
+944601,2020,hawkish,hawkish,hawkish,1,False,235,press conference,False,33,2016-2022,neutral,hawkish,hawkish
+944601,2019,neutral,neutral,neutral,1,False,179,meeting minutes,True,18,2016-2022,neutral,neutral,neutral
+944601,2004,neutral,neutral,neutral,1,False,332,speech,False,74,1996-2007,neutral,neutral,neutral
+944601,2000,dovish,dovish,dovish,1,False,223,meeting minutes,False,34,1996-2007,neutral,dovish,dovish
+944601,2022,hawkish,hawkish,hawkish,1,False,182,meeting minutes,False,31,2016-2022,neutral,hawkish,hawkish
+944601,1998,dovish,neutral,neutral,1,False,166,meeting minutes,True,37,1996-2007,neutral,dovish,dovish
+944601,2017,dovish,neutral,neutral,1,False,265,speech,False,31,2016-2022,neutral,neutral,neutral
+944601,2020,neutral,neutral,neutral,1,False,281,speech,True,34,2016-2022,neutral,neutral,dovish
+944601,2022,hawkish,neutral,neutral,1,False,209,meeting minutes,False,20,2016-2022,neutral,neutral,hawkish
+944601,2017,dovish,neutral,neutral,1,False,257,speech,False,24,2016-2022,neutral,neutral,neutral
+944601,2017,dovish,dovish,dovish,1,False,213,meeting minutes,True,26,2016-2022,neutral,dovish,neutral
+944601,2003,hawkish,neutral,neutral,1,False,225,speech,False,23,1996-2007,neutral,dovish,neutral
+944601,2019,hawkish,hawkish,hawkish,1,False,289,speech,True,52,2016-2022,neutral,neutral,dovish
+944601,2021,hawkish,neutral,neutral,1,False,147,speech,False,8,2016-2022,neutral,neutral,neutral
+944601,2003,dovish,neutral,neutral,1,False,309,meeting minutes,False,26,1996-2007,neutral,neutral,dovish
+944601,2017,hawkish,neutral,neutral,1,False,271,speech,False,37,2016-2022,neutral,neutral,hawkish
+944601,1997,neutral,neutral,neutral,1,False,185,speech,False,23,1996-2007,neutral,dovish,neutral
+944601,2016,neutral,dovish,dovish,1,False,190,press conference,False,25,2016-2022,neutral,neutral,dovish
+944601,2006,neutral,neutral,neutral,1,False,187,speech,False,20,1996-2007,neutral,neutral,dovish
+944601,2017,dovish,neutral,neutral,1,False,209,press conference,False,33,2016-2022,neutral,neutral,dovish
+944601,2002,hawkish,neutral,neutral,1,False,242,meeting minutes,False,27,1996-2007,neutral,neutral,hawkish
+944601,2017,dovish,neutral,neutral,1,False,163,press conference,False,31,2016-2022,neutral,neutral,neutral
+944601,2013,hawkish,neutral,neutral,1,False,459,meeting minutes,False,45,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,2003,dovish,neutral,neutral,1,False,305,speech,False,39,1996-2007,neutral,hawkish,neutral
+944601,2021,neutral,neutral,neutral,1,False,221,speech,False,46,2016-2022,neutral,neutral,neutral
+944601,2008,neutral,neutral,neutral,1,False,182,speech,True,36,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+944601,2015,dovish,dovish,dovish,1,False,296,meeting minutes,False,55,"2008-2015 (crisis, zero bound)",neutral,dovish,hawkish
+944601,2007,dovish,neutral,neutral,1,False,436,speech,False,77,1996-2007,neutral,neutral,neutral
+944601,2004,dovish,neutral,neutral,1,False,269,speech,False,31,1996-2007,neutral,neutral,hawkish
+944601,2020,neutral,neutral,neutral,3,True,309,speech,False,28,2016-2022,neutral,neutral,hawkish
+944601,2006,dovish,neutral,neutral,1,False,171,speech,True,27,1996-2007,neutral,neutral,neutral
+944601,2016,neutral,neutral,neutral,1,False,196,press conference,False,6,2016-2022,neutral,neutral,neutral
+944601,2019,neutral,neutral,neutral,1,False,184,speech,False,18,2016-2022,neutral,neutral,hawkish
+944601,2019,neutral,neutral,neutral,1,False,156,press conference,False,21,2016-2022,neutral,neutral,neutral
+944601,2007,dovish,neutral,neutral,1,False,545,speech,True,70,1996-2007,neutral,neutral,neutral
+944601,1998,hawkish,neutral,neutral,1,False,255,speech,False,34,1996-2007,neutral,neutral,neutral
+944601,2022,hawkish,neutral,neutral,1,False,225,speech,False,23,2016-2022,neutral,neutral,neutral
+944601,2003,neutral,neutral,neutral,1,False,153,speech,False,25,1996-2007,neutral,neutral,neutral
+944601,2009,neutral,dovish,dovish,1,False,258,meeting minutes,False,27,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+944601,2020,hawkish,neutral,neutral,1,False,141,press conference,False,5,2016-2022,neutral,neutral,dovish
+944601,2005,hawkish,hawkish,hawkish,1,False,134,meeting minutes,False,31,1996-2007,neutral,hawkish,neutral
+944601,2022,neutral,neutral,neutral,1,False,146,speech,False,21,2016-2022,neutral,neutral,neutral
+944601,2004,dovish,neutral,neutral,1,False,230,speech,False,24,1996-2007,neutral,neutral,neutral
+944601,2021,hawkish,neutral,neutral,1,False,260,speech,False,29,2016-2022,neutral,neutral,dovish
+944601,2000,hawkish,neutral,neutral,1,False,302,meeting minutes,True,34,1996-2007,neutral,neutral,hawkish
+944601,2017,dovish,neutral,neutral,1,False,240,press conference,False,29,2016-2022,neutral,neutral,neutral
+944601,2015,neutral,neutral,neutral,1,False,215,press conference,False,17,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+944601,2005,hawkish,neutral,neutral,1,False,263,speech,True,35,1996-2007,neutral,dovish,hawkish
+944601,2016,neutral,neutral,neutral,1,False,252,meeting minutes,False,22,2016-2022,neutral,neutral,neutral
+944601,2021,neutral,neutral,neutral,3,True,315,speech,False,32,2016-2022,neutral,neutral,neutral
+944601,1996,neutral,neutral,neutral,1,False,243,speech,True,23,1996-2007,neutral,neutral,neutral
+944601,2019,neutral,neutral,neutral,1,False,163,press conference,True,14,2016-2022,neutral,neutral,neutral
+944601,2006,neutral,neutral,neutral,1,False,146,meeting minutes,False,16,1996-2007,neutral,neutral,neutral
+944601,2019,hawkish,dovish,dovish,1,False,297,speech,False,41,2016-2022,neutral,neutral,dovish
+944601,2001,dovish,neutral,neutral,1,False,415,meeting minutes,True,46,1996-2007,neutral,dovish,dovish
+944601,2022,neutral,neutral,neutral,1,False,238,speech,False,22,2016-2022,neutral,neutral,neutral
+944601,2020,neutral,neutral,neutral,3,True,212,press conference,False,9,2016-2022,neutral,neutral,dovish
+944601,2020,dovish,dovish,dovish,1,False,253,speech,False,27,2016-2022,neutral,dovish,dovish
+944601,1998,neutral,neutral,neutral,1,False,231,meeting minutes,False,26,1996-2007,neutral,neutral,neutral
+944601,2017,dovish,neutral,neutral,1,False,264,speech,False,16,2016-2022,neutral,neutral,neutral
+944601,2021,neutral,neutral,neutral,1,False,222,meeting minutes,True,32,2016-2022,neutral,neutral,neutral
+944601,1998,neutral,neutral,neutral,1,False,177,meeting minutes,False,9,1996-2007,neutral,neutral,neutral
+944601,2020,neutral,neutral,neutral,1,False,202,speech,False,23,2016-2022,neutral,neutral,dovish
+944601,2006,hawkish,neutral,neutral,1,False,148,speech,False,13,1996-2007,neutral,neutral,neutral
+944601,2007,hawkish,dovish,dovish,1,False,146,speech,False,13,1996-2007,neutral,neutral,neutral
+944601,2022,dovish,neutral,neutral,1,False,191,speech,False,28,2016-2022,neutral,dovish,neutral
+944601,2021,hawkish,neutral,neutral,1,False,242,meeting minutes,False,47,2016-2022,neutral,dovish,hawkish
+944601,2019,dovish,dovish,dovish,1,False,258,press conference,False,60,2016-2022,neutral,hawkish,dovish
+944601,2009,neutral,hawkish,hawkish,1,False,306,meeting minutes,False,32,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+944601,2014,dovish,dovish,dovish,1,False,171,press conference,False,17,"2008-2015 (crisis, zero bound)",neutral,dovish,neutral
+944601,2007,hawkish,neutral,neutral,1,False,253,speech,False,22,1996-2007,neutral,neutral,dovish
+944601,2017,neutral,neutral,neutral,1,False,194,press conference,False,18,2016-2022,neutral,neutral,neutral
+944601,2004,neutral,neutral,neutral,1,False,227,meeting minutes,False,22,1996-2007,neutral,neutral,hawkish
+944601,2017,dovish,neutral,neutral,1,False,180,meeting minutes,True,8,2016-2022,neutral,neutral,hawkish
+944601,2014,neutral,neutral,neutral,1,False,206,meeting minutes,False,32,"2008-2015 (crisis, zero bound)",neutral,dovish,neutral
+944601,2015,neutral,neutral,neutral,1,False,312,meeting minutes,False,31,"2008-2015 (crisis, zero bound)",neutral,hawkish,neutral
+944601,1997,neutral,dovish,dovish,1,False,372,meeting minutes,False,48,1996-2007,neutral,dovish,neutral
+944601,2004,dovish,dovish,dovish,1,False,190,speech,False,14,1996-2007,neutral,dovish,dovish
+944601,2000,neutral,dovish,dovish,1,False,225,speech,False,33,1996-2007,neutral,neutral,neutral
+944601,2000,hawkish,hawkish,hawkish,1,False,248,meeting minutes,False,19,1996-2007,neutral,neutral,hawkish
+944601,2001,hawkish,hawkish,hawkish,1,False,287,meeting minutes,False,39,1996-2007,neutral,hawkish,hawkish
+944601,2004,neutral,neutral,neutral,1,False,176,speech,False,21,1996-2007,neutral,neutral,neutral
+944601,2004,neutral,neutral,neutral,1,False,234,speech,False,24,1996-2007,neutral,neutral,neutral
+944601,2001,hawkish,neutral,neutral,1,False,229,meeting minutes,False,24,1996-2007,neutral,neutral,neutral
+944601,2004,neutral,neutral,neutral,1,False,306,meeting minutes,False,50,1996-2007,neutral,neutral,hawkish
+944601,1998,hawkish,neutral,neutral,1,False,241,speech,True,53,1996-2007,neutral,neutral,neutral
+944601,2021,hawkish,neutral,neutral,1,False,229,meeting minutes,True,17,2016-2022,neutral,neutral,neutral
+944601,1999,neutral,neutral,neutral,1,False,314,speech,False,49,1996-2007,neutral,neutral,neutral
+944601,2004,neutral,neutral,neutral,1,False,193,speech,False,35,1996-2007,neutral,neutral,neutral
+944601,2021,neutral,neutral,neutral,1,False,305,meeting minutes,False,16,2016-2022,neutral,neutral,dovish
+944601,2018,neutral,neutral,neutral,1,False,169,press conference,True,26,2016-2022,neutral,neutral,neutral
+944601,2011,dovish,dovish,dovish,1,False,152,press conference,True,17,"2008-2015 (crisis, zero bound)",neutral,hawkish,neutral
+944601,2002,neutral,neutral,neutral,1,False,245,speech,False,23,1996-2007,neutral,neutral,neutral
+944601,2009,neutral,dovish,dovish,1,False,258,meeting minutes,False,27,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+944601,2017,dovish,dovish,dovish,1,False,120,press conference,False,32,2016-2022,neutral,neutral,neutral
+944601,2019,dovish,dovish,dovish,1,False,264,meeting minutes,True,27,2016-2022,neutral,neutral,dovish
+944601,2008,dovish,dovish,dovish,1,False,273,meeting minutes,False,38,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+944601,2006,neutral,neutral,neutral,1,False,229,speech,False,19,1996-2007,neutral,neutral,neutral
+944601,2021,neutral,dovish,dovish,1,False,201,speech,False,30,2016-2022,neutral,neutral,dovish
+944601,2017,neutral,neutral,neutral,1,False,171,meeting minutes,False,42,2016-2022,neutral,neutral,neutral
+944601,2003,neutral,neutral,neutral,1,False,208,speech,False,19,1996-2007,neutral,neutral,neutral
+944601,2005,neutral,neutral,neutral,1,False,224,speech,False,39,1996-2007,neutral,neutral,neutral
+944601,2010,neutral,neutral,neutral,1,False,221,meeting minutes,False,38,"2008-2015 (crisis, zero bound)",neutral,hawkish,neutral
+944601,2005,neutral,neutral,neutral,1,False,230,meeting minutes,False,51,1996-2007,neutral,neutral,hawkish
+944601,1999,neutral,neutral,neutral,3,True,440,meeting minutes,False,56,1996-2007,neutral,neutral,hawkish
+944601,2005,dovish,dovish,dovish,1,False,277,speech,True,27,1996-2007,neutral,neutral,dovish
+944601,2003,dovish,dovish,dovish,1,False,175,speech,False,15,1996-2007,neutral,neutral,neutral
+944601,2001,hawkish,hawkish,hawkish,1,True,291,meeting minutes,True,62,1996-2007,neutral,hawkish,hawkish
+944601,2015,dovish,neutral,neutral,1,False,151,press conference,False,12,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+944601,2021,hawkish,neutral,neutral,3,True,160,press conference,False,6,2016-2022,neutral,neutral,neutral
+944601,2022,hawkish,neutral,neutral,3,True,217,press conference,False,18,2016-2022,neutral,neutral,dovish
+944601,2012,dovish,dovish,dovish,1,False,265,meeting minutes,False,15,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+944601,2004,dovish,neutral,neutral,3,True,204,speech,True,53,1996-2007,neutral,hawkish,neutral
+944601,2021,neutral,neutral,neutral,1,False,308,meeting minutes,False,34,2016-2022,neutral,dovish,hawkish
+944601,2012,dovish,neutral,neutral,1,False,194,meeting minutes,False,11,"2008-2015 (crisis, zero bound)",neutral,dovish,neutral
+944601,2004,dovish,neutral,neutral,1,False,157,speech,False,9,1996-2007,neutral,neutral,neutral
+944601,2000,hawkish,hawkish,hawkish,1,False,181,meeting minutes,True,22,1996-2007,neutral,hawkish,hawkish
+944601,2020,hawkish,hawkish,hawkish,1,False,309,meeting minutes,False,29,2016-2022,neutral,hawkish,neutral
+944601,2000,hawkish,dovish,dovish,1,False,219,meeting minutes,False,39,1996-2007,neutral,neutral,hawkish
+944601,2015,dovish,dovish,dovish,1,False,306,meeting minutes,False,42,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,2006,dovish,dovish,dovish,1,False,213,meeting minutes,True,20,1996-2007,neutral,neutral,dovish
+944601,2005,neutral,neutral,neutral,1,False,181,speech,False,28,1996-2007,neutral,neutral,neutral
+944601,2006,hawkish,neutral,neutral,3,True,237,speech,False,43,1996-2007,neutral,neutral,neutral
+944601,2021,neutral,neutral,neutral,1,False,164,speech,True,20,2016-2022,neutral,neutral,neutral
+944601,2019,neutral,neutral,neutral,1,False,224,press conference,True,23,2016-2022,neutral,neutral,neutral
+944601,1998,neutral,hawkish,hawkish,1,False,349,meeting minutes,True,49,1996-2007,neutral,neutral,hawkish
+944601,2017,dovish,neutral,neutral,1,False,153,press conference,False,12,2016-2022,neutral,neutral,dovish
+944601,2021,neutral,neutral,neutral,1,False,185,press conference,False,21,2016-2022,neutral,dovish,dovish
+944601,2020,neutral,dovish,dovish,1,False,422,meeting minutes,False,57,2016-2022,neutral,dovish,dovish
+944601,2007,neutral,neutral,neutral,1,False,221,speech,False,27,1996-2007,neutral,neutral,neutral
+944601,1997,hawkish,neutral,neutral,1,False,240,speech,False,35,1996-2007,neutral,neutral,neutral
+944601,2005,dovish,neutral,neutral,1,False,384,speech,False,181,1996-2007,neutral,dovish,neutral
+944601,2022,hawkish,hawkish,hawkish,1,False,151,press conference,False,16,2016-2022,neutral,hawkish,hawkish
+944601,2008,hawkish,neutral,neutral,1,False,191,speech,False,36,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+944601,2003,hawkish,neutral,neutral,1,False,216,speech,False,46,1996-2007,neutral,neutral,neutral
+944601,2006,dovish,dovish,dovish,1,False,278,speech,False,24,1996-2007,neutral,neutral,dovish
+944601,2000,hawkish,dovish,dovish,1,False,216,meeting minutes,True,27,1996-2007,neutral,neutral,hawkish
+944601,2021,hawkish,neutral,neutral,1,False,193,speech,False,13,2016-2022,neutral,neutral,hawkish
+944601,2014,neutral,neutral,neutral,1,False,193,meeting minutes,True,32,"2008-2015 (crisis, zero bound)",neutral,neutral,neutral
+944601,2014,dovish,dovish,dovish,1,False,302,meeting minutes,True,34,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+944601,2021,dovish,neutral,neutral,1,False,383,speech,True,57,2016-2022,neutral,neutral,dovish
+944601,2005,dovish,neutral,neutral,1,False,178,meeting minutes,True,23,1996-2007,neutral,neutral,dovish
+944601,2007,hawkish,hawkish,hawkish,1,False,257,meeting minutes,False,37,1996-2007,neutral,neutral,hawkish
+944601,2017,neutral,neutral,neutral,1,False,205,press conference,False,20,2016-2022,neutral,neutral,neutral
+944601,2019,hawkish,hawkish,hawkish,1,False,162,meeting minutes,False,21,2016-2022,neutral,neutral,neutral
+944601,2015,hawkish,hawkish,hawkish,1,False,266,meeting minutes,True,63,"2008-2015 (crisis, zero bound)",neutral,hawkish,neutral
+944601,2017,neutral,neutral,neutral,3,True,253,speech,True,23,2016-2022,neutral,neutral,neutral
+944601,2017,dovish,neutral,neutral,1,False,365,speech,True,110,2016-2022,neutral,neutral,dovish
+944601,2022,neutral,neutral,neutral,1,False,169,speech,False,17,2016-2022,neutral,neutral,neutral
+944601,1997,neutral,neutral,neutral,1,False,224,speech,False,27,1996-2007,neutral,dovish,neutral
+944601,2000,neutral,neutral,neutral,1,False,274,speech,True,53,1996-2007,neutral,neutral,hawkish
+944601,2020,neutral,neutral,neutral,1,False,197,speech,False,24,2016-2022,neutral,neutral,dovish
+944601,2003,dovish,dovish,dovish,1,False,250,meeting minutes,False,51,1996-2007,neutral,neutral,neutral
+944601,2022,neutral,neutral,neutral,3,False,206,press conference,False,10,2016-2022,neutral,neutral,neutral
+944601,2021,neutral,neutral,neutral,1,False,218,speech,False,17,2016-2022,neutral,neutral,neutral
+944601,2019,neutral,neutral,neutral,1,False,246,press conference,False,25,2016-2022,neutral,neutral,dovish
+944601,1999,neutral,neutral,neutral,1,False,171,speech,True,32,1996-2007,neutral,neutral,dovish
+944601,2004,neutral,neutral,neutral,1,False,159,speech,False,24,1996-2007,neutral,neutral,neutral
+944601,2020,dovish,dovish,dovish,1,False,271,meeting minutes,False,30,2016-2022,neutral,dovish,dovish
+944601,2006,dovish,dovish,dovish,1,False,361,meeting minutes,False,29,1996-2007,neutral,dovish,dovish
+944601,2010,dovish,dovish,dovish,1,False,471,meeting minutes,False,25,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,1999,neutral,neutral,neutral,1,False,232,speech,False,22,1996-2007,neutral,neutral,hawkish
+944601,2003,neutral,neutral,neutral,1,False,169,speech,False,30,1996-2007,neutral,neutral,neutral
+944601,2022,neutral,neutral,neutral,1,False,200,press conference,True,31,2016-2022,neutral,neutral,neutral
+944601,2020,dovish,neutral,neutral,1,False,179,press conference,False,10,2016-2022,neutral,neutral,neutral
+944601,2020,neutral,neutral,neutral,1,False,227,press conference,True,29,2016-2022,neutral,hawkish,hawkish
+944601,2012,dovish,neutral,neutral,1,False,181,meeting minutes,True,18,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+944601,1996,dovish,dovish,dovish,1,False,298,meeting minutes,True,40,1996-2007,neutral,dovish,dovish
+944601,2020,neutral,neutral,neutral,1,False,175,speech,False,17,2016-2022,neutral,neutral,neutral
+944601,2013,dovish,dovish,dovish,1,False,423,meeting minutes,True,26,"2008-2015 (crisis, zero bound)",neutral,dovish,dovish
+944601,2002,neutral,neutral,neutral,1,False,222,speech,False,75,1996-2007,neutral,neutral,neutral
+944601,1996,neutral,neutral,neutral,3,True,208,meeting minutes,True,29,1996-2007,neutral,neutral,dovish
+944601,2007,neutral,neutral,neutral,1,False,222,speech,False,56,1996-2007,neutral,neutral,neutral
+944601,2006,dovish,dovish,dovish,1,False,257,speech,False,21,1996-2007,neutral,neutral,dovish
+944601,2019,hawkish,hawkish,hawkish,1,False,296,meeting minutes,False,32,2016-2022,neutral,dovish,hawkish
+944601,2005,dovish,neutral,neutral,1,False,286,meeting minutes,True,41,1996-2007,neutral,dovish,hawkish
+944601,2019,neutral,neutral,neutral,3,True,394,speech,False,159,2016-2022,neutral,neutral,neutral
+944601,1997,hawkish,hawkish,hawkish,1,False,287,speech,True,35,1996-2007,neutral,neutral,hawkish
+944601,1999,neutral,neutral,neutral,1,False,406,meeting minutes,False,47,1996-2007,neutral,hawkish,neutral
+944601,2007,neutral,neutral,neutral,1,False,211,meeting minutes,False,24,1996-2007,neutral,neutral,neutral
+944601,2020,neutral,neutral,neutral,1,False,466,meeting minutes,True,46,2016-2022,neutral,neutral,dovish
+944601,1996,dovish,dovish,dovish,1,False,308,meeting minutes,True,39,1996-2007,neutral,dovish,dovish
+944601,2008,dovish,dovish,dovish,1,False,289,meeting minutes,False,17,"2008-2015 (crisis, zero bound)",neutral,neutral,dovish
+944601,2015,hawkish,hawkish,hawkish,1,False,247,meeting minutes,False,29,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+944601,2013,neutral,neutral,neutral,1,False,274,speech,False,44,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+944601,2021,neutral,neutral,neutral,1,False,234,speech,False,20,2016-2022,neutral,neutral,neutral
+944601,2020,dovish,dovish,dovish,1,False,351,meeting minutes,False,31,2016-2022,neutral,dovish,dovish
+944601,2016,neutral,neutral,neutral,1,False,255,meeting minutes,False,45,2016-2022,neutral,neutral,neutral
+944601,2007,hawkish,neutral,neutral,1,False,192,speech,False,56,1996-2007,neutral,neutral,neutral
+944601,2018,dovish,dovish,dovish,1,False,299,meeting minutes,False,46,2016-2022,neutral,neutral,dovish
+944601,2007,hawkish,neutral,neutral,1,False,299,meeting minutes,False,32,1996-2007,neutral,neutral,dovish
+944601,2021,dovish,neutral,neutral,1,False,407,speech,False,49,2016-2022,neutral,neutral,hawkish
+944601,2012,dovish,neutral,neutral,1,False,194,meeting minutes,True,36,"2008-2015 (crisis, zero bound)",neutral,neutral,hawkish
+944601,2002,neutral,neutral,neutral,1,False,217,speech,False,20,1996-2007,neutral,neutral,neutral
+944601,1996,dovish,neutral,neutral,1,False,250,speech,False,48,1996-2007,neutral,neutral,neutral
+944601,2017,hawkish,dovish,dovish,1,False,320,speech,False,56,2016-2022,neutral,neutral,dovish
+944601,2018,neutral,neutral,neutral,1,False,263,meeting minutes,False,22,2016-2022,neutral,neutral,neutral
+944601,2001,neutral,neutral,neutral,3,False,283,speech,False,22,1996-2007,neutral,neutral,neutral
+944601,2007,neutral,neutral,neutral,1,False,150,meeting minutes,True,34,1996-2007,neutral,dovish,neutral
+944601,2005,dovish,neutral,neutral,1,False,388,meeting minutes,False,24,1996-2007,neutral,dovish,dovish
+944601,2003,neutral,neutral,neutral,1,False,194,speech,False,35,1996-2007,neutral,hawkish,dovish
+944601,2000,neutral,neutral,neutral,1,False,211,speech,True,14,1996-2007,neutral,neutral,neutral

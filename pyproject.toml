@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llmrisk"
+version = "0.1.0"
+description = "Model risk assessment of an LLM used for a finance task (FOMC hawkish/dovish classification)"
+requires-python = ">=3.9"
+dependencies = ["numpy", "pandas", "scikit-learn", "matplotlib", "openpyxl", "pyyaml"]
+
+[project.scripts]
+llmrisk = "llmrisk.cli:main"
+
+[tool.setuptools]
+packages = ["llmrisk", "llmrisk.checks"]

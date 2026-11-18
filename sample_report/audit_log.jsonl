@@ -1,0 +1,7 @@
+{"time": "2026-11-18T01:06:50-05:00", "actor": "system", "action": "run", "section": null, "details": {"model": "ChatGPT, zero-shot (answers released with Shah, Paturi & Chava 2023)", "evidence": "a642bf4e8c0eb65d", "tests": 15, "proposed_rating": "Unsatisfactory"}}
+{"time": "2026-11-18T01:06:50-05:00", "actor": "agent", "action": "agent_draft", "section": "scope", "details": {"backend": "template", "guard_objections": []}}
+{"time": "2026-11-18T01:06:50-05:00", "actor": "agent", "action": "agent_draft", "section": "contract", "details": {"backend": "template", "guard_objections": []}}
+{"time": "2026-11-18T01:06:50-05:00", "actor": "agent", "action": "agent_draft", "section": "performance", "details": {"backend": "template", "guard_objections": []}}
+{"time": "2026-11-18T01:06:50-05:00", "actor": "agent", "action": "agent_draft", "section": "segments", "details": {"backend": "template", "guard_objections": []}}
+{"time": "2026-11-18T01:06:50-05:00", "actor": "agent", "action": "agent_draft", "section": "use", "details": {"backend": "template", "guard_objections": []}}
+{"time": "2026-11-18T01:06:50-05:00", "actor": "agent", "action": "agent_draft", "section": "behaviour", "details": {"backend": "template", "guard_objections": []}}
