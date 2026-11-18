@@ -1,4 +1,4 @@
-# llm-model-risk: a model risk assessment of an LLM used for a finance task
+# llm-risk-analysis: a model risk assessment of an LLM used for a finance task
 
 A research team wants to use an LLM to label every sentence of FOMC statements, minutes, speeches and press
 conferences as **hawkish, dovish or neutral**, and to turn those labels into a policy-tone index for its
