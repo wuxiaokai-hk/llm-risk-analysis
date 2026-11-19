@@ -112,3 +112,7 @@ The data and ChatGPT answers come from Shah, Paturi & Chava (2023), "Trillion Do
 Dataset, Task & Market Analysis", ACL ([repo](https://github.com/gtfintechlab/fomc-hawkish-dovish)), under
 CC BY-NC 4.0. They are downloaded at run time and are not stored here. The sample report quotes a few sentences
 and answers for illustration, with this attribution.
+
+## License
+
+MIT, see [LICENSE](LICENSE). Free to use, change and share. Data downloaded from public sources stay under their providers' terms. Independent open-source project, not affiliated with or endorsed by any employer, regulator or data vendor.
